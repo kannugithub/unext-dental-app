@@ -1,0 +1,529 @@
+.darkHeader {
+  .darkHeader2 {
+    position: absolute;
+    top: 76px;
+    right: 25px;
+
+    background-color: #262627;
+
+    // padding: 25px;
+    z-index: 1;
+
+    .user_profile {
+      display: flex;
+      gap: 18px;
+      padding: 15px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+      h5 {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 24px;
+      }
+
+      .appointment_list_control1 {
+        color: #ffff;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+
+        // border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    }
+
+    .appointment_list_control {
+      span {
+        cursor: pointer;
+        padding: 15px 0px 0px 0px;
+        color: #ffff;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+      }
+
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 15px 15px 15px 18px;
+    }
+  }
+
+  .dashboard_header {
+    background-color: #f8f9fe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 30px 18px 25px;
+
+    // border-bottom: 1px solid #80808057;
+    @media (max-width: 500px) {
+      display: block;
+    }
+
+    .header_inp {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+
+      .user_dental {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+    .header_empty_inp {
+      position: static;
+    }
+
+    .header_modal_inp {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .user_dental {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+
+    .resp_menu {
+      display: flex;
+      gap: 0px;
+      // justify-content: center;
+      flex-direction: row-reverse;
+
+      @media (max-width: 500px) {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+
+        flex-direction: row;
+      }
+
+      @media (max-width: 991px) {
+        // width: 100%;
+        // margin-bottom: 20px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        flex-direction: row;
+      }
+
+      .head_profile {
+        font-size: 22px;
+        font-weight: 500;
+        color: #fff;
+      }
+
+      .menu_icons {
+        cursor: pointer;
+
+        @media (min-width: 1250px) {
+          display: none;
+        }
+      }
+
+      // .header_inp_box {
+      //   background: rgba(59, 59, 59, 1);
+      //   width: 100%;
+      //   display: flex;
+      //   align-items: center;
+      //   border-radius: 30px;
+      //   padding-left: 10px;
+      //   input {
+      //     background-color: rgba(59, 59, 59, 1);
+      //     color: #fff;
+      //     border: none;
+      //     outline: none;
+      //     width: 100%;
+      //     padding: 10px 10px 10px 5px;
+      //     border-radius: 30px;
+      //   }
+      //   input::placeholder {
+      //     color: #fff;
+      //   }
+      // }
+    }
+
+    .bell_user {
+      display: flex;
+      align-items: center;
+      gap: 37px;
+
+      @media (min-width: 500px) {
+        gap: 38px;
+      }
+
+      .admin_user {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        .user_name {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          cursor: pointer;
+
+          span {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+
+        select {
+          background: #0a22a8;
+          border: transparent;
+          color: #ebff00;
+          outline: none;
+
+          ::before {
+            background: transparent;
+          }
+
+          select::after {
+            background: red;
+            color: red;
+          }
+        }
+
+        option {
+          padding: 10px;
+          background: white;
+          color: #000;
+        }
+
+        .user_dental {
+          color: #ebff00;
+          font-size: 14px;
+          font-weight: 400;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.lightHeader {
+  background: #fff;
+
+  .darkHeader2 {
+    position: absolute;
+    top: 76px;
+    box-shadow: 0 4px 8px 0 #e8e9ecc8;
+    right: 25px;
+
+    background: #fff;
+
+    // padding: 25px;
+    z-index: 1;
+
+    .user_profile {
+      display: flex;
+      gap: 18px;
+      padding: 15px;
+      border-bottom: 1px solid #ececec;
+
+      h5 {
+        font-size: 16px;
+        font-weight: 400;
+        color: #1e3441;
+        line-height: 24px;
+      }
+
+      .appointment_list_control1 {
+        color: #1e3441;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+
+        // border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    }
+
+    .appointment_list_control {
+      span {
+        cursor: pointer;
+        padding: 15px 0px 0px 0px;
+        color: #1e3441;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+      }
+
+      border-bottom: 1px solid #ececec;
+      padding: 15px 15px 15px 18px;
+    }
+  }
+
+  .lightHeader2 {
+    position: absolute;
+    top: 20px;
+    right: 220px;
+    background-color: #f8f9fe;
+    border: 1px solid;
+
+    .top_border {
+      border-top: 2px solid #00000029;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    .single_patient_details {
+      padding: 20px;
+
+      .close_icons {
+        text-align: end;
+        position: relative;
+      }
+
+      .triangle_icon {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        position: absolute;
+        top: -46px;
+        right: 0;
+      }
+
+      .appointment_list {
+        color: #1e3441;
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+
+      .appointment_list_control {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #d9d9d9;
+        padding: 20px 0px;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        .appointment {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          span {
+            font-size: 14px;
+            font-weight: 300;
+            color: #1e3441;
+          }
+        }
+
+        .appointment_time {
+          font-size: 12px;
+          font-weight: 400;
+          color: #1e3441;
+        }
+      }
+    }
+  }
+
+  .lightHeader2 {
+    position: absolute;
+    top: 48px;
+    right: 25px;
+    background-color: #f8f9fe;
+    border: 1px solid #f8f9fe;
+    padding: 20px;
+    z-index: 2000;
+    box-shadow: 0 4px 8px 0 #e8e9ecc8, 0 6px 20px 0 #e8e9ecc8;
+
+    .appointment_list_control {
+      color: #1e3441;
+      font-size: 14px;
+      font-weight: 300;
+      cursor: pointer;
+    }
+  }
+
+  .dashboard_header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 30px 18px 25px;
+
+    // border-bottom: 1px solid rgba(128, 128, 128, 0.3411764706);
+    @media (max-width: 500px) {
+      display: block;
+    }
+
+    .header_inp {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+
+      .user_dental {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #1e3441;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+
+    .header_modal_inp {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .user_dental {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: #1e3441;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+
+    .header_empty_inp {
+      position: static;
+    }
+
+    triangle_icon .appointment_list {
+      color: #1e3441;
+      font-size: 22px;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+
+    .resp_menu {
+      display: flex;
+      gap: 0px;
+      // justify-content: center;
+      flex-direction: row-reverse;
+
+      @media (max-width: 500px) {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+
+        flex-direction: row;
+      }
+
+      @media (max-width: 991px) {
+        // width: 100%;
+        // margin-bottom: 20px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        flex-direction: row;
+      }
+
+      .user_dental {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .head_profile {
+        font-size: 22px;
+        font-weight: 500;
+        color: #1e3441;
+      }
+
+      .menu_icons {
+        cursor: pointer;
+
+        @media (min-width: 1250px) {
+          display: none;
+        }
+      }
+
+      .header_inp_box {
+        background: #fff;
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        padding-left: 10px;
+
+        input {
+          border: none;
+          outline: none;
+          width: 100%;
+          padding: 10px 10px 10px 5px;
+          border-radius: 30px;
+        }
+      }
+    }
+
+    .bell_user {
+      display: flex;
+      align-items: center;
+      gap: 37px;
+
+      @media (min-width: 500px) {
+        gap: 38px;
+      }
+
+      .admin_user {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        .user_name {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          cursor: pointer;
+
+          span {
+            color: #1e3441;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+
+        select {
+          background: #0a22a8;
+          border: transparent;
+          color: #ebff00;
+          outline: none;
+
+          ::before {
+            background: transparent;
+          }
+
+          select::after {
+            background: red;
+            color: red;
+          }
+        }
+
+        option {
+          padding: 10px;
+          background: white;
+          color: #1e3441;
+        }
+
+        .user_dental {
+          color: #ebff00;
+          font-size: 14px;
+          font-weight: 400;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

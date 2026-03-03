@@ -1,0 +1,32 @@
+.office_details_title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 4px 0px 10px 0px;
+}
+.office_details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .dental_bussines {
+    width: 100%;
+    div {
+      color: #000;
+      font-size: 16px;
+      font-weight: 400;
+      margin: 5px 0 10px 0;
+    }
+    input {
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #d9d9d9;
+      padding: 10px;
+      outline: none;
+      font-size: 14px;
+    }
+    ::placeholder {
+      font-size: 12px;
+    }
+  }
+}

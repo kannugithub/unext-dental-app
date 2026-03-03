@@ -1,0 +1,267 @@
+.darkHeader {
+  .final_onboarding {
+    position: relative;
+    z-index: 10;
+    height: 80vh;
+    .logos_text {
+      text-align: center;
+      padding-top: 70px;
+      .office_create {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 22px;
+        text-transform: capitalize;
+      }
+    }
+    .final_steps_animated {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 60%;
+      margin: 40px auto;
+      position: relative;
+      z-index: 1;
+      .image_with_contant {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        width: 33%;
+        text-align: center;
+        .image_box {
+          background: #fff;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 150px;
+          height: 150px;
+          position: relative;
+          z-index: 1;
+          img {
+            max-width: 100%;
+            height: auto;
+            object-fit: none;
+          }
+          .right_tick_div {
+            position: absolute;
+            background: #2dbf16;
+            border-radius: 50%;
+            top: 3px;
+            right: 12px;
+          }
+        }
+      }
+      .dot_progress {
+        margin: auto;
+        position: absolute;
+        top: 74px;
+        z-index: 0;
+        left: 105px;
+        right: auto;
+        border: 1px dotted #409eee;
+      }
+    }
+    .steps_bussiness {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      width: 70%;
+      margin: auto;
+      .steps_bussiness_content {
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+    .progress_bar_control {
+      width: 40%;
+      margin: auto;
+      :global {
+        .progress-bar {
+          background-color: #409eee;
+        }
+        .progress,
+        .progress-stacked {
+          --bs-progress-bg: #409eee3d;
+          border: 1px solid #409eee;
+          --bs-progress-height: 1.2rem;
+        }
+      }
+    }
+    .buttons_control {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      margin-bottom: 50px;
+      gap: 25px;
+      .go_dashboard {
+        border: 1px solid #409eee;
+        background-color: transparent;
+        color: #409eee;
+        font-weight: 400;
+        padding: 8px 20px;
+        border-radius: 3px;
+      }
+      .team_members {
+        background-color: #409eee;
+        color: #fff;
+        font-weight: 400;
+        padding: 8px 20px;
+        border-radius: 3px;
+      }
+    }
+    .side_unext_image {
+      position: absolute;
+      top: 15px;
+      left: 20px;
+    }
+    .right_side_unext_image {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+    }
+  }
+}
+.lightHeader {
+  .final_onboarding {
+    position: relative;
+    z-index: 10;
+    height: 80vh;
+    .logos_text {
+      text-align: center;
+      padding-top: 70px;
+      .office_create {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        color: #000;
+        font-weight: 500;
+        font-size: 22px;
+        text-transform: capitalize;
+      }
+    }
+    .final_steps_animated {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 60%;
+      margin: 40px auto;
+      position: relative;
+      z-index: 1;
+      .image_with_contant {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        width: 33%;
+        text-align: center;
+        .image_box {
+          background: #fff;
+          border: 1px solid gray;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 150px;
+          height: 150px;
+          position: relative;
+          z-index: 1;
+          img {
+            max-width: 100%;
+            height: auto;
+            object-fit: none;
+          }
+          .right_tick_div {
+            position: absolute;
+            background: #2dbf16;
+            border-radius: 50%;
+            top: 3px;
+            right: 12px;
+          }
+        }
+      }
+      .dot_progress {
+        margin: auto;
+        position: absolute;
+        top: 74px;
+        z-index: 0;
+        left: 105px;
+        right: auto;
+        border: 1px dotted #409eee;
+      }
+    }
+    .steps_bussiness {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      width: 70%;
+      margin: auto;
+      .steps_bussiness_content {
+        color: #000;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+    .progress_bar_control {
+      width: 40%;
+      margin: auto;
+      :global {
+        .progress-bar {
+          background-color: #409eee;
+        }
+        .progress,
+        .progress-stacked {
+          --bs-progress-bg: #409eee3d;
+          border: 1px solid #409eee;
+          --bs-progress-height: 1.2rem;
+        }
+      }
+    }
+    .buttons_control {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      margin-bottom: 50px;
+      gap: 25px;
+      .go_dashboard {
+        border: 1px solid #409eee;
+        background-color: transparent;
+        color: #409eee;
+        font-weight: 400;
+        padding: 8px 20px;
+        border-radius: 3px;
+      }
+      .team_members {
+        background-color: #409eee;
+        color: #fff;
+        font-weight: 400;
+        padding: 8px 20px;
+        border-radius: 3px;
+      }
+    }
+    .side_unext_image {
+      position: absolute;
+      top: 15px;
+      left: 20px;
+    }
+    .right_side_unext_image {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+    }
+  }
+}

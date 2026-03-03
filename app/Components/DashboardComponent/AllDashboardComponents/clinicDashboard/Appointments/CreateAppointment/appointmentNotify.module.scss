@@ -1,0 +1,102 @@
+.darkHeader {
+  .appointment_notify_popup {
+    padding: 10px;
+    .close_icons {
+      text-align: end;
+      cursor: pointer;
+    }
+    .thanku_images {
+      text-align: center;
+      padding-bottom: 15px;
+      padding-top: 10px;
+    }
+    .appointment_created {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 600;
+      text-align: center;
+      padding: 15px;
+    }
+    .appointment_summery {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      padding: 0px 15px;
+    }
+    .appointment_notify_button {
+      text-align: center;
+      margin: 25px 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+
+      .cancel {
+        background-color: #ff3232;
+      }
+      button {
+        background: #409eee;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.lightHeader {
+  background: #f8f9fe;
+
+  .appointment_notify_popup {
+    padding: 10px;
+    .close_icons {
+      text-align: end;
+      cursor: pointer;
+    }
+    .thanku_images {
+      text-align: center;
+      padding-bottom: 15px;
+      padding-top: 10px;
+    }
+    .appointment_created {
+      color: #1e3441;
+      font-size: 32px;
+      font-weight: 600;
+      text-align: center;
+      padding: 15px;
+    }
+    .appointment_summery {
+      color: #1e3441;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      padding: 0px 15px;
+    }
+    .appointment_notify_button {
+      text-align: center;
+      margin: 25px 0;
+      button {
+        background: #0a22a8;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.btm_button {
+  position: absolute;
+  bottom: 20px;
+  width: 92%;
+  right: 17px;
+  button {
+    background-color: #393939;
+    width: 100%;
+    color: #fff;
+    height: 50px;
+  }
+}

@@ -1,0 +1,202 @@
+.darkHeader {
+  .new_office_control {
+    margin-top: 40px;
+    position: relative;
+    background: #222222;
+    height: 90vh;
+    .popup_close_icon {
+      position: absolute;
+      top: -28px;
+      right: 15px;
+      img {
+        cursor: pointer;
+      }
+    }
+    .add_new_office_container {
+      width: 90%;
+      margin: auto;
+      .enter_office {
+        font-size: 28px;
+        font-weight: 500;
+        color: #fff;
+        text-transform: capitalize;
+      }
+      .fill_credentials {
+        font-size: 16px;
+        font-weight: 300;
+        color: #fff;
+        text-transform: capitalize;
+        opacity: 80%;
+        margin-top: 5px;
+      }
+      .dental_form_container {
+        margin-top: 20px;
+        .form_inp_box {
+          margin-top: 20px;
+
+          .dental_inp_lebel {
+            text-transform: capitalize;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 5px;
+          }
+
+          input {
+            width: 100%;
+            padding: 12px 15px;
+            background: rgb(55 54 54);
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            color: #fff;
+            border-radius: 4px;
+            outline: none;
+
+            &::placeholder {
+              color: #fff;
+              opacity: 80%;
+            }
+          }
+          select {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            background: rgb(55 54 54);
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+        }
+
+        .add_office_buttons {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 45px;
+          .save_new_office {
+            background: #409eee;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 5px;
+            padding: 15px 40px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+          }
+          .skip_add_office {
+            cursor: pointer;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  .new_office_control {
+    margin-top: 40px;
+    position: relative;
+    background: transparent;
+    height: 90vh;
+    .popup_close_icon {
+      position: absolute;
+      top: -28px;
+      right: 15px;
+      img {
+        cursor: pointer;
+      }
+    }
+    .add_new_office_container {
+      width: 90%;
+      margin: auto;
+      .enter_office {
+        font-size: 28px;
+        font-weight: 500;
+        color: #000;
+        text-transform: capitalize;
+      }
+      .fill_credentials {
+        font-size: 16px;
+        font-weight: 300;
+        color: #000;
+        text-transform: capitalize;
+        opacity: 80%;
+        margin-top: 5px;
+      }
+      .dental_form_container {
+        margin-top: 20px;
+        .form_inp_box {
+          margin-top: 20px;
+
+          .dental_inp_lebel {
+            text-transform: capitalize;
+            color: #000;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 5px;
+          }
+
+          input {
+            width: 100%;
+            padding: 12px 15px;
+            background: #fff;
+            border: 1px solid #2c4a5b38;
+            color: #000;
+            border-radius: 4px;
+            outline: none;
+
+            &::placeholder {
+              color: #000;
+              opacity: 80%;
+            }
+          }
+          select {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid #2c4a5b38;
+            background: #fff;
+            color: #000;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+        }
+
+        .add_office_buttons {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 45px;
+          .save_new_office {
+            background: #409eee;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 5px;
+            padding: 15px 40px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+          }
+          .skip_add_office {
+            cursor: pointer;
+            color: #000;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}

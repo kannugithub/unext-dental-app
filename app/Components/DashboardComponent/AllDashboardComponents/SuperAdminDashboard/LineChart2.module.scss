@@ -1,0 +1,133 @@
+.darkHeader {
+  background-color: #19191b;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  .linear_char_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 5px 20px;
+    border: none;
+    .overview_tab {
+      :first-child {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: normal;
+      }
+      :last-child {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+    .all_calls_list {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .all_graph_tab {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+      }
+      :hover {
+        color: #409eee;
+        font-size: 12px;
+        font-weight: 400;
+        cursor: pointer;
+      }
+      .month_btn {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 4px;
+        background: #409eee;
+        padding: 3px 5px;
+      }
+      .week_btn {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 4px;
+        background: #409eee;
+        padding: 3px 5px;
+      }
+    }
+
+    .performance_chart {
+      color: #000;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .appointment_month {
+      color: #000;
+      font-size: 17px;
+      font-weight: 600;
+    }
+  }
+}
+.lightHeader {
+  // background-color: #ffffff;
+
+  .linear_char_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 5px 20px;
+    .overview_tab {
+      :first-child {
+        color: #000;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: normal;
+      }
+      :last-child {
+        color: #000;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+    .all_calls_list {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .all_graph_tab {
+        color: #000;
+        font-size: 12px;
+        font-weight: 400;
+      }
+      :hover {
+        color: #409eee;
+        font-size: 12px;
+        font-weight: 400;
+        cursor: pointer;
+      }
+      .month_btn {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 4px;
+        background: #409eee;
+        padding: 3px 5px;
+      }
+      .week_btn {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 4px;
+        background: #409eee;
+        padding: 3px 5px;
+      }
+    }
+
+    .performance_chart {
+      color: #000;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .appointment_month {
+      color: #000;
+      font-size: 17px;
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,430 @@
+.darkHeader {
+  .darkHeader2 {
+    position: absolute;
+    top: 120px;
+    right: 25px;
+    background-color: rgb(39, 39, 39);
+    border: 1px solid;
+    padding: 20px;
+
+    .appointment_list_control {
+      color: #ffff;
+      font-size: 14px;
+      font-weight: 300;
+      cursor: pointer;
+    }
+  }
+  td,
+  th {
+    background: rgb(20, 20, 20);
+    border-bottom: 1px solid white;
+    border-width: 0;
+    color: #fff;
+    font-weight: 400;
+  }
+  tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+  .dashboard_sub_conatiner {
+    height: 30%;
+
+    .dashSub_blue {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 25px;
+      @media (max-width: 676px) {
+        flex-wrap: wrap;
+      }
+      .header_inp_box {
+        background: rgba(25, 25, 27, 1);
+        font-size: 14px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        padding-left: 10px;
+        border-radius: 4px;
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+        input {
+          background-color: rgba(25, 25, 27, 1);
+          color: #fff;
+          font-weight: 257;
+          border: none;
+          outline: none;
+          width: 100%;
+          padding: 10px 10px 10px 5px;
+          border-radius: 4px;
+        }
+        input::placeholder {
+          color: #fff;
+        }
+      }
+      .compo_name {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        // width: 75%;
+
+        @media (max-width: 676px) {
+          flex-wrap: wrap;
+        }
+        .office_list_tag {
+          color: #fff;
+          font-size: 18px;
+          font-weight: 500;
+          @media (max-width: 1099px) {
+            width: 90px;
+          }
+          @media (max-width: 991px) {
+            width: 90px;
+          }
+          @media (max-width: 481px) {
+            width: 90px;
+          }
+        }
+        span {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500;
+        }
+        button {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 17.07px;
+          text-align: left;
+          background: #409eee;
+          padding: 10px 20px;
+          border-radius: 2px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+      .subCompBtns {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        @media (max-width: 481px) {
+          margin-top: 10px;
+        }
+        img {
+          cursor: pointer;
+        }
+        select {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          border: 1px solid #2e2e2e;
+          background: #19191b;
+          padding: 5px 8px;
+        }
+        button {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          border: none;
+          background: transparent;
+          padding: 5px 8px;
+          border-radius: 5px;
+        }
+      }
+    }
+    .card_container {
+      width: 100%;
+      padding: 20px;
+
+      .card_container_heading {
+        th {
+          color: #fff;
+          font-size: 13px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+      }
+      .card_container_data {
+        vertical-align: middle;
+        td {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          img {
+            cursor: pointer;
+          }
+        }
+      }
+      .pagination {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+
+        button {
+          height: 42px;
+          width: 37px;
+          color: #fff;
+          background: transparent;
+          // / background-color: #fff; /
+          border-radius: 6px;
+          border: none;
+          cursor: pointer;
+
+          &:hover {
+            background: transparent;
+            color: #fff;
+          }
+
+          &.active {
+            color: #fff;
+
+            background: transparent;
+          }
+        }
+        span {
+          display: flex;
+          gap: 10px;
+          button {
+            height: 42px;
+            width: 37px;
+            color: #fff;
+            background: transparent;
+            background-color: tansparent;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+              background: transparent;
+              color: #ffff;
+            }
+
+            &.active {
+              // / background-color: #0a22a8; /
+              color: #fff;
+              // / border: 1px solid #0a22a8; /
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+  .action_icons {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    justify-content: center;
+    img {
+      cursor: pointer;
+    }
+    svg {
+      cursor: pointer;
+    }
+  }
+}
+.lightHeader {
+  .lightHeader2 {
+    position: absolute;
+    top: 143px;
+    right: 36px;
+    background-color: #fff;
+    border: 1px solid;
+    padding: 20px;
+
+    .appointment_list_control {
+      color: #000;
+      font-size: 14px;
+      font-weight: 300;
+      cursor: pointer;
+    }
+  }
+  td,
+  th {
+    background: #f8f9fe;
+    border-bottom: 1px solid #00000029;
+    border-width: 0;
+    color: #fff;
+    font-weight: 400;
+  }
+  tr {
+    border-bottom: 1px solid#00000029;
+  }
+  .dashboard_sub_conatiner {
+    height: 30%;
+    //   position: relative;
+    .dashSub_blue {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 25px;
+      @media (max-width: 676px) {
+        flex-wrap: wrap;
+      }
+      .header_inp_box {
+        background: white;
+        font-size: 14px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        border: 1px solid #7d7d7d17;
+        padding-left: 10px;
+        border-radius: 4px;
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+        input {
+          background-color: #fff;
+          color: rgba(25, 25, 27, 1);
+          font-weight: 350;
+          border: none;
+          outline: none;
+          width: 100%;
+          padding: 10px 10px 10px 5px;
+          border-radius: 4px;
+        }
+        input::placeholder {
+          color: rgba(25, 25, 27, 1);
+        }
+      }
+      .compo_name {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        @media (max-width: 676px) {
+          flex-wrap: wrap;
+        }
+        span {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500;
+        }
+        button {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 17.07px;
+          text-align: left;
+          background: #409eee;
+          padding: 10px 20px;
+          border-radius: 2px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+        }
+        .office_list_tag {
+          color: #1e3441;
+          font-size: 18px;
+          font-weight: 500;
+          @media (max-width: 1099px) {
+            width: 90px;
+          }
+          @media (max-width: 991px) {
+            width: 90px;
+          }
+          @media (max-width: 481px) {
+            width: 90px;
+          }
+        }
+      }
+      .subCompBtns {
+        img {
+          cursor: pointer;
+        }
+        button {
+          color: #409eee;
+          font-size: 14px;
+          font-weight: 500;
+          border: none;
+          background: #fff;
+          padding: 5px 8px;
+          border-radius: 5px;
+        }
+      }
+    }
+    .card_container {
+      width: 100%;
+      .card_container_heading {
+        th {
+          color: #575e65;
+          font-size: 13px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+      }
+      .card_container_data {
+        vertical-align: middle;
+        td {
+          color: #8791a7;
+          font-size: 14px;
+          font-weight: 400;
+          img {
+            cursor: pointer;
+          }
+        }
+      }
+      .pagination {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+
+        button {
+          height: 42px;
+          width: 37px;
+          background-color: #fff;
+          border-radius: 6px;
+          border: 1px solid #e2e2e2;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #f0f0f0;
+          }
+
+          &.active {
+            background-color: #0a22a8;
+            color: #fff;
+            border: 1px solid #0a22a8;
+          }
+        }
+        span {
+          display: flex;
+          gap: 10px;
+          button {
+            height: 42px;
+            width: 37px;
+            color: #0a22a8;
+            background-color: #fff;
+            border-radius: 6px;
+            border: 1px solid #e2e2e2;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #f0f0f0;
+            }
+
+            &.active {
+              background-color: #0a22a8;
+              color: #fff;
+              border: 1px solid #0a22a8;
+            }
+          }
+        }
+      }
+    }
+  }
+  .action_icons {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    justify-content: center;
+    img {
+      cursor: pointer;
+    }
+    svg {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,506 @@
+.darkHeader {
+  .ChangeNumberPopup_wrapper {
+    background-color: rgba(39, 39, 39, 1);
+    padding: 20px;
+    svg {
+      position: absolute;
+      /* left: 436px; */
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+    }
+    .main_wrapper {
+      .headline {
+        padding: 10px 0;
+        h1 {
+          color: #fff;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          @media (max-width: 568px) {
+            font-size: 20px;
+          }
+        }
+      }
+      .card_wrapper {
+        .select_newNumber {
+          .select_state {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+          }
+          /* Styling for the select element */
+          select {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            background: rgba(255, 255, 255, 0.08);
+            padding: 10px 20px 10px 10px;
+            outline: none;
+            color: #fff; /* Text color of the select element */
+          }
+
+          /* Styling for the placeholder text */
+          select option[value="Please select state code"] {
+            color: #000; /* Placeholder text color */
+          }
+
+          /* Styling for the options in the dropdown */
+          select option {
+            background-color: white; /* Background color of options */
+            color: black; /* Text color of options */
+          }
+
+          /* Styling for the dropdown arrow (optional) */
+          select::-ms-expand {
+            display: none; /* Hides the default arrow on IE/Edge */
+          }
+          select::after {
+            content: "\25BC"; /* Unicode character for a down arrow */
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+          }
+          .allMobile_numbers {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 25px;
+            .numbers_options {
+              color: #409eee;
+              font-size: 12px;
+              font-weight: 500;
+              text-transform: capitalize;
+              border-radius: 2px;
+              background: rgba(64, 158, 238, 0.1);
+              padding: 8px 12px;
+              cursor: pointer;
+            }
+
+            @media (max-width: 768px) {
+              flex-direction: column;
+              align-items: center;
+
+              .numbers_options {
+                width: 100%;
+                text-align: center;
+              }
+            }
+          }
+
+          .viewmore {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+            .view_more_txt {
+              color: #409eee;
+              font-size: 14px;
+              font-weight: 400;
+              text-transform: capitalize;
+              text-align: center;
+              cursor: pointer;
+            }
+          }
+          .first_next_btn {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            .back_btn {
+              color: #409eee;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: capitalize;
+              border-radius: 4px;
+              background: transparent;
+              border: none;
+              padding: 8px 5px;
+              border-radius: 4px;
+              border: 2px solid #409eee;
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              span {
+                margin: 0 20px 0 0px;
+              }
+              svg {
+                margin: 5px 5px 5px 10px;
+              }
+            }
+            .next_btn {
+              color: #fff;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: capitalize;
+              border-radius: 4px;
+              border: none;
+              padding: 8px 5px;
+              border-radius: 4px;
+              background: #409eee;
+              span {
+                padding: 10px 40px;
+              }
+            }
+          }
+          input {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid #d4d4d4;
+            background: #fff;
+            padding: 10px 20px 10px 10px;
+            outline: none;
+          }
+          .filesUpload_div {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-top: 20px;
+            .upload_loa_box {
+              width: 100%;
+              .upload_control {
+                border-radius: 4px;
+                border: 1px dashed #409eee;
+                background: #f3faff;
+                padding: 15px 15px 25px 15px;
+                margin-top: 10px;
+                .upload_img_div {
+                  text-align: center;
+                }
+                .upload_control_txt {
+                  color: #545b61;
+                  font-size: 14px;
+                  font-weight: 400;
+                  text-transform: capitalize;
+                  text-align: center;
+                }
+                .files_accept {
+                  color: #141c21;
+                  font-size: 12px;
+                  font-weight: 300;
+                  text-transform: capitalize;
+                  text-align: center;
+                  margin: 6px 0;
+                }
+                .upload_files_btn {
+                  text-align: center;
+                  label {
+                    color: #fff;
+                    font-size: 10px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    border-radius: 2px;
+                    background: #0a22a8;
+                    padding: 5px 8px;
+                    cursor: pointer;
+                  }
+                  input {
+                    display: none;
+                  }
+                }
+                .selectedFileName {
+                  text-align: center;
+                  margin-bottom: 10px;
+                  word-wrap: break-word;
+                }
+              }
+            }
+          }
+          .download_loa {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            color: #0a22a8;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            text-transform: capitalize;
+            // margin-top: 15px;
+            a {
+              color: #0a22a8;
+              font-style: normal;
+              font-weight: 500;
+            }
+            .add_billing {
+              display: flex;
+              gap: 10px;
+              align-items: center;
+              cursor: pointer;
+            }
+          }
+          .signedLoa {
+            color: #000;
+            font-size: 14px;
+            font-weight: 400;
+            margin-top: 15px;
+          }
+          .please_upload {
+            color: #000;
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  background-color: #f8f9fe;
+  .ChangeNumberPopup_wrapper {
+    background-color: #f8f9fe;
+    padding: 20px;
+    svg {
+      position: absolute;
+      /* left: 436px; */
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+    }
+    .main_wrapper {
+      .headline {
+        padding: 10px 0;
+        h1 {
+          color: #1e3441;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          @media (max-width: 568px) {
+            font-size: 20px;
+          }
+        }
+      }
+      .card_wrapper {
+        .select_newNumber {
+          .select_state {
+            color: #1e3441;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+          }
+          /* Styling for the select element */
+          select {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #ffff;
+            padding: 10px 20px 10px 10px;
+            outline: none;
+            color: #1e3441; /* Text color of the select element */
+          }
+
+          /* Styling for the placeholder text */
+          select option[value="Please select state code"] {
+            color: #000; /* Placeholder text color */
+          }
+
+          /* Styling for the options in the dropdown */
+          select option {
+            background-color: white; /* Background color of options */
+            color: #1e3441; /* Text color of options */
+          }
+
+          /* Styling for the dropdown arrow (optional) */
+          select::-ms-expand {
+            display: none; /* Hides the default arrow on IE/Edge */
+          }
+          select::after {
+            content: "\25BC"; /* Unicode character for a down arrow */
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+          }
+          .allMobile_numbers {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 25px;
+            .numbers_options {
+              color: #409eee;
+              font-size: 12px;
+              font-weight: 500;
+              text-transform: capitalize;
+              border-radius: 2px;
+              background: rgba(64, 158, 238, 0.1);
+              padding: 8px 12px;
+              cursor: pointer;
+            }
+
+            @media (max-width: 768px) {
+              flex-direction: column;
+              align-items: center;
+
+              .numbers_options {
+                width: 100%;
+                text-align: center;
+              }
+            }
+          }
+
+          .viewmore {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+            .view_more_txt {
+              color: #409eee;
+              font-size: 14px;
+              font-weight: 400;
+              text-transform: capitalize;
+              text-align: center;
+              cursor: pointer;
+            }
+          }
+          .first_next_btn {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            .back_btn {
+              color: #409eee;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: capitalize;
+              border-radius: 4px;
+              background: transparent;
+              border: none;
+              padding: 8px 5px;
+              border-radius: 4px;
+              border: 2px solid #409eee;
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              span {
+                margin: 0 20px 0 0px;
+              }
+              svg {
+                margin: 5px 5px 5px 10px;
+              }
+            }
+            .next_btn {
+              color: #fff;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: capitalize;
+              border-radius: 4px;
+              border: none;
+              padding: 8px 5px;
+              border-radius: 4px;
+              background: #409eee;
+              span {
+                padding: 10px 40px;
+              }
+            }
+          }
+          input {
+            width: 100%;
+            border-radius: 4px;
+            color: #1e3441;
+            border: 1px solid #d4d4d4;
+            background: #fff;
+            padding: 10px 20px 10px 10px;
+            outline: none;
+          }
+          .filesUpload_div {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-top: 20px;
+            .upload_loa_box {
+              width: 100%;
+              .upload_control {
+                border-radius: 4px;
+                border: 1px dashed #409eee;
+                background: #f3faff;
+                padding: 15px 15px 25px 15px;
+                margin-top: 10px;
+                .upload_img_div {
+                  text-align: center;
+                }
+                .upload_control_txt {
+                  color: #1e3441;
+                  font-size: 14px;
+                  font-weight: 400;
+                  text-transform: capitalize;
+                  text-align: center;
+                }
+                .files_accept {
+                  color: #1e3441;
+                  font-size: 12px;
+                  font-weight: 300;
+                  text-transform: capitalize;
+                  text-align: center;
+                  margin: 6px 0;
+                }
+                .upload_files_btn {
+                  text-align: center;
+                  label {
+                    color: #fff;
+                    font-size: 10px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    border-radius: 2px;
+                    background: #0a22a8;
+                    padding: 5px 8px;
+                    cursor: pointer;
+                  }
+                  input {
+                    display: none;
+                  }
+                }
+                .selectedFileName {
+                  text-align: center;
+                  margin-bottom: 10px;
+                  word-wrap: break-word;
+                }
+              }
+            }
+          }
+          .download_loa {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            color: #0a22a8;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            text-transform: capitalize;
+            // margin-top: 15px;
+            a {
+              color: #0a22a8;
+              font-style: normal;
+              font-weight: 500;
+            }
+            .add_billing {
+              display: flex;
+              gap: 10px;
+              align-items: center;
+              cursor: pointer;
+            }
+          }
+          .signedLoa {
+            color: #000;
+            font-size: 14px;
+            font-weight: 400;
+            margin-top: 15px;
+          }
+          .please_upload {
+            color: #000;
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}

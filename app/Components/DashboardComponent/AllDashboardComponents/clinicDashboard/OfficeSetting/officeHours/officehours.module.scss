@@ -1,0 +1,326 @@
+.darkHeader {
+  .OfficeHours_wrapper {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    .office_upper_div {
+      padding: 0px 0px 30px;
+      .office_upper {
+        width: 50%;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+
+      button {
+        color: white;
+        background-color: #409eee;
+        font-weight: 600;
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 10px 35px;
+        border-radius: 6px;
+      }
+      .selected {
+        border: 2px solid rgba(64, 158, 238, 1);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        border-radius: 4px;
+        margin: 10px 0px;
+
+        .office_down1 {
+          display: flex;
+          gap: 20px;
+          span {
+            font-size: 14px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+          }
+          .input {
+            border: none;
+            background: transparent;
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            background-color: transparent;
+            outline: none;
+          }
+          /* Select element styling */
+          select {
+            font-size: 14px;
+            outline: none;
+            background: transparent;
+            color: #fff; /* Text color of the select element */
+            font-weight: 400;
+            border: none;
+          }
+
+          /* Option element styling */
+          option {
+            color: #000; /* Text color of the options */
+          }
+        }
+        .office_down {
+          display: flex;
+          gap: 20px;
+          span {
+            font-size: 14px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+
+      .office_head {
+        border: 2px solid rgba(255, 255, 255, 0.08);
+
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 20px;
+        border-radius: 4px;
+        margin: 10px 0px;
+
+        & .office_down1 {
+          display: flex;
+          gap: 20px;
+          span {
+            font-size: 14px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+          }
+          .input {
+            border: none;
+            font-size: 14px;
+            font-weight: 300;
+            background-color: rgba(255, 255, 255, 0.09);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #fff;
+
+            background-color: transparent;
+            outline: none;
+          }
+          input::placeholder {
+            font-size: 12px;
+            color: #fff;
+          }
+
+          select {
+            font-size: 14px;
+            outline: none;
+            background: transparent;
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #fff;
+            border: white;
+            font-size: 14px;
+            font-weight: 400;
+            boader: none;
+          }
+        }
+        & .office_down {
+          display: flex;
+          gap: 20px;
+          span {
+            font-size: 14px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+
+    .office_details_title {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+      margin-bottom: 10px;
+      .setting_office_hours {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        opacity: 80%;
+        text-transform: capitalize;
+        cursor: pointer;
+        padding: 0 15px 10px 15px;
+      }
+      .setting_active_tab {
+        cursor: pointer;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        border-bottom: 5px solid #409eee;
+        padding-bottom: 10px;
+        padding: 0 15px 10px 15px;
+      }
+    }
+  }
+}
+.lightHeader {
+  .OfficeHours_wrapper {
+    color: #1e3441;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    .office_upper_div {
+      padding: 0px 0px 30px;
+
+      .office_upper {
+        width: 50%;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+
+      button {
+        color: white;
+        background-color: #409eee;
+        font-weight: 600;
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 10px 35px;
+        border-radius: 6px;
+      }
+      .selected {
+        border: 2px solid #0a22a8;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        border-radius: 4px;
+        margin: 10px 0px;
+
+        .office_down1 {
+          display: flex;
+          gap: 20px;
+          span {
+            font-size: 14px;
+            font-weight: 400;
+            display: flex;
+            color: #1e3441;
+            align-items: center;
+          }
+          .input {
+            border: none;
+            font-size: 14px;
+            font-weight: 300;
+
+            background-color: transparent;
+            outline: none;
+          }
+          select {
+            font-size: 14px;
+
+            outline: none;
+            border: white;
+            font-size: 14px;
+            font-weight: 400;
+            border: none;
+          }
+        }
+        .office_down {
+          display: flex;
+          gap: 20px;
+          span {
+            font-size: 14px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+
+      .office_head {
+        border: 1px solid rgba(44, 74, 91, 0.22);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        border-radius: 4px;
+        margin: 10px 0px;
+        background: #ffffff;
+
+        & .office_down1 {
+          display: flex;
+          gap: 20px;
+          span {
+            font-size: 14px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+          }
+          .input {
+            border: none;
+            font-size: 14px;
+            font-weight: 300;
+
+            background-color: transparent;
+            outline: none;
+          }
+
+          select {
+            font-size: 14px;
+            outline: none;
+            border: white;
+            font-size: 14px;
+            font-weight: 400;
+            border: none;
+          }
+        }
+        & .office_down {
+          display: flex;
+          gap: 20px;
+          span {
+            font-size: 14px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+
+    .office_details_title {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+    }
+  }
+  .office_details_title {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border-bottom: 2px solid rgba(44, 74, 91, 0.22);
+    margin-bottom: 10px;
+    .setting_office_hours {
+      color: #000;
+      font-size: 18px;
+      font-weight: 400;
+      opacity: 80%;
+      text-transform: capitalize;
+      cursor: pointer;
+      padding: 0 15px 10px 15px;
+    }
+    .setting_active_tab {
+      cursor: pointer;
+      color: #000;
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: capitalize;
+      border-bottom: 5px solid #409eee;
+      padding-bottom: 10px;
+      padding: 0 15px 10px 15px;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+/* customModal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  transition: visibility 0s, opacity 0.3s;
+}
+
+.modal-overlay.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.custom-modal-container {
+  background: white;
+  border-radius: 8px;
+  max-width: 90vw;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+  height: 80vh;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  height: 100vh;
+}
+
+.modal-overlay.show .custom-modal-container {
+  transform: scale(1);
+}
+
+.modal-overlay .custom-modal-container.custom-modal-container.dark {
+  background: #000;
+  color: white;
+}
+
+.modal-overlay .custom-modal-container.custom-modal-container.light {
+  background: white;
+  color: black;
+}
+
+.custom-modal-content {
+  max-height: 80vh;
+  overflow-y: auto;
+}

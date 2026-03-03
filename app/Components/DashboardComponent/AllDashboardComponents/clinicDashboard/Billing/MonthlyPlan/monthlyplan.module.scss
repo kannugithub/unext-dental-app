@@ -1,0 +1,269 @@
+.darkHeader {
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    background: rgba(25, 25, 27, 1);
+    border-style: solid;
+    border-width: 0;
+    color: #ffffff;
+  }
+  .card_container_heading th {
+    border-color: rgba(255, 255, 255, 0.16);
+    background: rgba(
+      25,
+      25,
+      27,
+      1
+    ); // Change to the desired text color for table headings
+    font-size: 13px;
+    color: #ffffff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .card_container_data td {
+    background-color: rgba(
+      25,
+      25,
+      27,
+      1
+    ); // Change to the desired background color for table data
+    color: rgba(
+      255,
+      255,
+      255,
+      1
+    ) !important; // Change to the desired text color for table data
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+  }
+  .card2 {
+    background: rgba(39, 39, 39, 1);
+  }
+
+  .monthlyBox_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px;
+    @media (max-width: 1280px) {
+      gap: 36px;
+    }
+
+    @media (max-width: 767px) {
+      overflow-y: scroll;
+      gap: 36px;
+    }
+    .monthly_plan_box {
+      .monthly_active_box {
+        margin-bottom: 5px;
+        button {
+          border-radius: 2px;
+          background: #39ce8c;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          text-transform: capitalize;
+          border: none;
+          padding: 2px 10px;
+        }
+      }
+      .monthly_tag {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        span {
+          font-size: 14px;
+          color: #409eee;
+          cursor: pointer;
+          font-weight: 400;
+        }
+      }
+    }
+    .monthly_extension {
+      p {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      span {
+        cursor: pointer;
+        font-size: 14px;
+        color: #409eee;
+        font-weight: 400;
+      }
+    }
+    .expiry_box {
+      :first-child {
+        color: #ffff;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: capitalize;
+      }
+      :last-child {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+    .cancel_plan_btn {
+      button {
+        border-radius: 8px;
+        background: #d93c3c;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        padding: 10px 20px;
+      }
+    }
+    .active_plan_btn {
+      button {
+        border-radius: 8px;
+        background: #00821c;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+.lightHeader {
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    background: rgba(25, 25, 27, 1);
+    border-style: solid;
+    border-width: 0;
+    color: #1e3441;
+  }
+  .card_container_heading th {
+    border-color: rgba(255, 255, 255, 0.16);
+    background: rgba(
+      25,
+      25,
+      27,
+      1
+    ); // Change to the desired text color for table headings
+    font-size: 13px;
+    color: #1e3441 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .card_container_data td {
+    background-color: rgba(
+      25,
+      25,
+      27,
+      1
+    ); // Change to the desired background color for table data
+    color: #1e3441 !important; // Change to the desired text color for table data
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+  }
+  // .card2 {
+  //   background: rgba(39, 39, 39, 1);
+  // }
+
+  .monthlyBox_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px;
+    @media (max-width: 1280px) {
+      gap: 36px;
+    }
+
+    @media (max-width: 767px) {
+      overflow-y: scroll;
+      gap: 36px;
+    }
+    .monthly_plan_box {
+      .monthly_active_box {
+        margin-bottom: 5px;
+        button {
+          border-radius: 2px;
+          background: #39ce8c;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          text-transform: capitalize;
+          border: none;
+          padding: 2px 10px;
+        }
+      }
+      .monthly_tag {
+        color: #1e3441;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        span {
+          cursor: pointer;
+          font-size: 14px;
+          color: #409eee;
+          font-weight: 400;
+        }
+      }
+    }
+    .monthly_extension {
+      p {
+        color: #1e3441;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      span {
+        font-size: 14px;
+        cursor: pointer;
+        color: #409eee;
+        font-weight: 400;
+      }
+    }
+    .expiry_box {
+      :first-child {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: capitalize;
+      }
+      :last-child {
+        color: #1e3441;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+    .cancel_plan_btn {
+      button {
+        border-radius: 8px;
+        background: #d93c3c;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        padding: 10px 20px;
+      }
+    }
+    .active_plan_btn {
+      button {
+        border-radius: 8px;
+        background: #00821c;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        padding: 10px 20px;
+      }
+    }
+  }
+}

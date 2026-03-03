@@ -1,0 +1,236 @@
+.darkHeader {
+  td,
+  th {
+    background: rgb(20, 20, 20);
+    border-bottom: 1px solid white;
+    border-width: 0;
+    color: #fff;
+    font-weight: 400;
+  }
+  tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+  .card_container_heading th {
+    font-size: 13px;
+    color: #ffffff !important;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .card_container_data td {
+    color: rgba(
+      255,
+      255,
+      255,
+      1
+    ) !important; // Change to the desired text color for table data
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .action_icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    img {
+      cursor: pointer;
+    }
+  }
+
+  .spinner_patient_loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  .card_container {
+    padding: 25px 0px;
+
+    .card_container_heading {
+      th {
+        color: #575e65;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+    .card_container_data {
+      vertical-align: middle;
+      td {
+        color: #8791a7;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    .pagination {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+
+      button {
+        height: 42px;
+        width: 37px;
+        color: #fff;
+        background: transparent;
+        /* background-color: #fff; */
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+          background: transparent;
+          color: #fff;
+        }
+
+        &.active {
+          color: #fff;
+
+          background: transparent;
+        }
+      }
+      span {
+        display: flex;
+        gap: 10px;
+        button {
+          height: 42px;
+          width: 37px;
+          color: #fff;
+          background: transparent;
+          background-color: tansparent;
+          border-radius: 6px;
+          border: none;
+          cursor: pointer;
+
+          &:hover {
+            background: transparent;
+            color: #ffff;
+          }
+
+          &.active {
+            /* background-color: #0a22a8; */
+            color: #fff;
+            /* border: 1px solid #0a22a8; */
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  background: #f8f9fe;
+  td,
+  th {
+    background: #f8f9fe;
+    border-bottom: 1px solid white;
+    border-width: 0;
+    color: #1e3441;
+    font-weight: 400;
+  }
+  tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  }
+  .card_container_heading th {
+    font-size: 14px;
+    color: #1e3441 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .card_container_data td {
+    color: #1e3441 !important; // Change to the desired text color for table data
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  }
+
+  .action_icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    img {
+      cursor: pointer;
+    }
+  }
+
+  .spinner_patient_loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  .card_container {
+    padding: 25px 0px;
+
+    .card_container_heading {
+      th {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+    .card_container_data {
+      vertical-align: middle;
+      td {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    .pagination {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+
+      button {
+        height: 42px;
+        width: 37px;
+        color: #1e3441;
+        background: transparent;
+        /* background-color: #fff; */
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+          background: transparent;
+          color: #1e3441;
+        }
+
+        &.active {
+          color: #1e3441;
+
+          background: transparent;
+        }
+      }
+      span {
+        display: flex;
+        gap: 10px;
+        button {
+          height: 42px;
+          width: 37px;
+          color: #1e3441;
+          background: transparent;
+          background-color: tansparent;
+          border-radius: 6px;
+          border: none;
+          cursor: pointer;
+
+          &:hover {
+            background: transparent;
+            color: #1e3441;
+          }
+
+          &.active {
+            /* background-color: #0a22a8; */
+            color: #1e3441;
+            /* border: 1px solid #0a22a8; */
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}

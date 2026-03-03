@@ -1,0 +1,85 @@
+.darkHeader {
+  .home_wrapper {
+    .home_wrapper2 {
+      background-image: url("../../assets/images/backfirst_background_dark.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 20px 0;
+      @media (max-width: 991px) {
+        padding: 18px 0;
+      }
+    }
+    .home_wrapper3 {
+      // background-image: url("../../assets/images/wrap_dark.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: black;
+    }
+    .home_wrapper4 {
+      background-image: url("../../assets/images/black_home.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -44px;
+      @media (max-width: 991px) {
+        margin-top: -53px;
+      }
+    }
+    .home_wrapper5 {
+      // background-image: url("../../assets/images/wrap5.png");
+      background-color: #000000;
+      // background-repeat: no-repeat;
+      // background-size: cover;
+      margin-top: -30px;
+    }
+    .home_wrapper6 {
+      background-color: #000000;
+      // background-image: url("../../assets/images/subs_back.png");
+      // background-repeat: no-repeat;
+      // background-size: cover;
+      padding: 50px 0;
+      background-position: center;
+      margin-top: -50px;
+    }
+  }
+}
+
+.lightHeader {
+  .home_wrapper {
+    .home_wrapper2 {
+      background-image: url("../../assets/images/backfirst_background.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 20px 0;
+      @media (max-width: 991px) {
+        padding: 18px 0;
+      }
+    }
+    .home_wrapper3 {
+      background-image: url("../../assets/images/wrap3.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .home_wrapper4 {
+      background-image: url("../../assets/images/blue_home.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      @media (max-width: 991px) {
+        margin-top: -53px;
+      }
+    }
+    .home_wrapper5 {
+      background-image: url("../../assets/images/wrap5.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -30px;
+    }
+    .home_wrapper6 {
+      background-image: url("../../assets/images/subs_back.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 50px 0;
+      background-position: center;
+      margin-top: -50px;
+    }
+  }
+}

@@ -1,0 +1,243 @@
+.darkHeader {
+  .dashboard_sub_conatiner {
+    background: rgba(39, 39, 39, 1);
+    height: 30%;
+    position: relative;
+    .dashSub_blue {
+      background: rgba(39, 39, 39, 1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 25px;
+      .compo_name {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .subCompBtns {
+        button {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          border: none;
+          background: rgba(64, 158, 238, 1);
+          padding: 5px 8px;
+          border-radius: 5px;
+        }
+      }
+    }
+    .card_container {
+      width: 100%;
+      position: absolute;
+      .card2 {
+        background-color: rgba(25, 25, 27, 1);
+      }
+      table {
+        tbody {
+          tr {
+            :hover {
+              background: rgba(64, 158, 238, 0.3);
+            }
+            td {
+              border-bottom-width: 0;
+              background-color: rgba(25, 25, 27, 1);
+              background: rgba(25, 25, 27, 1);
+              color: #fff;
+              .message_wrapepr {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .img_circle {
+                  border-radius: 50px;
+                  width: 44px;
+                  height: 44px;
+                  flex-shrink: 0;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  background: #409eee;
+                  color: white;
+                  text-transform: uppercase;
+                  font-size: larger;
+                }
+                .user_detail_wrap {
+                  p {
+                    color: #fff;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                  }
+                  span {
+                    color: #fff;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                  }
+                }
+              }
+              .action_icons {
+                display: flex;
+                justify-content: flex-end;
+
+                a {
+                  .img_first {
+                    background: #409eee;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  }
+                  .img_second {
+                    background: #39ce8c;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 10px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  }
+                  .img_third {
+                    background: #0d24a9;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  .dashboard_sub_conatiner {
+    background: #0a22a8;
+    height: 30%;
+    position: relative;
+    .dashSub_blue {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 25px;
+      .compo_name {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .subCompBtns {
+        button {
+          color: #0a22a8;
+          font-size: 14px;
+          font-weight: 500;
+          border: none;
+          background: #fff;
+          padding: 5px 8px;
+          border-radius: 5px;
+        }
+      }
+    }
+    .card_container {
+      width: 100%;
+      position: absolute;
+      table {
+        tbody {
+          tr {
+            :hover {
+              background: #f8f9fe;
+            }
+            td {
+              border-bottom-width: 0;
+              .message_wrapepr {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .img_circle {
+                  border-radius: 50px;
+                  width: 44px;
+                  height: 44px;
+                  flex-shrink: 0;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  background: #409eee;
+                  color: white;
+                  text-transform: uppercase;
+                  font-size: larger;
+                }
+                .user_detail_wrap {
+                  p {
+                    color: #252f39;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                  }
+                  span {
+                    color: #252f39;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                  }
+                }
+              }
+              .action_icons {
+                display: flex;
+                justify-content: flex-end;
+
+                a {
+                  .img_first {
+                    background: #409eee;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  }
+                  .img_second {
+                    background: #39ce8c;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 10px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  }
+                  .img_third {
+                    background: #0d24a9;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

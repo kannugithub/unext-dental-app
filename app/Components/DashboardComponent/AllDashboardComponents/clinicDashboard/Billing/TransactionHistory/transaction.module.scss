@@ -1,0 +1,334 @@
+.darkHeader {
+  background: rgb(20, 20, 20);
+  .darkHeader2 {
+    position: absolute;
+    top: 151px;
+    right: 31px;
+    background-color: rgb(39, 39, 39);
+    border: 1px solid;
+    padding: 10px;
+    z-index: 2000;
+
+    .appointment_list_control {
+      color: white;
+      font-size: 16px;
+      font-weight: 300;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 15px 20px 10px 27px;
+      cursor: pointer;
+    }
+  }
+  td,
+  th {
+    background: rgb(20, 20, 20);
+    border-bottom: 1px solid white;
+    border-width: 0;
+    color: #fff;
+    font-weight: 400;
+  }
+  tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+  .dashSub_blue1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px 25px 25px;
+    @media (max-width: 676px) {
+      flex-wrap: wrap;
+    }
+    span {
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+    }
+  }
+  .dashSub_blue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 25px 5px 25px;
+    @media (max-width: 676px) {
+      flex-wrap: wrap;
+    }
+    .header_inp_box {
+      background: rgba(25, 25, 27, 1);
+      font-size: 14px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      padding-left: 10px;
+      border-radius: 4px;
+      input {
+        background-color: rgba(25, 25, 27, 1);
+        color: #fff;
+        font-weight: 257;
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 10px 10px 10px 5px;
+        border-radius: 4px;
+      }
+      input::placeholder {
+        color: #fff;
+      }
+    }
+    .compo_name {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      @media (max-width: 481px) {
+        flex-wrap: wrap;
+        font-size: 18px;
+        gap: 10px;
+      }
+      span {
+        color: #fff;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+    .subCompBtns {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      img {
+        cursor: pointer;
+      }
+      select {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #2e2e2e;
+        background: #19191b;
+        padding: 5px 8px;
+      }
+      button {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        background: transparent;
+        padding: 5px 8px;
+        border-radius: 5px;
+      }
+    }
+  }
+  .card_container_heading th {
+    border-color: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .card_container_data td {
+    background: rgba(20, 20, 20, 1);
+
+    // Change to the desired text color for table data
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .card2 {
+    background: rgba(25, 25, 27, 1);
+  }
+
+  .transaction_tag {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 0 10px 0;
+  }
+  .success_tag {
+    color: #39ce8c;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .card_container_heading {
+    th {
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+  .card_container_data {
+    vertical-align: middle;
+    td {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}
+.lightHeader {
+  background: #f8f9fe;
+  .darkHeader2 {
+    position: absolute;
+    top: 151px;
+    right: 31px;
+    background-color: #f8f9fe;
+    border: 1px solid #f8f9fe;
+    padding: 10px;
+    z-index: 2000;
+    box-shadow: 0px 8px 8px 0 #e8e9ecc8, 0 10px 20px 0 #e8e9ecc8;
+
+    .appointment_list_control {
+      color: #1e3441;
+      font-size: 16px;
+      font-weight: 300;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 15px 20px 10px 27px;
+      cursor: pointer;
+    }
+  }
+  td,
+  th {
+    background: #f8f9fe;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    border-width: 0;
+    color: #1e3441;
+    font-weight: 400;
+  }
+  tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  }
+  .dashSub_blue1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px 25px 25px;
+    @media (max-width: 676px) {
+      flex-wrap: wrap;
+    }
+    span {
+      font-size: 14px;
+      font-weight: 300;
+      color: #1e3441;
+    }
+  }
+  .dashSub_blue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 25px 5px 25px;
+    @media (max-width: 676px) {
+      flex-wrap: wrap;
+    }
+    // .header_inp_box {
+    //   background: rgba(25, 25, 27, 1);
+    //   font-size: 14px;
+    //   width: 100%;
+    //   display: flex;
+    //   align-items: center;
+    //   border: 1px solid rgba(255, 255, 255, 0.09);
+    //   padding-left: 10px;
+    //   border-radius: 4px;
+    //   input {
+    //     background-color: rgba(25, 25, 27, 1);
+    //     color: #1e3441;
+    //     font-weight: 257;
+    //     border: none;
+    //     outline: none;
+    //     width: 100%;
+    //     padding: 10px 10px 10px 5px;
+    //     border-radius: 4px;
+    //   }
+    //   input::placeholder {
+    //     color: #1e3441;
+    //   }
+    // }
+    .compo_name {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      @media (max-width: 481px) {
+        flex-wrap: wrap;
+        font-size: 18px;
+        gap: 10px;
+      }
+      span {
+        color: #1e3441;
+        // color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+    .subCompBtns {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      background: transparent;
+      img {
+        cursor: pointer;
+      }
+      select {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #2e2e2e;
+        background: #19191b;
+        padding: 5px 8px;
+      }
+      button {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        background: transparent;
+        padding: 5px 8px;
+        border-radius: 5px;
+      }
+    }
+  }
+  .card_container_heading th {
+    border-color: #f8f9fe;
+    color: #1e3441;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .card_container_data td {
+    background: #f8f9fe;
+
+    // Change to the desired text color for table data
+    font-size: 14px;
+    font-weight: 400;
+  }
+  // .card2 {
+  //   background: rgba(25, 25, 27, 1);
+  // }
+
+  .transaction_tag {
+    color: #1e3441;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 0 10px 0;
+  }
+  .success_tag {
+    color: #39ce8c;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .card_container_heading {
+    th {
+      color: #1e3441;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+  .card_container_data {
+    vertical-align: middle;
+    td {
+      color: #1e3441;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}

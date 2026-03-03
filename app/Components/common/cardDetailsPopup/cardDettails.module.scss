@@ -1,0 +1,250 @@
+.darkHeader {
+  // background-color: rgba(39, 39, 39, 1);
+  .SetOfficeHours_wrapper {
+    padding: 20px;
+    // background-color: rgba(39, 39, 39, 1);
+    .SetOfficeHours_close {
+      display: flex;
+      justify-content: end;
+      svg {
+        cursor: pointer;
+      }
+    }
+    .cross_icon {
+      position: relative;
+      left: 436px;
+      top: -8px;
+      cursor: pointer;
+    }
+    .main_wrapper {
+      .card_div {
+        background: rgba(53, 53, 53, 1);
+        padding: 18px;
+      }
+
+      .headline {
+        //   padding: 10px 0;
+        h1 {
+          color: #fff;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+      .form_wrapper {
+        .form_box {
+          margin-top: 10px;
+          display: flex;
+          flex-direction: column;
+          label {
+            padding: 10px 0;
+            color: #fff;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+
+          select {
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #fff;
+            padding: 10px;
+          }
+        }
+      }
+      .form_box_time {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .timebox {
+          display: flex;
+          flex-direction: column;
+
+          label {
+            padding: 10px 0;
+            color: #ffff;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+          input {
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #fff;
+            color: #fff;
+            padding: 10px;
+            width: 215px;
+          }
+
+          input::placeholder {
+            padding: 0 5px;
+            color: #fff;
+          }
+        }
+      }
+      .Button_wrappr {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        .sv_btn {
+          width: 100%;
+          button {
+            padding: 10px 25px;
+            border-radius: 4px;
+            width: 100%;
+            background: #409eee;
+
+            color: #fff;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0.32px;
+            text-transform: capitalize;
+          }
+        }
+        .cn_btn {
+          button {
+            padding: 10px 25px;
+            border-radius: 4px;
+            border: 1.5px solid #409eee;
+            color: #409eee;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            text-transform: capitalize;
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  .SetOfficeHours_wrapper {
+    padding: 20px;
+    .SetOfficeHours_close {
+      display: flex;
+      justify-content: end;
+      svg {
+        cursor: pointer;
+      }
+    }
+    .cross_icon {
+      position: relative;
+      left: 436px;
+      top: -8px;
+      cursor: pointer;
+    }
+    .main_wrapper {
+      .card_div {
+        background: rgba(151, 151, 151, 0.12);
+        border: 1px solid rgba(216, 216, 216, 1);
+        padding: 18px;
+      }
+
+      .headline {
+        //   padding: 10px 0;
+        h1 {
+          color: #1e3441;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+      .form_wrapper {
+        .form_box {
+          margin-top: 10px;
+          display: flex;
+          flex-direction: column;
+          label {
+            padding: 10px 0;
+            color: #272a33;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+
+          select {
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #fff;
+            padding: 10px;
+            color: #1e3441;
+          }
+        }
+      }
+      .form_box_time {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .timebox {
+          display: flex;
+          flex-direction: column;
+
+          label {
+            padding: 10px 0;
+            color: #1e3441;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+          input {
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #1e3441;
+            padding: 10px;
+            width: 215px;
+          }
+
+          textarea::placeholder {
+            padding: 0 5px;
+          }
+        }
+      }
+      .Button_wrappr {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        .sv_btn {
+          width: 100%;
+          button {
+            padding: 10px 25px;
+            border-radius: 4px;
+            background: #409eee;
+            width: 100%;
+
+            color: #fff;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0.32px;
+            text-transform: capitalize;
+          }
+        }
+        .cn_btn {
+          button {
+            padding: 10px 25px;
+            border-radius: 4px;
+            border: 1.5px solid #0a22a8;
+            color: #0a22a8;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            text-transform: capitalize;
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}

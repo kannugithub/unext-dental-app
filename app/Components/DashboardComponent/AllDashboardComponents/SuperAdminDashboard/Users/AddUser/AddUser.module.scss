@@ -1,0 +1,305 @@
+.darkHeader {
+  .addOffice_container {
+    padding: 32px;
+
+    .add_new {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+
+    .add_new_dental_box {
+      border-radius: 8px;
+      // background: rgba(25, 25, 27, 1);
+      padding: 10px 0px 35px 0px;
+
+      .add_form_box {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        justify-content: flex-start;
+        @media (max-width: 768px) {
+          flex-direction: column;
+          gap: 0px;
+        }
+
+        .img_upload_box {
+          padding: 30px 0 0 0;
+          background: rgba(255, 255, 255, 0.08);
+          height: 290px;
+          margin-top: 65px;
+          border: 1px solid rgba(255, 255, 255, 0.09);
+
+          .img_boxes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+
+            .upload_circle {
+              width: 126px;
+              height: 120px;
+              display: flex;
+              align-items: center;
+              padding-top: 39px;
+              justify-content: center;
+              overflow: hidden;
+
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+
+              .download_icon {
+                width: 40% !important;
+                height: auto;
+                // border-radius: 50%;
+                object-fit: unset;
+              }
+            }
+
+            .upload_logo {
+              color: #fff;
+              font-size: 14px;
+              font-weight: 300;
+            }
+          }
+        }
+        .add_suer {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 14px;
+          cursor: pointer;
+          h1 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: left;
+          }
+        }
+        .office_box {
+          width: 100%;
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+
+          .office_name_label {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            margin-top: 15px;
+          }
+
+          input {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            background: rgba(39, 39, 39, 1);
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+          input::placeholder {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 21px;
+            text-align: left;
+          }
+          .error {
+            color: red;
+          }
+          select {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            background: rgba(39, 39, 39, 1);
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+          .error_select {
+            color: red;
+          }
+        }
+      }
+
+      .add_new_dental_btn {
+        // text-align: center;
+        margin-top: 15px;
+
+        button {
+          border-radius: 6px;
+          background: #409eee;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 500;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  .addOffice_container {
+    padding: 25px;
+
+    .add_new {
+      color: #000;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+
+    .add_new_dental_box {
+      border-radius: 8px;
+
+      box-shadow: 0px 4px 24px 0px rgba(235, 235, 235, 0.5);
+      padding: 10px 0px 35px 0px;
+
+      .add_form_box {
+        display: flex;
+        gap: 30px;
+        @media (max-width: 768px) {
+          flex-direction: column;
+          gap: 0px;
+        }
+
+        .img_upload_box {
+          padding: 30px 0 0 0;
+          background: #ffffff;
+          height: 290px;
+          margin-top: 71px;
+          border: 1px solid #ffffff;
+
+          .img_boxes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+
+            .upload_circle {
+              width: 126px;
+              height: 120px;
+              display: flex;
+              align-items: center;
+              padding-top: 39px;
+              justify-content: center;
+              overflow: hidden;
+
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+
+              .download_icon {
+                width: 40% !important;
+                height: auto;
+                // border-radius: 50%;
+                object-fit: unset;
+              }
+            }
+
+            .upload_logo {
+              color: #000000;
+              font-size: 14px;
+              font-weight: 300;
+            }
+          }
+        }
+        .add_suer {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 14px;
+          cursor: pointer;
+          h1 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: left;
+            color: #272a33;
+          }
+        }
+        .office_box {
+          width: 100%;
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+
+          .office_name_label {
+            width: 100%;
+            color: #272a33;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            margin-top: 15px;
+          }
+
+          input {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #fff;
+            color: #484848;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+          input::placeholder {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 21px;
+            text-align: left;
+          }
+          .error {
+            color: red;
+          }
+          select {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #fff;
+            color: #484848;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+          .error_select {
+            color: red;
+          }
+        }
+      }
+
+      .add_new_dental_btn {
+        margin-top: 15px;
+
+        button {
+          border-radius: 6px;
+          background: #409eee;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 500;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+}

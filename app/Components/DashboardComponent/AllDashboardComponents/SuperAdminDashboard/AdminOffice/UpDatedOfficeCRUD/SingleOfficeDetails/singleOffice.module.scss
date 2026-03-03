@@ -1,0 +1,250 @@
+.lightHeader {
+  .office_information_container {
+    padding: 50px;
+    .office_information {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      .backimages {
+        cursor: pointer;
+      }
+      .office_info {
+        color: #000;
+        font-weight: 400;
+        font-size: 18px;
+      }
+    }
+    .loader_container {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 50px;
+    }
+    .user_account {
+      color: #000;
+      font-weight: 400;
+      font-size: 18px;
+      text-transform: capitalize;
+      padding-top: 35px;
+      padding-bottom: 25px;
+    }
+    .account_info {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      .name_box {
+        .name_title_tag {
+          color: #000;
+          font-size: 16px;
+          font-weight: 400;
+          padding-bottom: 5px;
+        }
+        .name_contant_tag {
+          color: #000;
+          font-size: 16px;
+          font-weight: 300;
+          opacity: 60%;
+        }
+      }
+    }
+    .subscription_box {
+      margin: 30px 0 10px 0;
+      border-top: 1px solid rgba(163, 163, 163, 0.1803921569);
+      border-bottom: 1px solid rgba(163, 163, 163, 0.1803921569);
+      padding: 35px 0;
+      .subscription_plan {
+        color: #000;
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+      }
+    }
+    .billing_payment {
+      border-bottom: 1px solid rgba(163, 163, 163, 0.1803921569);
+      padding: 35px 0;
+      .office_billing {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .subscription_plan {
+          color: #000;
+          font-weight: 400;
+          font-size: 18px;
+          text-transform: capitalize;
+          padding-bottom: 20px;
+        }
+        .card_add {
+          button {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            background: transparent;
+            color: #000;
+            font-weight: 400;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .card_container_heading th {
+      border-color: #f8f9fe;
+      color: #1e3441;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      border-top: 1px solid rgba(255, 255, 255, 0.16);
+    }
+
+    .card_container_data td {
+      background: #f8f9fe;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .card_container_data {
+      vertical-align: middle;
+      td {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .delete_icon {
+        img {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+.darkHeader {
+  .office_information_container {
+    padding: 50px;
+    .office_information {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      .backimages {
+        cursor: pointer;
+      }
+      .office_info {
+        color: #fff;
+        font-weight: 400;
+        font-size: 18px;
+      }
+    }
+    .loader_container {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 50px;
+    }
+    .user_account {
+      color: #fff;
+      font-weight: 400;
+      font-size: 18px;
+      text-transform: capitalize;
+      padding-top: 35px;
+      padding-bottom: 25px;
+    }
+    .account_info {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      .name_box {
+        .name_title_tag {
+          color: #fff;
+          font-size: 16px;
+          font-weight: 400;
+          padding-bottom: 5px;
+        }
+        .name_contant_tag {
+          color: #fff;
+          font-size: 16px;
+          font-weight: 300;
+          opacity: 60%;
+        }
+      }
+    }
+    .subscription_box {
+      margin: 30px 0 10px 0;
+      border-top: 1px solid rgba(163, 163, 163, 0.1803921569);
+      border-bottom: 1px solid rgba(163, 163, 163, 0.1803921569);
+      padding: 35px 0;
+      .subscription_plan {
+        color: #fff;
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+      }
+    }
+    .billing_payment {
+      border-bottom: 1px solid rgba(163, 163, 163, 0.1803921569);
+      padding: 35px 0;
+      .office_billing {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .subscription_plan {
+          color: #fff;
+          font-weight: 400;
+          font-size: 18px;
+          text-transform: capitalize;
+          padding-bottom: 20px;
+        }
+        .card_add {
+          button {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            background: transparent;
+            color: #fff;
+            font-weight: 400;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .card_container_heading th {
+      border-color: rgba(255, 255, 255, 0.16);
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      border-top: 1px solid rgba(255, 255, 255, 0.16);
+    }
+    .card_container_data td {
+      background: rgba(20, 20, 20, 1);
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .card2 {
+      background: rgba(25, 25, 27, 1);
+    }
+    .card_container_heading {
+      th {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+    .card_container_data {
+      vertical-align: middle;
+      td {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .delete_icon {
+        img {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

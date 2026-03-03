@@ -1,0 +1,179 @@
+.darkHeader {
+  // background: rgba(20, 20, 20, 1);
+  .AddNewCard_wrapper {
+    background: rgba(20, 20, 20, 1);
+
+    height: 100vh;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    .AddNewCard_img {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .main_wrapper {
+      padding-top: 40px;
+      .card_wrapper_text {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 20px;
+        input {
+          margin-top: 5px;
+          width: 100%;
+          background: rgba(39, 39, 39, 1);
+          color: #ffff;
+          font-size: 14px;
+          font-weight: 300;
+          padding: 10px;
+          border: 1px solid rgba(255, 255, 255, 0.09);
+        }
+        input::placeholder {
+          color: #fff;
+        }
+        .plus_icons {
+          cursor: pointer;
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .numbers_list {
+        align-items: center;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        .entered_numbers {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          flex-wrap: wrap;
+          .selected_item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background: rgb(53, 55, 56);
+            padding: 2px 4px;
+            border-radius: 3px;
+            border: 1px solid #545151;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            .cross_icon {
+              cursor: pointer;
+            }
+          }
+          button {
+            background: transparent;
+            &:hover {
+              color: rgba(191, 5, 5, 0.9215686275);
+            }
+          }
+        }
+      }
+      .headline {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        .invite_member {
+          color: #fff;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+      .card_wrapper {
+        color: #ffff;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      button {
+        width: 100%;
+        margin-top: 17px;
+        padding: 10px;
+        background: #409eee;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 2px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.lightHeader {
+  .AddNewCard_wrapper {
+    background: #f8f9fe;
+
+    height: 100vh;
+    padding: 20px;
+    .AddNewCard_img {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .main_wrapper {
+      padding-top: 40px;
+      .card_wrapper_text {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 20px;
+        input {
+          margin-top: 5px;
+          width: 100%;
+          background: rgba(255, 255, 255, 0.08);
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 300;
+          padding: 10px;
+          border: 1px solid rgba(0, 0, 0, 0.09);
+        }
+        input::placeholder {
+          color: #1e3441;
+        }
+        .plus_icons {
+          cursor: pointer;
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .headline {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        .invite_member {
+          color: #1e3441;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+      .card_wrapper {
+        color: #1e3441;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      button {
+        width: 100%;
+        margin-top: 17px;
+        padding: 10px;
+        background: #409eee;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 2px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+.darkHeader {
+  background-color: #222222;
+
+  border-radius: none;
+  .close_icons {
+    text-align: end;
+    padding: 20px;
+    svg {
+      cursor: pointer;
+    }
+  }
+  .confirm_container {
+    padding: 20px 50px;
+
+    .confirm_hTag {
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    .patient_name1 {
+      font-size: 16px;
+      font-weight: 500;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 4px;
+      padding: 6px 10px 6px 16px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      button {
+        color: #fff;
+        background: #409eee;
+        padding: 10px 16px;
+        border-radius: 6px;
+      }
+      input {
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        width: 100%;
+      }
+      input::placeholder {
+        color: #fff;
+      }
+    }
+    .patient_name {
+      font-size: 16px;
+      font-weight: 500;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 4px;
+      padding: 10px;
+      margin-bottom: 18px;
+      input {
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+      }
+      input::placeholder {
+        color: #fff;
+      }
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 6px;
+        span {
+          font-size: 12px;
+          font-weight: 300;
+          color: #fff;
+        }
+      }
+      span {
+        font-size: 13px;
+        font-weight: 300;
+        color: #fff;
+      }
+    }
+  }
+}
+.lightHeader {
+  background: #f8f9fe;
+
+  box-shadow: 10px 10px 10px 10px #dddfe7;
+  .close_icons {
+    text-align: end;
+    padding: 20px;
+    svg {
+      cursor: pointer;
+    }
+  }
+  .confirm_container {
+    padding: 20px 50px;
+    .close_icons {
+      text-align: end;
+      svg {
+        cursor: pointer;
+      }
+    }
+    .confirm_hTag {
+      font-size: 20px;
+      font-weight: 600;
+      color: #1e3441;
+      margin-bottom: 20px;
+    }
+    .patient_name1 {
+      font-size: 16px;
+      font-weight: 500;
+      background: #ffffff;
+      border: 1px solid rgba(44, 74, 91, 0.22);
+      border-radius: 4px;
+      padding: 6px 10px 6px 16px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      button {
+        color: #fff;
+        background: #409eee;
+        padding: 10px 16px;
+        border-radius: 6px;
+      }
+      input {
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #1e3441;
+        font-size: 16px;
+        font-weight: 300;
+        width: 100%;
+      }
+      input::placeholder {
+        color: #1e3441;
+      }
+    }
+    .patient_name {
+      font-size: 16px;
+      font-weight: 500;
+      background: #ffffff;
+      border: 1px solid rgba(44, 74, 91, 0.22);
+      border-radius: 4px;
+      padding: 10px;
+      margin-bottom: 18px;
+      input {
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #1e3441;
+        font-size: 16px;
+        font-weight: 300;
+      }
+      input::placeholder {
+        color: #1e3441;
+      }
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #1e3441;
+        margin-bottom: 6px;
+        span {
+          font-size: 12px;
+          font-weight: 300;
+          color: #1e3441;
+        }
+      }
+      span {
+        font-size: 13px;
+        font-weight: 300;
+        color: #1e3441;
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+.card_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: #fff;
+  padding: 20px 10px;
+  width: 28%;
+  @media (max-width: 991px) {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .svg_main_div {
+    .svg_big_div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      background: rgba(0, 21, 139, 0.12);
+      padding: 25px;
+
+      .svg_small_div {
+        border-radius: 6px;
+        background: #00158b;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  h2 {
+    color: #263238;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.56px;
+    margin: 30px 0px;
+    @media (max-width: 481px) {
+      font-size: 20px;
+      line-height: 18px;
+    }
+  }
+  p {
+    color: #263238;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.26px;
+  }
+}
+.card_wrapper2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: #000000;
+  padding: 20px 10px;
+  width: 28%;
+  @media (max-width: 991px) {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .svg_main_div {
+    .svg_big_div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      background: #1c1c1c;
+      padding: 25px;
+
+      .svg_small_div {
+        border-radius: 6px;
+        background: #00158b;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.56px;
+    margin: 30px 0px;
+    @media (max-width: 481px) {
+      font-size: 20px;
+      line-height: 18px;
+    }
+  }
+  p {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.26px;
+  }
+}

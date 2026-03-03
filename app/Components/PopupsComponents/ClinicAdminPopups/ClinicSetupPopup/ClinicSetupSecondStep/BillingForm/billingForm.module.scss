@@ -1,0 +1,390 @@
+.billing_form_container {
+  width: 40%;
+  max-height: 600px;
+  overflow: auto;
+  padding: 0 10px;
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+  .billing_title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .loa_instruction {
+    color: #ff1d1d;
+    margin-top: 10px;
+  }
+  .all_inp_fields {
+    .account_name {
+      .account_name_label {
+        margin-top: 12px;
+        color: #000;
+        font-weight: 500;
+      }
+      .input_texts {
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid #d9d9d9;
+        padding: 10px;
+        outline: none;
+        margin-top: 5px;
+      }
+    }
+    .csr_txt {
+      margin-top: 10px;
+      color: #000;
+      font-weight: 500;
+    }
+    .useService {
+      color: #000;
+      font-weight: 300;
+    }
+    .inputs_forms {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      @media (max-width: 550px) {
+        flex-direction: column;
+      }
+      .input_box {
+        width: 100%;
+        div {
+          color: #000;
+          font-size: 14px;
+          font-weight: 400;
+          text-transform: capitalize;
+          margin: 12px 0px 8px 0px;
+        }
+        .input_texts {
+          width: 100%;
+          font-weight: 300;
+          border-radius: 4px;
+          border: 1px solid #d9d9d9;
+          padding: 10px;
+          outline: none;
+        }
+        .label {
+          color: #000;
+          font-weight: 400;
+          margin-top: 15px;
+          margin-bottom: 5px;
+        }
+
+        .error_below_inp {
+          display: none;
+        }
+      }
+    }
+    .error_forms {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      .errors_web_form {
+        width: 50%;
+      }
+    }
+    .number_ported {
+      margin-top: 5px;
+      .input_texts {
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid #d9d9d9;
+        padding: 10px;
+        outline: none;
+      }
+    }
+    .letter_agency {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 10px;
+    }
+    .printedDate {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-top: 15px;
+      .printName {
+        width: 100%;
+        div {
+          color: #000;
+          font-weight: 500;
+        }
+        input {
+          width: 100%;
+          border-radius: 4px;
+          border: 1px solid #d9d9d9;
+          padding: 10px;
+          outline: none;
+          margin-top: 5px;
+        }
+      }
+    }
+    .warningInform {
+      color: #ff1d1d;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+    .loa_contact_info {
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      flex-wrap: wrap;
+      row-gap: 5px;
+      margin-top: 10px;
+
+      a {
+        color: #0a22a8;
+      }
+    }
+    .terms_check {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  }
+  .billing_buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    .billing_save {
+      border-radius: 4px;
+      background: #409eee;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: capitalize;
+      padding: 10px 35px;
+    }
+    .billing_back {
+      border-radius: 4px;
+      background: #b0aeae;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: capitalize;
+      padding: 10px 35px;
+    }
+  }
+}
+.darkHeader {
+  width: 40%;
+  max-height: 600px;
+  overflow: auto;
+  padding: 0 10px;
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+  .billing_title {
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .loa_instruction {
+    color: #ff1d1d;
+    margin-top: 10px;
+  }
+  .all_inp_fields {
+    .account_name {
+      .account_name_label {
+        margin-top: 12px;
+        color: #fff;
+        font-weight: 500;
+      }
+      .label {
+        color: #fff;
+        font-weight: 500;
+      }
+      .input_texts {
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background-color: rgba(255, 255, 255, 0.13);
+        padding: 10px;
+        outline: none;
+        margin-top: 5px;
+        color: white;
+      }
+      .input_texts::placeholder {
+        color: #fff;
+        font-weight: 300;
+      }
+    }
+    .csr_txt {
+      margin-top: 10px;
+      color: #fff;
+      font-weight: 500;
+    }
+    .useService {
+      color: #fff;
+      font-weight: 300;
+    }
+    .inputs_forms {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      @media (max-width: 550px) {
+        flex-direction: column;
+      }
+      .input_box {
+        width: 100%;
+        div {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          text-transform: capitalize;
+          margin: 12px 0px 8px 0px;
+        }
+        .input_texts {
+          width: 100%;
+          border-radius: 4px;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          background-color: rgba(255, 255, 255, 0.13);
+          padding: 10px;
+          outline: none;
+          color: #fff;
+        }
+        .label {
+          color: #fff;
+          font-weight: 500;
+          margin-top: 15px;
+          margin-bottom: 5px;
+        }
+        .input_texts::placeholder {
+          color: #fff;
+          font-weight: 300;
+        }
+        .error_below_inp {
+          display: none;
+        }
+      }
+    }
+    .error_forms {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      .errors_web_form {
+        width: 50%;
+      }
+    }
+    .number_ported {
+      margin-top: 5px;
+      .input_texts {
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background-color: rgba(255, 255, 255, 0.13);
+        padding: 10px;
+        outline: none;
+        color: white;
+      }
+      .input_texts ::placeholder {
+        color: #fff;
+        font-weight: 300;
+      }
+      .label {
+        color: #fff;
+        font-weight: 500;
+      }
+    }
+    .letter_agency {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 10px;
+    }
+    .printedDate {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-top: 15px;
+      .printName {
+        width: 100%;
+        div {
+          color: #ffff;
+          font-weight: 500;
+        }
+        .label {
+          color: #fff;
+          font-weight: 500;
+        }
+        .input_texts {
+          width: 100%;
+          border-radius: 4px;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          background-color: rgba(255, 255, 255, 0.13);
+          padding: 10px;
+          outline: none;
+          margin-top: 5px;
+          color: #fff;
+        }
+        .input_texts ::placeholder {
+          color: #fff;
+          font-weight: 300;
+        }
+      }
+    }
+    .warningInform {
+      color: #ff1d1d;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+    .loa_contact_info {
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      flex-wrap: wrap;
+      row-gap: 5px;
+      margin-top: 10px;
+      color: #fff;
+      a {
+        color: #409eee;
+      }
+    }
+    .terms_check {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+      color: #fff;
+
+      .span {
+        color: #fff;
+      }
+      a {
+        color: #409eee;
+      }
+    }
+  }
+  .billing_buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    .billing_save {
+      border-radius: 4px;
+      background: #409eee;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: capitalize;
+      padding: 10px 35px;
+    }
+    .billing_back {
+      border-radius: 4px;
+      background: #b0aeae;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: capitalize;
+      padding: 10px 35px;
+    }
+  }
+}

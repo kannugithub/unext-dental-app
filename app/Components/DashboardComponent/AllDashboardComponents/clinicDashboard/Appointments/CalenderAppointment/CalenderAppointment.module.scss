@@ -1,0 +1,279 @@
+.main_caleneder {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px;
+  gap: 30px;
+
+  @media (max-width: 1250px) {
+    flex-direction: column-reverse;
+  }
+
+  .left_bar {
+    flex-basis: 80%;
+
+    table {
+      border: 1px solid #ffffff1a;
+      border-left: none;
+      border-bottom: none;
+
+      thead {
+        tr {
+          th {
+            padding: 10px 0px;
+            border-right: 1px solid #ffffff1a;
+            text-align: center;
+            text-transform: capitalize;
+          }
+        }
+      }
+      tbody {
+        vertical-align: middle;
+        tr {
+          //   display: flex;
+          //   align-items: center;
+          &:last-child {
+            border-bottom: none;
+          }
+          td {
+            height: 66px;
+            border-right: 1px solid #ffffff1a;
+            padding: 1px;
+
+            &:first-child {
+              text-align: center;
+            }
+
+            .eight_am_operatory {
+              display: flex;
+              flex-direction: column;
+              background-color: #04472a;
+              height: 66px;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              padding: 0 8px;
+              border: 1px solid #39ce8c;
+              span {
+                font-size: 12px;
+                text-transform: capitalize;
+              }
+
+              .inner {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+              }
+            }
+            .two_pm_operatory {
+              display: flex;
+              flex-direction: column;
+              background-color: #3a0038;
+              height: 66px;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              padding: 0 8px;
+              border: 1px solid #ff00f5;
+              span {
+                font-size: 12px;
+                text-transform: capitalize;
+              }
+
+              .inner {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+              }
+            }
+            .eleven_am_high {
+              display: flex;
+              flex-direction: column;
+              background-color: #785609;
+              height: 66px;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              padding: 0 8px;
+              border: 1px solid #f1b325;
+              span {
+                font-size: 12px;
+                text-transform: capitalize;
+              }
+
+              .inner {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+              }
+            }
+            .nine_am_production {
+              display: flex;
+              flex-direction: column;
+              background-color: #540606;
+              height: 66px;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              padding: 0 8px;
+              border: 1px solid #ff3232;
+              span {
+                font-size: 12px;
+                text-transform: capitalize;
+              }
+
+              .inner {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+              }
+            }
+
+            &:hover {
+              background-color: #007bff3b;
+            }
+
+            &:first-child {
+              background-color: transparent;
+            }
+          }
+        }
+      }
+
+      @media (max-width: 1250px) {
+        width: -webkit-fill-available;
+      }
+    }
+  }
+
+  .right_bar {
+    flex-basis: 20%;
+
+    .main_status {
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      .confirmed {
+        display: flex;
+        justify-content: space-between;
+        background-color: #04472a;
+        border: 1px solid #39ce8c;
+        color: #fff;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        border-radius: 4px;
+
+        .text {
+        }
+
+        .icon2 {
+          background: #39ce8c;
+          width: 24px;
+          height: 24px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 30px;
+        }
+      }
+      .reschedule {
+        display: flex;
+        justify-content: space-between;
+        background-color: #3a0038;
+        border: 1px solid #ff00f5;
+        color: #fff;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        border-radius: 4px;
+
+        .text {
+        }
+
+        .icon2 {
+          background: #ff00f5;
+          width: 24px;
+          height: 24px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 30px;
+        }
+      }
+      .cancel {
+        display: flex;
+        justify-content: space-between;
+        background-color: #540606;
+        border: 1px solid #ff3232;
+        color: #fff;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        border-radius: 4px;
+
+        .text {
+        }
+
+        .icon2 {
+          background: #ff3232;
+          width: 24px;
+          height: 24px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 30px;
+        }
+      }
+
+      @media (max-width: 1250px) {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 1250px) {
+      display: flex;
+      flex-basis: 100%;
+      justify-content: space-between;
+      gap: 30px;
+    }
+  }
+}
+
+.lightHeader {
+  .eight_am_operatory,
+  .two_pm_operatory,
+  .eleven_am_high,
+  .nine_am_production {
+    span {
+      color: #fff;
+    }
+  }
+
+  thead {
+    tr {
+      th {
+        border-right: 1px solid rgba(0, 0, 0, 0.16) !important;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        border-right: 1px solid rgba(0, 0, 0, 0.16) !important;
+      }
+    }
+  }
+}

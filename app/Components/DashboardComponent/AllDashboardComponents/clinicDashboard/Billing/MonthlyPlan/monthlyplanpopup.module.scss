@@ -1,0 +1,96 @@
+.ChangeNumberPopup_wrapper {
+  padding: 30px 18px;
+
+  svg {
+    position: absolute;
+    /* left: 436px; */
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+
+  .main_wrapper {
+    .card_wrapper {
+      .select_newNumber {
+        .select_plan {
+          display: flex;
+          gap: 10px;
+          margin: 35px 0px 25px 0px;
+          justify-content: space-between;
+
+          .select_plan_btn {
+            text-align: center;
+            width: 50%;
+            color: #000000;
+            font-size: 14px;
+            border-radius: 4px;
+            padding: 10px 20px;
+            background-color: rgba(145, 166, 182, 0.2392156863);
+            font-weight: 400;
+            border: 1px solid #4e6d7721;
+            cursor: pointer;
+          }
+
+          .selected_plan_1 {
+            text-align: center;
+            width: 50%;
+            color: #0a22a8;
+            font-size: 14px;
+            border-radius: 4px;
+            padding: 10px 20px;
+            background-color: rgba(145, 166, 182, 0.2392156863);
+            font-weight: 400;
+            border: 1px solid #0a22a8;
+            cursor: pointer;
+          }
+        }
+
+        .select_state {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          text-transform: capitalize;
+
+          p {
+            font-size: 22px;
+            font-weight: 600;
+            color: #000000;
+            text-transform: capitalize;
+          }
+
+          span {
+            font-size: 14px;
+            font-weight: 600;
+            color: #0a22a8;
+          }
+        }
+
+        .extension_types {
+          font-size: 14px;
+          font-weight: 600;
+          color: #0a22a8;
+          margin-top: 8px;
+        }
+
+        .next_btn {
+          color: #fff;
+          font-size: 16px;
+          font-weight: 500;
+          text-transform: capitalize;
+          border-radius: 4px;
+          border: none;
+          padding: 8px 5px;
+          border-radius: 4px;
+          width: 100%;
+          background: #0a22a8;
+
+          span {
+            padding: 10px 40px;
+            font-size: 18px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

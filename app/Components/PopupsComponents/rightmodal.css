@@ -1,0 +1,124 @@
+.modal-content {
+  height: 100vh;
+  overflow-y: auto;
+  background: #f8f9fe;
+  border: none;
+}
+.modal-100w {
+  max-width: 100% !important;
+  margin: 20px auto;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
+}
+.modal-90w {
+  max-width: 90% !important;
+  margin: 20px auto;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
+}
+
+.modal-80w {
+  max-width: 80% !important;
+  margin: auto;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
+}
+
+.modal-70w {
+  max-width: 70% !important;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+}
+
+.modal-50w {
+  max-width: 50% !important;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+}
+
+.modal-40w {
+  max-width: 40% !important;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+}
+
+@media (min-width: 992px) {
+  .modal-90w {
+    max-width: 90% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .modal-90w {
+    max-width: 80% !important;
+  }
+  .modal-70w {
+    max-width: 60% !important;
+  }
+}
+@media (max-width: 1280px) {
+  .modal-50w {
+    max-width: 80% !important;
+  }
+}
+@media (max-width: 1280px) {
+  .modal-40w {
+    max-width: 80% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-90w {
+    max-width: 95% !important;
+  }
+  .modal-70w {
+    max-width: 95% !important;
+  }
+}
+@media (max-width: 767px) {
+  .modal-70w {
+    max-width: 100% !important;
+    /* margin: 0 15px; */
+  }
+  .modal-50w {
+    max-width: 100% !important;
+    /* margin: 0px 20px; */
+  }
+  .modal-40w {
+    max-width: 100% !important;
+    /* margin: 0px 20px; */
+  }
+}
+
+.modal-content-dark {
+  background: #222222;
+  height: 100vh;
+
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+.modal.show .modal-dialog {
+  transform: translate(-100%);
+  position: fixed;
+  top: 0;
+  left: 100%;
+  bottom: 0;
+  width: 50%;
+  right: 0;
+  margin-top: 0;
+  scroll-behavior: none;
+  /* transition: right 0.3s ease; */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* .modal.show .modal-dialog.show-modal {
+  transform: translateX(0);
+} */
+.modal-content {
+  max-height: 100vh;
+}

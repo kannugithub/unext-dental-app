@@ -1,0 +1,495 @@
+.lightHeader {
+  .feature_wrapper {
+    padding: 50px 0px;
+    margin-top: 30px;
+    .feature_upper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      h2 {
+        color: #000;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.84px;
+
+        @media (max-width: 1200px) {
+          line-height: 50px;
+        }
+
+        @media (max-width: 481px) {
+          font-size: 30px;
+          line-height: 38px;
+        }
+      }
+      p {
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: 0.32px;
+        // text-transform: capitalize;
+        width: 60%;
+        @media (max-width: 481px) {
+          width: 100%;
+          line-height: 26px;
+        }
+      }
+    }
+    .mid_part {
+      padding: 30px 0px;
+      @media (max-width: 991px) {
+        padding: 0px 0px 30px 0px;
+        display: flex;
+        justify-content: center;
+      }
+      .mid_part_col {
+        @media (max-width: 991px) {
+          margin-bottom: 20px;
+          width: 50%;
+        }
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+        .mid_card {
+          margin-bottom: 80px;
+          @media (max-width: 1380px) {
+            margin-bottom: 107px;
+          }
+          @media (max-width: 1199px) {
+            margin-bottom: 92px;
+          }
+          @media (max-width: 991px) {
+            margin-bottom: 0px;
+          }
+          .svg_card {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+            @media (max-width: 991px) {
+              justify-content: center;
+            }
+          }
+          h4 {
+            color: #1f2541;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.4px;
+            text-transform: capitalize;
+            text-align: right;
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+          p {
+            color: #000;
+            text-align: right;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: 0.32px;
+            text-transform: capitalize;
+            @media (max-width: 1199px) {
+              // text-align: center;
+              line-height: 24px;
+            }
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+        }
+        .mid_card2 {
+          .svg_card {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+            @media (max-width: 991px) {
+              justify-content: center;
+            }
+          }
+          h4 {
+            color: #1f2541;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.4px;
+            text-transform: capitalize;
+            text-align: right;
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+          p {
+            color: #000;
+            text-align: right;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: 0.32px;
+            text-transform: capitalize;
+            @media (max-width: 1199px) {
+              // text-align: center;
+              line-height: 24px;
+            }
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+        }
+      }
+      .mid_part_col2 {
+        text-align: center;
+        img {
+       
+          height: auto;
+          // margin-left: -90px;
+          @media (max-width: 991px) {
+            max-width: 100%;
+            margin: 0px;
+            padding-bottom: 25px;
+          }
+        }
+      }
+      .mid_part_col3 {
+        @media (max-width: 991px) {
+          width: 50%;
+        }
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+
+        .mid_card {
+          margin-bottom: 50px;
+          @media (max-width: 1199px) {
+            margin-bottom: 0px;
+            margin-top: 0px;
+          }
+          .svg_card {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 20px;
+            @media (max-width: 991px) {
+              justify-content: center;
+            }
+          }
+          h4 {
+            color: #1f2541;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.4px;
+            text-transform: capitalize;
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+          p {
+            color: #000;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: 0.32px;
+            text-transform: capitalize;
+            @media (max-width: 1199px) {
+              // text-align: center;
+              line-height: 24px;
+            }
+            @media (max-width: 767px) {
+              text-align: center;
+            }
+          }
+        }
+        .mid_card2 {
+          .svg_card {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 20px;
+            @media (max-width: 991px) {
+              justify-content: center;
+            }
+          }
+          h4 {
+            color: #1f2541;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.4px;
+            text-transform: capitalize;
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+          p {
+            color: #000;
+
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: 0.32px;
+            text-transform: capitalize;
+            @media (max-width: 1199px) {
+              // text-align: center;
+              line-height: 24px;
+            }
+            @media (max-width: 767px) {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.darkHeader {
+  .feature_wrapper {
+    padding: 50px 0px;
+    margin-top: 30px;
+    .feature_upper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      h2 {
+        color: #fff;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.84px;
+
+        @media (max-width: 1200px) {
+          line-height: 50px;
+        }
+
+        @media (max-width: 481px) {
+          font-size: 30px;
+          line-height: 38px;
+        }
+        span {
+          color: #409eee;
+        }
+      }
+      p {
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: 0.32px;
+        // text-transform: capitalize;
+        width: 60%;
+        @media (max-width: 481px) {
+          width: 100%;
+          line-height: 26px;
+        }
+      }
+    }
+    .mid_part {
+      padding: 30px 0px;
+      @media (max-width: 991px) {
+        padding: 0px 0px 30px 0px;
+        display: flex;
+        justify-content: center;
+      }
+      .mid_part_col {
+        @media (max-width: 991px) {
+          margin-bottom: 20px;
+          width: 50%;
+        }
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+        .mid_card {
+          margin-bottom: 80px;
+          @media (max-width: 1380px) {
+            margin-bottom: 107px;
+          }
+          @media (max-width: 1199px) {
+            margin-bottom: 92px;
+          }
+          @media (max-width: 991px) {
+            margin-bottom: 0px;
+          }
+          .svg_card {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+            @media (max-width: 991px) {
+              justify-content: center;
+            }
+          }
+          h4 {
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.4px;
+            text-transform: capitalize;
+            text-align: right;
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+          p {
+            color: rgba(255, 255, 255, 1);
+            text-align: right;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: 0.32px;
+            text-transform: capitalize;
+            @media (max-width: 1199px) {
+              // text-align: center;
+              line-height: 24px;
+            }
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+        }
+        .mid_card2 {
+          .svg_card {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+            @media (max-width: 991px) {
+              justify-content: center;
+            }
+          }
+          h4 {
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.4px;
+            text-transform: capitalize;
+            text-align: right;
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+          p {
+            color: rgba(255, 255, 255, 1);
+            text-align: right;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: 0.32px;
+            text-transform: capitalize;
+            @media (max-width: 1199px) {
+              // text-align: center;
+              line-height: 24px;
+            }
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+        }
+      }
+      .mid_part_col2 {
+        text-align: center;
+        img {
+          // width: 140%;
+          height: auto;
+          // margin-left: 59px;
+          @media (max-width: 991px) {
+            max-width: 100%;
+            margin: 0px;
+            padding-bottom: 25px;
+          }
+        }
+      }
+      .mid_part_col3 {
+        @media (max-width: 991px) {
+          width: 50%;
+        }
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+
+        .mid_card {
+          margin-bottom: 50px;
+          @media (max-width: 1199px) {
+            margin-bottom: 0px;
+            margin-top: 0px;
+          }
+          .svg_card {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 20px;
+            @media (max-width: 991px) {
+              justify-content: center;
+            }
+          }
+          h4 {
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.4px;
+            text-transform: capitalize;
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+          p {
+            color: rgba(255, 255, 255, 1);
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: 0.32px;
+            text-transform: capitalize;
+            @media (max-width: 1199px) {
+              // text-align: center;
+              line-height: 24px;
+            }
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+        }
+        .mid_card2 {
+          .svg_card {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 20px;
+            @media (max-width: 991px) {
+              justify-content: center;
+            }
+          }
+          h4 {
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.4px;
+            text-transform: capitalize;
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+          p {
+            color: rgba(255, 255, 255, 1);
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: 0.32px;
+            text-transform: capitalize;
+            @media (max-width: 1199px) {
+              // text-align: center;
+              line-height: 24px;
+            }
+            @media (max-width: 991px) {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

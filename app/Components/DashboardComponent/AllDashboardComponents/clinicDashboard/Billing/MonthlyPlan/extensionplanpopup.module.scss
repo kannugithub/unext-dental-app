@@ -1,0 +1,277 @@
+.ChangeNumberPopup_wrapper {
+  padding: 30px;
+
+  .phy_extension_amount {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+
+  .Button_wrappr {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+
+    .sv_btn {
+      width: 50%;
+
+      button {
+        width: 100%;
+        padding: 10px 30px;
+        border-radius: 4px;
+        background: #0a22a8;
+        color: #fff;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.32px;
+        text-transform: capitalize;
+
+        @media (max-width: 767px) {
+          width: 100%;
+        }
+      }
+    }
+
+    .cn_btn {
+      width: 50%;
+
+      button {
+        width: 100%;
+        padding: 9px 30px;
+        border-radius: 4px;
+        border: 1.5px solid #409eee;
+
+        color: #409eee;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        text-transform: capitalize;
+        background: transparent;
+
+        @media (max-width: 767px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  svg {
+    position: absolute;
+    /* left: 436px; */
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+
+  .main_wrapper {
+    .signup_extension {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 25px;
+
+      .input_cont_coupons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        @media (max-width: 767px) {
+          flex-direction: column;
+        }
+
+        .sub_inp_box_coupons {
+          width: 100%;
+          border-radius: 6px;
+          border: 1px solid #e8e8e8;
+          background: #fff;
+          padding: 7px 10px;
+
+          input {
+            width: 90%;
+            border: none;
+            outline: none;
+          }
+
+          select {
+            width: 100%;
+            border: none;
+            outline: none;
+          }
+        }
+
+        .coupon_apply_coupons {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          width: 100%;
+
+          button {
+            border-radius: 5px;
+            border: none;
+            border: 2px solid #0a22a8;
+            background: #fff;
+            color: #0a22a8;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 8px 30px;
+
+            @media (max-width: 767px) {
+              padding: 8px 30px;
+            }
+          }
+        }
+      }
+
+      .phy_extension {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+
+        h1 {
+          font-size: 20px;
+          font-weight: 600;
+          color: #000000;
+        }
+
+        span {
+          font-size: 14px;
+          font-weight: 400;
+          color: #409eee;
+        }
+      }
+
+      .extension_inc_dec {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .minus {
+        background: #0a22a8;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 50%;
+        padding: 1px 10px;
+        cursor: pointer;
+      }
+
+      .choose_phy {
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0px 4px 60px 0px rgba(188, 188, 188, 0.25);
+        padding: 5px 10px;
+        cursor: pointer;
+
+        img {
+          max-width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+
+      .activeExtensionType {
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0px 4px 60px 0px rgba(188, 188, 188, 0.25);
+        padding: 5px 10px;
+        border: 2px solid #0a22a8;
+
+        img {
+          max-width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+
+      .extension_count {
+        font-weight: 600;
+      }
+
+      .plus {
+        background: #0a22a8;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 50%;
+        padding: 0px 7px;
+        cursor: pointer;
+      }
+
+      .input_cont {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        @media (max-width: 568px) {
+          flex-direction: column;
+        }
+
+        .sub_inp_box {
+          display: flex;
+          width: 100%;
+          border-radius: 6px;
+          border: 1px solid #e8e8e8;
+          background: #fff;
+          padding: 7px 10px;
+
+          select {
+            width: 100%;
+            border: none;
+            outline: none;
+          }
+        }
+
+        .expiry_card_inp {
+          width: 40%;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+          @media (max-width: 568px) {
+            width: 100%;
+            display: flex;
+            gap: 5px;
+          }
+
+          input {
+            border-radius: 6px;
+            border: 1px solid #e8e8e8;
+            background: #fff;
+            padding: 7px 10px;
+            width: 50%;
+            outline: none;
+          }
+        }
+
+        .subs_card {
+          width: 40%;
+          border-radius: 6px;
+          border: 1px solid #e8e8e8;
+          background: #fff;
+          padding: 7px 10px;
+
+          @media (max-width: 568px) {
+            width: 100%;
+          }
+
+          input {
+            width: 90%;
+            border: none;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}

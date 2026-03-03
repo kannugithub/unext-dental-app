@@ -1,0 +1,188 @@
+.darkHeader {
+  background-color: rgba(20, 20, 20, 1);
+  .dashboard_container {
+    background-color: rgba(20, 20, 20, 1);
+    height: 50%;
+
+    .notice_board {
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.13);
+      color: #fff;
+      font-size: 16px;
+      font-weight: 300;
+      margin: 0 20px 0 20px;
+      width: fit-content;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      span {
+        font-size: 20px;
+      }
+    }
+    .dashboard_name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      .dashboard_text {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .dash_btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .dash_btn_new {
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: 500;
+          border-radius: 4px;
+          background: transparent;
+          border: none;
+          padding: 3px 10px;
+        }
+      }
+    }
+    .dash_card_list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0px 16px;
+      row-gap: 15px;
+    }
+    .left_graph {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      margin: 30px 17px 10px 17px;
+      gap: 16px;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+      .graph_one {
+        width: 60%;
+        height: auto;
+        // background-color: rgba(25, 25, 27, 1);
+        @media (max-width: 767px) {
+          width: 100%;
+          height: unset;
+        }
+        .card2 {
+          background-color: rgba(25, 25, 27, 1);
+        }
+      }
+      .graph_two {
+        // background-color: rgba(25, 25, 27, 1);
+        /* background-color: rgb(25, 25, 27); */
+        width: 40%;
+        height: 453px;
+
+        @media (max-width: 767px) {
+          width: 100%;
+          height: unset;
+        }
+        .card2 {
+          background-color: rgba(25, 25, 27, 1);
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  background-color: rgba(248, 249, 254, 1);
+  .dashboard_container {
+    background-color: rgba(248, 249, 254, 1);
+    height: 50%;
+    .notice_board {
+      border-radius: 4px;
+      background: rgba(248, 249, 254, 1);
+      color: #000;
+      font-size: 16px;
+      font-weight: 300;
+      margin: 0 20px 0 20px;
+      width: fit-content;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      span {
+        font-size: 20px;
+      }
+    }
+    .dashboard_name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      .dashboard_text {
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .dash_btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .dash_btn_new {
+          color: #000;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: 500;
+          border-radius: 4px;
+          background: transparent;
+          border: none;
+          padding: 3px 10px;
+        }
+      }
+    }
+    .dash_card_list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin: 1px 14px;
+      row-gap: 15px;
+    }
+    .left_graph {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      margin: 30px 17px 10px 17px;
+      gap: 16px;
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+      .graph_one {
+        width: 60%;
+        height: auto;
+        background-color: rgba(248, 249, 254, 1);
+        @media (max-width: 767px) {
+          width: 100%;
+          height: unset;
+        }
+        .card2 {
+          background-color: rgba(248, 249, 254, 1);
+        }
+      }
+      .graph_two {
+        // background-color: rgba(25, 25, 27, 1);
+        /* background-color: rgb(25, 25, 27); */
+        width: 40%;
+        height: 453px;
+
+        @media (max-width: 767px) {
+          width: 100%;
+          height: unset;
+        }
+        .card2 {
+          background-color: rgba(248, 249, 254, 1);
+        }
+      }
+    }
+  }
+}

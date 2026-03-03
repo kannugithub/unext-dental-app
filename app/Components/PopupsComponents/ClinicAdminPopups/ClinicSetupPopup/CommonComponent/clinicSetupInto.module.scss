@@ -1,0 +1,182 @@
+.clinic_setup_video_box {
+  width: 40%;
+  padding: 10px 30px;
+
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+  .lightHeader {
+    .setup_video_box {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      margin: 10px 0 20px 0;
+
+      .setup_intro_box {
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: auto;
+
+          @media (max-width: 991px) {
+            width: 100%;
+          }
+        }
+      }
+
+      .clinic_setp {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding: 10px;
+      }
+    }
+    .faq_txt {
+      color: #000;
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-bottom: 5px;
+    }
+    .faqs_box {
+      height: 100%;
+      max-height: 250px;
+      overflow-y: auto;
+    }
+  }
+  .darkHeader {
+    .setup_video_box {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      margin: 10px 0 20px 0;
+
+      .setup_intro_box {
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: auto;
+
+          @media (max-width: 991px) {
+            width: 100%;
+          }
+        }
+      }
+
+      .clinic_setp {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: capitalize;
+        padding: 10px;
+      }
+    }
+    .faq_txt {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-bottom: 5px;
+    }
+    .faqs_box {
+      height: 100%;
+      max-height: 250px;
+      overflow-y: auto;
+    }
+  }
+
+  :global .accordion_item {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .faq_headers {
+    line-height: normal;
+  }
+
+  .accordion_item {
+    margin-bottom: 10px;
+  }
+
+  .first_select_options {
+    margin-bottom: 14px;
+    width: 100%;
+
+    select {
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #d4d4d4;
+      background: #fff;
+      padding: 10px 20px 10px 10px;
+      outline: none;
+    }
+
+    option {
+      padding: 20px;
+    }
+  }
+}
+
+button.accordion-button.collapsed {
+  padding: 0 10px;
+}
+
+.accordion-button {
+  background: black;
+}
+
+.dark {
+  :global {
+    .accordion-button {
+      padding: 10 10px;
+      background-color: rgba(33, 33, 33);
+      border: none;
+      font-size: 14px;
+      font-weight: 300;
+      color: #ffff;
+      box-shadow: none;
+      background-repeat: no-repeat;
+    }
+    .accordion-button::before {
+      box-shadow: none;
+      // background-image: url("../../../../../assets/icons/whitedown.svg");
+      background-image: url("../../../../../assets/icons/arrowup.svg");
+      color: #fff;
+      transform: none;
+    }
+
+    .accordion-button:not(.collapsed)::before {
+      // background-image: url("../../../../../assets/icons/arrowup.svg");
+      background-image: url("../../../../../assets/icons/whitedown.svg");
+      transform: var(--bs-accordion-btn-icon-transform);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+      // background-image: url("../../../../../assets/icons/whitedown.svg");
+      background-image: url("../../../../../assets/icons/arrowup.svg");
+      transform: var(--bs-accordion-btn-icon-transform);
+      color: #fff;
+    }
+
+    .accordion-button::after {
+      box-shadow: none;
+      // background-image: url("../../../../../assets/icons/whitedown.svg");
+      background-image: url("../../../../../assets/icons/arrowup.svg");
+      transform: var(--bs-accordion-btn-icon-transform);
+      color: #fff;
+      transform: none;
+    }
+    .accordion-body {
+      background-color: rgba(33, 33, 33);
+      font-size: 12px;
+      padding-top: 0px;
+    }
+  }
+  .accordion_item {
+    background: rgba(33, 33, 33);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffff;
+    box-shadow: none;
+  }
+}

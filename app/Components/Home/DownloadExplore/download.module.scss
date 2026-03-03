@@ -1,0 +1,217 @@
+.lightHeader {
+  .download_wrapper {
+    background-image: url("../../../assets/images/bluephn_download.png");
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-size: cover;
+    padding: 80px 40px;
+    margin-bottom: 50px;
+    @media (max-width: 991px) {
+      background-size: contain;
+      padding: 30px 20px;
+      margin-bottom: unset;
+    }
+    @media (max-width: 550px) {
+      background-size: cover;
+    }
+    .download_div {
+      width: 60%;
+      @media (max-width: 481px) {
+        width: 100%;
+      }
+      h4 {
+        color: #fff;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 66px;
+        letter-spacing: 0.96px;
+        text-transform: inherit;
+        @media (max-width: 991px) {
+          font-size: 26px;
+          line-height: 36px;
+        }
+        @media (max-width: 767px) {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+      p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0.32px;
+        @media (max-width: 991px) {
+          font-size: 12px;
+          line-height: 22px;
+        }
+        @media (max-width: 767px) {
+          font-size: 10px;
+          line-height: 18px;
+        }
+      }
+      h6 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0.36px;
+        margin-bottom: 20px;
+        @media (max-width: 767px) {
+          font-size: 16px;
+        }
+      }
+      .btn_div_logo {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 40px;
+        @media (max-width: 481px) {
+          margin-bottom: 0px;
+        }
+
+        .btn_logo {
+          display: flex;
+          align-items: center;
+          background-color: #000;
+          border: none;
+
+          align-items: center;
+          background-color: #000;
+
+          padding: 6px 16px;
+          gap: 7px;
+          .span_1 {
+            svg {
+              margin-left: -10px;
+            }
+          }
+          .span_2 {
+            display: flex;
+            flex-direction: column;
+            .span_21 {
+              text-align: start;
+              font-size: 10px;
+              @media (max-width: 767px) {
+                font-size: 8px;
+              }
+            }
+            .span_22 {
+              text-align: start;
+              @media (max-width: 767px) {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.darkHeader {
+  .download_wrapper {
+    background-image: url("../../../assets/images/blackphone_download.png");
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-size: cover;
+    padding: 80px 40px;
+    margin-bottom: 50px;
+    @media (max-width: 991px) {
+      background-size: contain;
+      padding: 30px 20px;
+      margin-bottom: unset;
+    }
+    @media (max-width: 550px) {
+      background-size: cover;
+    }
+    .download_div {
+      width: 60%;
+      @media (max-width: 481px) {
+        width: 100%;
+      }
+      h4 {
+        color: #fff;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 66px;
+        letter-spacing: 0.96px;
+        text-transform: inherit;
+        @media (max-width: 991px) {
+          font-size: 26px;
+          line-height: 36px;
+        }
+        @media (max-width: 767px) {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+      p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0.32px;
+        @media (max-width: 991px) {
+          font-size: 12px;
+          line-height: 22px;
+        }
+        @media (max-width: 767px) {
+          font-size: 10px;
+          line-height: 18px;
+        }
+      }
+      h6 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0.36px;
+        margin-bottom: 20px;
+        @media (max-width: 767px) {
+          font-size: 16px;
+        }
+      }
+      .btn_div_logo {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 40px;
+        @media (max-width: 481px) {
+          margin-bottom: 0px;
+        }
+
+        .btn_logo {
+          display: flex;
+          align-items: center;
+          background-color: #000;
+          border: none;
+          align-items: center;
+          background-color: #000;
+
+          padding: 6px 16px;
+          gap: 7px;
+          .span_1 {
+            svg {
+              margin-left: -10px;
+            }
+          }
+          .span_2 {
+            display: flex;
+            flex-direction: column;
+            .span_21 {
+              text-align: start;
+              font-size: 10px;
+              @media (max-width: 767px) {
+                font-size: 8px;
+              }
+            }
+            .span_22 {
+              text-align: start;
+              @media (max-width: 767px) {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.cookie_wrapper {
+  border-radius: 10px 10px 0px 0px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .leftside {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 30px;
+    h4 {
+      color: #1f243f;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+    p {
+      color: #223b48;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 22px; /* 157.143% */
+      text-transform: capitalize;
+    }
+  }
+}
+.modalClss {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.modalClss {
+  animation-name: modalClss !important;
+}
+@keyframes modalClss {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.backdrop {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9998; /* Adjust the value as needed */
+}

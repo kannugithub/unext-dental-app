@@ -1,0 +1,24 @@
+/* styles/NotFound.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.link {
+  color: blue;
+  text-decoration: none;
+}

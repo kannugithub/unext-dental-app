@@ -1,0 +1,104 @@
+.darkHeader {
+  .assisted_wrapper {
+    padding: 35px 25px;
+  }
+
+  .head1 {
+    h4 {
+      font-weight: 500;
+      font-size: 18px;
+      text-transform: none;
+      color: #ffffff;
+    }
+    h6 {
+      font-weight: 300;
+      font-size: 14px;
+      text-transform: none;
+      color: #ffffff;
+    }
+  }
+
+  .slide_div {
+    // border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+    .slide1 {
+      text-align: left;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: none;
+      color: #ffffff;
+      border-bottom: 4px solid #409eee;
+      padding-bottom: 10px;
+      cursor: pointer;
+      // width: 25%;
+    }
+    .slide2 {
+      text-align: left;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: none;
+      font-size: 16px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
+.lightHeader {
+  .assisted_wrapper {
+    padding: 35px 25px;
+  }
+
+  .head1 {
+    h4 {
+      font-weight: 500;
+      font-size: 18px;
+      text-transform: none;
+      color: #1e3441;
+    }
+    h6 {
+      font-weight: 300;
+      font-size: 14px;
+      text-transform: none;
+      color: #1e3441;
+    }
+  }
+
+  .slide_div {
+    // border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+    .slide1 {
+      text-align: left;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: none;
+      color: #1e3441;
+      border-bottom: 4px solid #409eee;
+      padding-bottom: 10px;
+      cursor: pointer;
+      // width: 25%;
+    }
+    .slide2 {
+      text-align: left;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(44, 74, 91, 0.22);
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: none;
+      font-size: 16px;
+
+      color: #1e3441;
+      // width: 25%;
+      cursor: pointer;
+    }
+  }
+}

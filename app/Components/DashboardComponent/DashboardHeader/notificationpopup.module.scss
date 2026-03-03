@@ -1,0 +1,148 @@
+.darkHeader1 {
+  // position: absolute;
+  // top: 62px;
+  // right: 133px;
+  // background-color: rgb(39, 39, 39);
+  // border: 1px solid;
+  // z-index: 99999;
+
+  .single_patient_details {
+    padding: 20px;
+    background: #222222;
+    .close_icons {
+      text-align: end;
+      position: relative;
+      .close_icons_notification {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        justify-content: flex-end;
+        button {
+          background: #409eee;
+          color: #fff;
+          padding: 5px 10px;
+        }
+      }
+    }
+
+    .triangle_icon {
+      height: 30px;
+      width: 30px;
+      cursor: pointer;
+      position: absolute;
+      top: -46px;
+      right: 0;
+    }
+
+    .appointment_list {
+      color: #ffff;
+      font-size: 22px;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    .appointment_list_control {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #d9d9d9;
+      padding: 20px 0px;
+      margin-bottom: 10px;
+      .appointment {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        span {
+          font-size: 14px;
+          font-weight: 300;
+          color: #fff;
+        }
+      }
+      .appointment_time {
+        font-size: 12px;
+        font-weight: 400;
+        color: #fff;
+      }
+    }
+  }
+}
+.lightHeader1 {
+  // position: absolute;
+  // top: 71px;
+  // right: 0px;
+  // background-color: rgba(248, 249, 254, 1);
+  // border: 1px solid rgba(255, 255, 255, 0.21);
+  // box-shadow: 10px 10px 10px 10px #daddeb;
+  // z-index: 99999;
+
+  .single_patient_details {
+    padding: 20px;
+    .close_icons {
+      text-align: end;
+      position: relative;
+      .close_icons_notification {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        justify-content: flex-end;
+        button {
+          background: #409eee;
+          color: #fff;
+          padding: 5px 10px;
+        }
+      }
+    }
+
+    .triangle_icon {
+      height: 30px;
+      width: 30px;
+      cursor: pointer;
+      position: absolute;
+      top: -46px;
+      right: 0;
+    }
+
+    .appointment_list {
+      color: #1e3441;
+      font-size: 22px;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    .appointment_list_control {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #d9d9d9;
+      padding: 20px 0px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      .appointment {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        span {
+          font-size: 14px;
+          font-weight: 300;
+          color: #1e3441;
+        }
+      }
+      .appointment_time {
+        font-size: 12px;
+        font-weight: 400;
+        color: #1e3441;
+      }
+    }
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.refreshing {
+  animation: spin 1s linear infinite;
+}

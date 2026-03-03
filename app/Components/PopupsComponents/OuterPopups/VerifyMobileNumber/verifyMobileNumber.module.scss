@@ -1,0 +1,260 @@
+.lightHeader {
+  .welcome_container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    border: 1px solid #ffffff45;
+    .left_control {
+      width: 100%;
+      padding: 30px 25px 25px 40px;
+
+      .logo_div {
+        img {
+          width: 198px;
+          margin-bottom: 15px;
+        }
+      }
+      .welcome_tag {
+        color: #000;
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 40px;
+        span {
+          font-weight: 600;
+          font-size: 34px;
+        }
+      }
+      .get_the_most {
+        color: #000;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 10px 0px;
+        text-transform: capitalize;
+      }
+
+      .get_otp_email {
+        color: #000;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 40px;
+        text-transform: capitalize;
+      }
+
+      .otp_boxs {
+        margin-top: 15px;
+        padding: 0 2px;
+      }
+
+      .otp_boxs > div {
+        justify-content: space-between;
+        gap: 5px;
+      }
+
+      .otp_boxs input {
+        border-radius: 4px;
+        border: 1px solid #d9d9d9;
+        background: transparent;
+        outline: none;
+        width: 30% !important;
+        height: 3.5em;
+      }
+
+      .otp_receive {
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        span {
+          color: #0a22a8;
+          font-size: 14px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+
+        .otp_timer {
+          font-size: 14px;
+          font-weight: 500;
+
+          span {
+            color: #0a22a8;
+          }
+        }
+      }
+      .create_acc_div {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        .create_contant {
+          color: #000;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28px;
+          text-transform: capitalize;
+
+          span {
+            font-weight: 600;
+          }
+          .blueTick_img {
+            margin-left: 10px;
+          }
+        }
+      }
+      .create_para {
+        color: #000;
+        font-size: 14px;
+        font-weight: 300;
+
+        // text-transform: capitalize;
+      }
+      .continue_btn {
+        margin: 20px 0 0 0;
+        button {
+          border-radius: 6px;
+          background: #409eee;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 400;
+          border: none;
+          padding: 10px 30px;
+          text-transform: capitalize;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    }
+    .right_control {
+      width: 100%;
+      img {
+        width: 100%;
+        height: -webkit-fill-available;
+      }
+      @media (max-width: 991px) {
+        display: none;
+      }
+    }
+  }
+}
+.darkHeader {
+  .welcome_container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    border: 1px solid #ffffff45;
+    background-color: #000;
+    .left_control {
+      width: 100%;
+      padding: 85px 40px 30px 85px;
+
+      .logo_div {
+        img {
+          width: 198px;
+          margin-bottom: 15px;
+        }
+      }
+      .welcome_tag {
+        color: #fff;
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 40px;
+        margin-top: 20px;
+        span {
+          font-weight: 600;
+          font-size: 34px;
+        }
+      }
+      .get_the_most {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 200;
+        margin: 18px 0px;
+        text-transform: capitalize;
+      }
+      .get_otp_email {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 40px;
+        text-transform: capitalize;
+      }
+      .otp_boxs {
+        margin-top: 15px;
+        margin-bottom: 45px;
+        padding: 0 2px;
+      }
+
+      .otp_boxs > div {
+        justify-content: space-between;
+        gap: 15px;
+      }
+
+      .otp_boxs input {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        width: 30% !important;
+        height: 3.5em;
+        color: white;
+      }
+      .otp_receive {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        span {
+          color: #409eee;
+          font-size: 14px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+
+        .otp_timer {
+          font-size: 14px;
+          font-weight: 500;
+          color: #fff;
+
+          span {
+            color: #409eee;
+          }
+        }
+      }
+      .continue_btn {
+        margin: 20px 0 0 0;
+        button {
+          border-radius: 6px;
+          background: rgba(10, 34, 168, 1);
+          color: #fff;
+          font-size: 16px;
+          font-weight: 400;
+          border: none;
+          padding: 10px 30px;
+          text-transform: capitalize;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    }
+    .right_control {
+      width: 100%;
+      img {
+        width: 100%;
+        height: -webkit-fill-available;
+      }
+      @media (max-width: 991px) {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.darkHeader {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .confirm_container {
+    padding: 45px;
+    .cross_img {
+      text-align: center;
+
+      svg {
+        width: 70px;
+      }
+    }
+    .confirm_hTag {
+      text-align: center;
+      font-size: 60px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .confirm_text {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 300;
+      color: #fff;
+    }
+    .confirm_btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+      :first-child {
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #fff;
+        background: #409eee;
+        border-radius: 3px;
+        // border: 1px solid gray;
+        padding: 5px 15px;
+      }
+      :last-child {
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #fff;
+        background: #409eee;
+        border-radius: 3px;
+        border: 1px solid #409eee;
+        padding: 5px 30px;
+      }
+    }
+  }
+}
+.lightHeader {
+  .confirm_container {
+    padding: 20px;
+    .cross_img {
+      text-align: center;
+
+      svg {
+        width: 70px;
+      }
+    }
+    .confirm_hTag {
+      text-align: center;
+      font-size: 60px;
+      font-weight: 600;
+      color: #000;
+    }
+    .confirm_text {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 300;
+      color: #000;
+    }
+    .confirm_btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+      :first-child {
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #000;
+        background: rgb(209, 209, 209);
+        border-radius: 3px;
+        border: 1px solid gray;
+        padding: 5px 15px;
+      }
+      :last-child {
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #fff;
+        background: rgb(223, 88, 88);
+        border-radius: 3px;
+        border: 1px solid rgb(223, 88, 88);
+        padding: 5px 15px;
+      }
+    }
+  }
+}

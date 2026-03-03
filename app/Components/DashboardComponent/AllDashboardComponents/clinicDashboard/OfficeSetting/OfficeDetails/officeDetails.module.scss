@@ -1,0 +1,193 @@
+.darkHeader {
+  .card_container {
+    .office_details_title {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin: 0px 0px 0px 0px;
+    }
+    .office_details {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding-top: 10px;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+
+      .dental_bussines {
+        width: 100%;
+        div {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 300;
+          margin: 5px 0 10px 0;
+          opacity: 80%;
+        }
+        input {
+          width: 100%;
+          border-radius: 4px;
+          padding: 10px;
+          outline: none;
+          font-size: 14px;
+          background-color: rgba(255, 255, 255, 0.09);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          color: #fff;
+        }
+        input::placeholder {
+          font-size: 12px;
+          color: #fff;
+        }
+      }
+      .dental_bussines_office {
+        width: 100%;
+        .office_location_tag {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 300;
+          margin: 5px 0 10px 0;
+          opacity: 80%;
+        }
+        .edit_office_box {
+          display: flex;
+          align-items: center;
+          padding: 0 12px 0 0;
+          border-radius: 4px;
+          outline: none;
+          font-size: 14px;
+          background-color: rgba(255, 255, 255, 0.09);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          input {
+            width: 100%;
+            outline: none;
+            font-size: 14px;
+            color: #fff;
+            background: transparent;
+            border: none;
+            padding: 10px;
+          }
+          input::placeholder {
+            font-size: 12px;
+            color: #fff;
+          }
+          .edit_office {
+            margin: 0;
+            color: #409eee;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+          }
+          .edit_office_btn {
+            cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 4px;
+            background: #409eee;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: capitalize;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  .office_details_title {
+    color: #1e3441;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 0px;
+  }
+  .office_details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+
+    .dental_bussines {
+      width: 100%;
+      div {
+        color: #1e3441;
+        font-size: 16px;
+        font-weight: 300;
+        margin: 5px 0 10px 0;
+        opacity: 80%;
+      }
+      input {
+        width: 100%;
+        border-radius: 4px;
+        padding: 10px;
+        outline: none;
+        font-size: 14px;
+        background-color: #ffffff;
+        border: 1px solid rgba(44, 74, 91, 0.22);
+        color: #1e3441;
+      }
+      input::placeholder {
+        font-size: 12px;
+        color: #1e3441;
+      }
+    }
+    .dental_bussines_office {
+      width: 100%;
+      .office_location_tag {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 5px 0 10px 0;
+        opacity: 80%;
+      }
+      .edit_office_box {
+        display: flex;
+        align-items: center;
+        padding: 0 12px 0 0;
+        border-radius: 4px;
+        outline: none;
+        font-size: 14px;
+        background-color: #ffffff;
+        border: 1px solid rgba(44, 74, 91, 0.22);
+        input {
+          width: 100%;
+          outline: none;
+          font-size: 14px;
+          color: #1e3441;
+          background: transparent;
+          border: none;
+          padding: 10px;
+        }
+        input::placeholder {
+          font-size: 12px;
+          color: #1e3441;
+        }
+        .edit_office {
+          margin: 0;
+          color: #409eee;
+          font-weight: 500;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          cursor: pointer;
+        }
+        .edit_office_btn {
+          cursor: pointer;
+          padding: 5px 10px;
+          border-radius: 4px;
+          background: #409eee;
+          color: #fff;
+          font-size: 18px;
+          font-weight: 500;
+          text-transform: capitalize;
+          border: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,489 @@
+.darkHeader {
+  background: #222222;
+
+  // border: 1px solid rgba(255, 255, 255, 0.26);
+  .create_appointment_control {
+    padding: 20px;
+
+    .close_icons {
+      text-align: end;
+      cursor: pointer;
+    }
+    .select_patient {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .appointment_input {
+      width: 100%;
+      .appointment_input_field {
+        margin-bottom: 20px;
+        input {
+          border-radius: 5px;
+          background: rgba(39, 39, 39, 1);
+          border: 1px solid rgba(255, 255, 255, 0.09);
+          background: rgba(39, 39, 39, 1);
+          padding: 8px 12px;
+          width: 100%;
+          font-size: 14px;
+          color: #fff;
+          font-weight: 300;
+        }
+        input::placeholder {
+          font-weight: 275px;
+        }
+      }
+    }
+    .search_box {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(39, 39, 39, 1);
+      border-radius: 5px;
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      padding: 5px 12px;
+      margin-top: 10px;
+      input {
+        border: none;
+        outline: none;
+        background: transparent;
+        width: 100%;
+        padding: 5px;
+        color: #fff;
+        font-weight: 300;
+      }
+      input::placeholder {
+        color: #fff;
+        font-weight: 300;
+      }
+    }
+    .patient_list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #27272733;
+      padding: 5px 0px 8px 0px;
+      margin-top: 10px;
+      cursor: pointer;
+      .patient_name {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .patient_number {
+        color: #ffff;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    .selected_patients {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #27272733;
+      padding: 15px 0px 8px 0px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      :global {
+        .react-calendar {
+          width: 100%;
+          max-width: 100%;
+          background-color: #1c1c1c;
+          color: #fff !important;
+          border-radius: 8px;
+          /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); */
+          font-family: "Montserrat", sans-serif;
+          line-height: 1.125em;
+          border: none;
+        }
+      }
+      .selected_patient {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .selected_patient_number {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    }
+
+    .cost {
+      border-top: 1px solid #efefef;
+      padding-top: 15px;
+      p {
+        color: #fff;
+      }
+      .input_cost {
+        input {
+          margin-top: 10px;
+          width: 100%;
+          background: #343434;
+          height: 50px;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          margin-bottom: 15px;
+          padding: 10px;
+
+          &:focus {
+            border: none;
+            outline: none;
+          }
+          &:focus-visible {
+            border: none;
+            outline: none;
+          }
+        }
+      }
+    }
+    .time_slots {
+      padding-top: 12px;
+      .time_slot_tab {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+      .time_slots_boxes {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 6px;
+        .times {
+          border: 1px solid #27272733;
+          background-color: #fff;
+          padding: 5px;
+          cursor: pointer;
+        }
+        .availableTime {
+          background-color: #111111;
+          color: #fff;
+          border: 1px solid rgba(255, 255, 255, 0.11);
+          padding: 10px;
+          cursor: pointer;
+        }
+
+        .bookedTime {
+          background-color: gray;
+          color: white;
+          // border: 1px solid gray;
+          cursor: "pointer";
+
+          border: none;
+
+          padding: 10px;
+        }
+
+        .selectedTime {
+          cursor: pointer;
+          background: #409eee;
+          text-align: center;
+          color: #fff;
+          align-items: center;
+          padding: 10px;
+        }
+      }
+    }
+    .create_appointment_btn {
+      text-align: center;
+      margin-top: 20px;
+      button {
+        background: #409eee;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 12px 22px;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+  }
+}
+.lightHeader {
+  background: rgba(248, 249, 254, 1);
+  height: 100vh;
+  .create_appointment_control {
+    padding: 20px;
+    .close_icons {
+      text-align: end;
+      cursor: pointer;
+    }
+    .select_patient {
+      color: #1e3441;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .appointment_input {
+      width: 100%;
+      .appointment_input_field {
+        margin-bottom: 20px;
+        input {
+          border-radius: 5px;
+          border: 1px solid rgba(44, 74, 91, 0.22);
+          background: #ffffff;
+          padding: 8px 12px;
+          width: 100%;
+          font-size: 14px;
+          color: #1e3441;
+          font-weight: 400;
+        }
+        input::placeholder {
+          font-weight: 300px;
+        }
+      }
+    }
+    .search_box {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      border: 1px solid rgba(44, 74, 91, 0.22);
+      background: #ffffff;
+      border-radius: 5px;
+      padding: 5px 12px;
+      margin-top: 10px;
+      input {
+        border: none;
+        outline: none;
+        background: transparent;
+        width: 100%;
+        padding: 5px;
+        color: #1e3441;
+      }
+      input::placeholder {
+        color: #1e3441;
+      }
+    }
+    .patient_list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #27272733;
+      padding: 5px 0px 8px 0px;
+      margin-top: 10px;
+      cursor: pointer;
+      .patient_name {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .patient_number {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    .selected_patients {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #27272733;
+      padding: 15px 0px 8px 0px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      .selected_patient {
+        color: #1e3441;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .selected_patient_number {
+        color: #1e3441;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    }
+    .time_slots {
+      padding-top: 12px;
+      .time_slot_tab {
+        color: #1e3441;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+      .time_slots_boxes {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 6px;
+        .times {
+          border: 1px solid #27272733;
+          background-color: #fff;
+          padding: 5px;
+          cursor: pointer;
+        }
+        .availableTime {
+          background-color: #fff;
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 300;
+          border: 1px solid rgba(0, 0, 0, 0.11);
+          padding: 10px;
+          cursor: pointer;
+        }
+
+        .bookedTime {
+          background-color: gray;
+          color: white;
+          border: 1px solid gray;
+          padding: 10px;
+        }
+
+        .selectedTime {
+          cursor: pointer;
+          background: #409eee;
+          color: #fff;
+          border: 1px solid #1675e03b;
+          display: flex;
+          align-items: center;
+          padding: 10px;
+        }
+      }
+    }
+    .create_appointment_btn {
+      text-align: center;
+      margin-top: 20px;
+      button {
+        background: #409eee;
+        color: #fff;
+        padding: 12px 22px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+  }
+}
+// .lightHeader {
+//   background: rgba(248, 249, 254, 1);
+//   border: 1px solid rgba(255, 255, 255, 0.26);
+
+//   .create_appointment_control {
+//     padding: 20px;
+//     .close_icons {
+//       text-align: end;
+//       cursor: pointer;
+//     }
+//     .select_patient {
+//       color: #000;
+//       font-size: 18px;
+//       font-weight: 600;
+//     }
+//     .search_box {
+//       display: flex;
+//       align-items: center;
+//       gap: 5px;
+//       background: #ffffff;
+//       border-radius: 5px;
+//       border: 1px solid rgba(125, 125, 125, 0.09);
+//       padding: 5px 12px;
+//       margin-top: 10px;
+//       input {
+//         border: none;
+//         outline: none;
+//         background: transparent;
+//         width: 100%;
+//         padding: 5px;
+//         color: #1e3441;
+//       }
+//       input::placeholder {
+//         color: #1e3441;
+//         font-weight: 300;
+//       }
+//     }
+//     .patient_list {
+//       display: flex;
+//       align-items: center;
+//       justify-content: space-between;
+//       border-bottom: 1px solid #27272733;
+//       padding: 5px 0px 8px 0px;
+//       margin-top: 10px;
+//       cursor: pointer;
+//       .patient_name {
+//         color: #000;
+//         font-size: 14px;
+//         font-weight: 500;
+//       }
+//       .patient_number {
+//         color: #000;
+//         font-size: 14px;
+//         font-weight: 400;
+//       }
+//     }
+//     .selected_patients {
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       border-bottom: 1px solid #27272733;
+//       padding: 15px 0px 8px 0px;
+//       margin-top: 5px;
+//       margin-bottom: 10px;
+//       .selected_patient {
+//         color: #000;
+//         font-size: 16px;
+//         font-weight: 500;
+//       }
+//       .selected_patient_number {
+//         color: #000;
+//         font-size: 16px;
+//         font-weight: 400;
+//       }
+//     }
+//     .time_slots {
+//       padding-top: 12px;
+//       .time_slot_tab {
+//         color: #000;
+//         font-size: 16px;
+//         font-weight: 500;
+//       }
+//       .time_slots_boxes {
+//         display: flex;
+//         flex-wrap: wrap;
+//         row-gap: 10px;
+//         column-gap: 6px;
+//         .times {
+//           border: 1px solid #27272733;
+//           background-color: #fff;
+//           padding: 5px;
+//           cursor: pointer;
+//         }
+//         .availableTime {
+//           background-color: #fff;
+//           color: #0a22a8;
+//           border: 1px solid #0a22a8;
+//           padding: 5px;
+//           cursor: pointer;
+//         }
+
+//         .bookedTime {
+//           background-color: gray;
+//           color: white;
+//           border: 1px solid gray;
+//           padding: 5px;
+//         }
+
+//         .selectedTime {
+//           cursor: pointer;
+//           background: #409eee;
+//           color: #fff;
+//           border: 1px solid #1675e03b;
+//           display: flex;
+//           align-items: center;
+//           padding: 5px;
+//         }
+//       }
+//     }
+//     .create_appointment_btn {
+//       text-align: center;
+//       margin-top: 20px;
+//       button {
+//         background: #409eee;
+//         color: #fff;
+//         padding: 12px 22px;
+//         border-radius: 5px;
+//         font-weight: 500;
+//       }
+//     }
+//   }
+// }

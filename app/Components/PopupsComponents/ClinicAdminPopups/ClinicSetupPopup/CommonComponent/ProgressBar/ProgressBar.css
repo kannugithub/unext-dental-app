@@ -1,0 +1,66 @@
+.container {
+  width: 25%;
+}
+.step {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: cream;
+  min-height: 50px;
+}
+.v-stepper {
+  position: relative;
+}
+.step .circle {
+  background-color: white;
+  border: 3px solid gray;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.circle {
+  position: relative;
+}
+.circle span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+.step .line {
+  top: 23px;
+  left: 12px;
+  height: 50px;
+  position: absolute;
+  border-left: 3px solid gray;
+}
+.step.completed .circle {
+  visibility: visible;
+  background-color: rgb(6, 150, 215);
+  border-color: rgb(6, 150, 215);
+}
+.step.completed .line {
+  border-left: 3px solid rgb(6, 150, 215);
+}
+.step.active .circle {
+  visibility: visible;
+  border-color: rgb(6, 150, 215);
+}
+.step.empty .circle {
+  visibility: hidden;
+}
+.step.empty .line {
+  top: 0;
+  height: 150%;
+}
+.step:last-child .line {
+  border-left: 3px solid white;
+  z-index: -1;
+}
+.content {
+  margin-left: 20px;
+  display: inline-block;
+}

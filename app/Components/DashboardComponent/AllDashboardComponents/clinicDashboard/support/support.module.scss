@@ -1,0 +1,219 @@
+.darkHeader {
+  .mobile_number_head {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 35px 25px 15px 25px;
+  }
+
+  .sentfax_container {
+    display: flex;
+    gap: 35px;
+    padding: 14px 25px;
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+
+    .sentMobile_left {
+      width: 100%;
+      .mobile_number_txt {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 5px;
+      }
+      .input_with {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .input_with_btn {
+          border-radius: 4px;
+          display: flex;
+          border: none;
+          align-items: center;
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          width: 50%;
+          padding: 5px;
+          gap: 20px;
+          background: rgb(39, 39, 39);
+          input {
+            width: 100%;
+            background: rgba(39, 39, 39, 1);
+            border: none;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            outline: none;
+          }
+          input::placeholder {
+            color: #fff;
+            text-transform: capitalize;
+            font-weight: 275;
+          }
+        }
+      }
+
+      .upload_fax_txt {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 25px 0 8px 0;
+      }
+
+      .img_upload_box {
+        margin-top: 25px;
+        .img_boxes {
+          width: 50%;
+          textarea {
+            text-transform: capitalize;
+            width: 100%;
+            border-radius: 4px;
+            border: none;
+            background: rgba(39, 39, 39, 1);
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 10px;
+            outline: none;
+          }
+          textarea::placeholder {
+            color: #fff;
+            font-weight: 275;
+          }
+        }
+      }
+    }
+  }
+  .sent_fax_btn {
+    padding: 10px 4px 10px 25px;
+    button {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: capitalize;
+      border-radius: 2px;
+      background: rgba(64, 158, 238, 1);
+      padding: 10px 30px;
+    }
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 300;
+  }
+}
+.lightHeader {
+  .mobile_number_head {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1e3441;
+    padding: 35px 25px 15px 25px;
+  }
+
+  .sentfax_container {
+    display: flex;
+    gap: 35px;
+    padding: 14px 25px;
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+
+    .sentMobile_left {
+      width: 100%;
+      .mobile_number_txt {
+        text-transform: capitalize;
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 5px;
+      }
+      .input_with {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .input_with_btn {
+          border-radius: 4px;
+          display: flex;
+          border: none;
+          align-items: center;
+          border: 1px solid rgba(44, 74, 91, 0.22);
+          width: 50%;
+          padding: 5px;
+          gap: 20px;
+          background: #fff;
+          input {
+            width: 100%;
+            background: #fff;
+            border: none;
+            color: #1e3441;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 10px;
+            outline: none;
+          }
+          input::placeholder {
+            color: #1e3441;
+            font-weight: 300;
+            text-transform: capitalize;
+          }
+        }
+      }
+
+      .upload_fax_txt {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 25px 0 8px 0;
+      }
+
+      .img_upload_box {
+        margin-top: 25px;
+        .img_boxes {
+          width: 50%;
+          textarea {
+            width: 100%;
+            border-radius: 4px;
+            border: none;
+            background: #fff;
+            color: #1e3441;
+            font-size: 14px;
+            font-weight: 400;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            padding: 10px;
+            outline: none;
+          }
+          textarea::placeholder {
+            color: #1e3441;
+            font-weight: 300;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+  .sent_fax_btn {
+    padding: 10px 4px 10px 25px;
+    button {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: capitalize;
+      border-radius: 2px;
+      background: rgba(64, 158, 238, 1);
+      padding: 12px 30px;
+    }
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+
+    font-weight: 400;
+  }
+}

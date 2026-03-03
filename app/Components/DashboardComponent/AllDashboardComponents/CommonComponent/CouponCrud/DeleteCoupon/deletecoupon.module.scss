@@ -1,0 +1,61 @@
+.darkHeader {
+  background-color: #272727;
+  .card_body {
+    padding: 20px;
+    .primary_message {
+      font-size: 20px;
+      text-align: center;
+      color: #fff;
+      font-weight: 500;
+    }
+    .card_primary_buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      padding: 15px 0 0 0;
+      .card_yes_btn {
+        background: green;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 20px;
+      }
+      .card_no_btn {
+        background: red;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+.lightHeader {
+  .card_body {
+    padding: 20px;
+    .primary_message {
+      font-size: 20px;
+      text-align: center;
+      color: #000;
+      font-weight: 500;
+    }
+    .card_primary_buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      padding: 15px 0 0 0;
+      .card_yes_btn {
+        background: green;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 20px;
+      }
+      .card_no_btn {
+        background: red;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,318 @@
+.darkHeader {
+  padding: 35px 25px;
+  background: rgb(20, 20, 20);
+
+  .mobile_number_head {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .add_new {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .add_new_dental_box {
+    border-radius: 8px;
+    background: rgb(20, 20, 20);
+    // box-shadow: 0px 4px 24px 0px rgba(235, 235, 235, 0.5);
+    padding: 10px 0px 35px 0px;
+    .add_form_box {
+      display: flex;
+      gap: 30px;
+      @media (max-width: 767px) {
+        flex-direction: column;
+        gap: 0px;
+      }
+      .img_upload_box {
+        /* padding: 138px; */
+        height: 381px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+        background: rgba(255, 255, 255, 0.13);
+        border: 1px mixed rgba(255, 255, 255, 0.6);
+        border-style: dashed;
+
+        .img_boxes {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .upload_circle {
+            width: 126px;
+            height: auto;
+            margin-bottom: 10px;
+            /* height: 85px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            cursor: pointer;
+            cursor: pointer;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+            .download_icon {
+              width: 40% !important;
+              height: auto;
+              // border-radius: 50%;
+              object-fit: unset;
+            }
+          }
+          .upload_logo {
+            color: #ffff;
+            font-size: 14px;
+            font-weight: 300;
+            cursor: pointer;
+          }
+        }
+      }
+      .office_box {
+        width: 100%;
+        // display: flex;
+        .office_select {
+          padding: 5px 0px;
+        }
+        .office_name_label {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+        .office_name_label1 {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 5px;
+          margin-top: 9px;
+        }
+        .office_name_label2 {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+        }
+        input {
+          width: 100%;
+          border-radius: 4px;
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          background: rgba(39, 39, 39, 1);
+          color: #fff;
+          font-size: 14px;
+          font-weight: 300;
+          padding: 10px;
+          margin-bottom: 18px;
+          outline: none;
+        }
+        &::placeholder {
+          color: #1e3441;
+        }
+        /* inviteMember.module.scss */
+        select {
+          width: 100%;
+          border-radius: 4px;
+          border: 1px solid rgba(44, 74, 91, 0.22);
+          background: rgba(39, 39, 39, 1);
+          color: #fff;
+          font-size: 14px;
+          font-weight: 300;
+          padding: 10px;
+          margin-bottom: 18px;
+          outline: none;
+        }
+
+        option {
+          color: #fff;
+          font-weight: 500;
+          background-color: rgba(39, 39, 39, 1);
+        }
+
+        select:focus option:checked {
+          color: #fff;
+        }
+      }
+    }
+    .add_new_dental_btn {
+      // text-align: center;
+      margin-top: 15px;
+      button {
+        border-radius: 6px;
+        background: #409eee;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+.error_message {
+  color: red;
+  font-size: 12px;
+  margin-top: -12px;
+  margin-bottom: 10px;
+}
+.error {
+  font-size: 12px;
+  color: red;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.addOffice_container {
+  padding: 35px 25px;
+  background: #f8f9fe;
+  .add_new {
+    color: #1e3441;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .add_new_dental_box {
+    border-radius: 8px;
+    // background: rgb(20, 20, 20);
+    // box-shadow: 0px 4px 24px 0px rgba(235, 235, 235, 0.5);
+    padding: 10px 0px 35px 0px;
+    .add_form_box {
+      display: flex;
+      gap: 30px;
+      @media (max-width: 767px) {
+        flex-direction: column;
+        gap: 0px;
+      }
+      .img_upload_box {
+        /* padding: 138px; */
+        height: 381px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+        background: #ffff;
+        border: 1px solid rgba(44, 74, 91, 0.22);
+
+        .img_boxes {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .upload_circle {
+            width: 126px;
+            height: auto;
+            margin-bottom: 10px;
+            cursor: pointer;
+            /* height: 85px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            cursor: pointer;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+            .download_icon {
+              width: 40% !important;
+              height: auto;
+              // border-radius: 50%;
+              object-fit: unset;
+            }
+          }
+          .upload_logo {
+            cursor: pointer;
+            color: #1e3441;
+            font-size: 14px;
+            font-weight: 300;
+          }
+        }
+      }
+      .office_box {
+        width: 100%;
+        // display: flex;
+        .office_select {
+          padding: 5px 0px;
+        }
+        .office_name_label {
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+        .office_name_label1 {
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 500;
+          margin-bottom: 5px;
+          margin-top: 9px;
+        }
+        .office_name_label2 {
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 500;
+        }
+        input {
+          width: 100%;
+          border-radius: 4px;
+          border: 1px solid rgba(44, 74, 91, 0.22);
+          background: #fff;
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 300;
+          padding: 10px;
+          margin-bottom: 18px;
+          outline: none;
+        }
+        &::placeholder {
+          color: #1e3441;
+        }
+        Select {
+          width: 100%;
+          border-radius: 4px;
+          border: 1px solid rgba(44, 74, 91, 0.22);
+          background: #fff;
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 300;
+          padding: 10px;
+          margin-bottom: 18px;
+          outline: none;
+        }
+
+        select {
+        }
+        option {
+          color: #1e3441;
+        }
+      }
+    }
+    .add_new_dental_btn {
+      // text-align: center;
+      margin-top: 15px;
+      button {
+        border-radius: 6px;
+        background: #409eee;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+.error_message {
+  color: red;
+  font-size: 12px;
+  margin-top: -12px;
+  margin-bottom: 10px;
+}
+.error {
+  font-size: 12px;
+  color: red;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}

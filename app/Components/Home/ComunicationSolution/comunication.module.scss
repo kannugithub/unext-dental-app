@@ -1,0 +1,112 @@
+.lightHeader {
+  .comunication_wrapper {
+    padding: 100px 0px;
+    @media (max-width: 991px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card_div {
+      display: flex;
+      justify-content: space-around;
+      @media (max-width: 991px) {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+      }
+    }
+    .comunication_head {
+      h2 {
+        color: #fff;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.84px;
+        text-transform: capitalize;
+        text-align: center;
+        @media (max-width: 1200px) {
+          line-height: 50px;
+        }
+        @media (max-width: 767px) {
+          font-size: 36px;
+          line-height: 45px;
+        }
+        @media (max-width: 481px) {
+          font-size: 30px;
+          margin-bottom: 20px;
+          line-height: 40px;
+        }
+      }
+      p {
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px; /* 187.5% */
+        letter-spacing: 0.32px;
+        text-transform: capitalize;
+        margin-bottom: 80px;
+        @media (max-width: 481px) {
+          font-size: 15px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+.darkHeader {
+  .comunication_wrapper {
+    padding: 100px 0px;
+    @media (max-width: 991px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card_div {
+      display: flex;
+      justify-content: space-around;
+      @media (max-width: 991px) {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+      }
+    }
+    .comunication_head {
+      h2 {
+        color: #fff;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.84px;
+        text-transform: capitalize;
+        text-align: center;
+        @media (max-width: 1200px) {
+          line-height: 50px;
+        }
+        @media (max-width: 767px) {
+          font-size: 36px;
+          line-height: 45px;
+        }
+        @media (max-width: 481px) {
+          font-size: 30px;
+          margin-bottom: 20px;
+          line-height: 40px;
+        }
+      }
+      p {
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px; /* 187.5% */
+        letter-spacing: 0.32px;
+        text-transform: capitalize;
+        margin-bottom: 80px;
+        @media (max-width: 481px) {
+          font-size: 15px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}

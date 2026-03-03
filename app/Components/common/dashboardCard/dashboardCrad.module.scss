@@ -1,0 +1,174 @@
+.darkHeader {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 4px;
+  width: calc(25% - 5px);
+  // background-color: rgba(25, 25, 27, 1);
+  // border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  color: #fff;
+
+  @media (max-width: 1200px) {
+    width: calc(33.33% - 5px);
+  }
+
+  @media (max-width: 900px) {
+    width: calc(50% - 5px);
+  }
+
+  @media (max-width: 600px) {
+    width: calc(100% - 5px);
+  }
+  .card2 {
+    background-color: rgba(25, 25, 27, 1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+  }
+  .card_body {
+    padding: 10px 14px 10px 15px;
+    background-color: rgba(25, 25, 27, 1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    @media (min-width: 1200px) and (max-width: 1460px) {
+      padding: 10px 5px 10px 5px;
+    }
+
+    .card_first_cont {
+      display: flex;
+      // img {
+      //   object-fit: cover;
+      // }
+      justify-content: space-between;
+      .card_head_body {
+        padding: 5px;
+        @media (min-width: 1200px) and (max-width: 1460px) {
+          padding: 0px;
+        }
+
+        .total_gross {
+          color: #fff;
+          font-size: 16px;
+          font-weight: 300;
+          text-transform: uppercase;
+          @media (max-width: 1399px) {
+            font-size: 14px;
+          }
+        }
+        .card_count {
+          color: #fff;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: normal;
+          margin-top: 4px;
+        }
+      }
+    }
+    .card_lastMonth {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+      .since_last {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        text-transform: capitalize;
+        @media (max-width: 1399px) {
+          font-size: 14px;
+        }
+      }
+      .percentInc {
+        color: #39ce8c;
+        font-size: 16px;
+        font-weight: 300;
+        @media (max-width: 1399px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.card_box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 4px;
+  width: calc(25% - 5px);
+
+  @media (max-width: 1200px) {
+    width: calc(33.33% - 5px);
+  }
+
+  @media (max-width: 900px) {
+    width: calc(50% - 5px);
+  }
+
+  @media (max-width: 600px) {
+    width: calc(100% - 5px);
+  }
+  .card {
+    background-color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+  }
+  .card_body {
+    background-color: #fff;
+    padding: 10px 14px 10px 15px;
+
+    @media (min-width: 1200px) and (max-width: 1460px) {
+      padding: 10px 5px 10px 5px;
+    }
+
+    .card_first_cont {
+      display: flex;
+      // img {
+      //   object-fit: cover;
+      // }
+      justify-content: space-between;
+      .card_head_body {
+        padding: 5px;
+        @media (min-width: 1200px) and (max-width: 1460px) {
+          padding: 0px;
+        }
+        .total_gross {
+          color: #666;
+          font-size: 16px;
+          font-weight: 300;
+          text-transform: uppercase;
+          @media (max-width: 1399px) {
+            font-size: 14px;
+          }
+        }
+        .card_count {
+          color: #000;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: normal;
+          margin-top: 4px;
+        }
+      }
+    }
+    .card_lastMonth {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+      .since_last {
+        color: #445762;
+        font-size: 16px;
+        font-weight: 300;
+        text-transform: capitalize;
+        @media (max-width: 1399px) {
+          font-size: 14px;
+        }
+      }
+      .percentInc {
+        color: #39ce8c;
+        font-size: 16px;
+        font-weight: 300;
+        @media (max-width: 1399px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

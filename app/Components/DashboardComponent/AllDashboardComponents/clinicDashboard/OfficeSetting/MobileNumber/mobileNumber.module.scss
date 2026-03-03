@@ -1,0 +1,242 @@
+.darkHeader {
+  .office_details_title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .office_details {
+    padding-top: 10px;
+    .dental_bussines {
+      margin-top: 10px;
+      .clinic_phone {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: capitalize;
+        opacity: 80%;
+      }
+      .clinic_number {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 20px;
+        @media (max-width: 991px) {
+          flex-direction: column;
+        }
+        input {
+          width: 100%;
+          border-radius: 4px;
+          background-color: rgba(255, 255, 255, 0.09);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          padding: 10px;
+          margin-top: 10px;
+          text-transform: capitalize;
+          outline: none;
+        }
+        input::placeholder {
+          font-size: 12px;
+          color: #fff;
+        }
+        button {
+          position: relative; /* Required for the tooltip */
+          width: 200px;
+          border-radius: 4px;
+          background: #b4b4b4;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          text-transform: capitalize;
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+          @media (max-width: 767px) {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 4px;
+            background: #409eee;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: capitalize;
+            border: none;
+            padding: 10px 5px;
+          }
+        }
+        .tooltip {
+          position: relative;
+          display: inline-block;
+        }
+        .tooltip .tooltiptext {
+          visibility: hidden;
+          background-color: #555;
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px;
+          position: absolute;
+          z-index: 1;
+          bottom: 125%;
+          left: 50%;
+          margin-left: -60px;
+          opacity: 0;
+          transition: opacity 0.3s;
+          padding: 5px 15px;
+        }
+        .tooltip .tooltiptext::after {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -5px;
+          border-width: 5px;
+          border-style: solid;
+          border-color: #555 transparent transparent transparent;
+        }
+        .tooltip:hover .tooltiptext {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+    .warning_mesg {
+      display: flex;
+      align-items: ce;
+      justify-content: space-between;
+      margin: 10px 0 15px 0;
+      border-radius: 4px;
+      background: rgba(255, 50, 50, 0.07);
+      padding: 10px 18px;
+      color: #ff3232;
+      font-size: 14px;
+      font-weight: 300;
+      text-transform: capitalize;
+    }
+  }
+}
+.lightHeader {
+  .office_details_title {
+    color: #1e3441;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .office_details {
+    padding-top: 10px;
+    .dental_bussines {
+      margin-top: 10px;
+      .clinic_phone {
+        color: #1e3441;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: capitalize;
+        opacity: 80%;
+      }
+      .clinic_number {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 20px;
+        @media (max-width: 991px) {
+          flex-direction: column;
+        }
+        input {
+          width: 100%;
+          border-radius: 4px;
+          background-color: #ffffff;
+          border: 1px solid rgba(44, 74, 91, 0.22);
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 400;
+          padding: 10px;
+          margin-top: 10px;
+          text-transform: capitalize;
+          outline: none;
+        }
+        input::placeholder {
+          font-size: 12px;
+          color: #1e3441;
+        }
+        button {
+          position: relative;
+          width: 200px;
+          border-radius: 4px;
+          background: #b4b4b4;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          text-transform: capitalize;
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+          @media (max-width: 767px) {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 4px;
+            background: #409eee;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: capitalize;
+            border: none;
+            padding: 10px 5px;
+          }
+        }
+        .tooltip {
+          position: relative;
+          display: inline-block;
+        }
+        .tooltip .tooltiptext {
+          visibility: hidden;
+          background-color: #555;
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px;
+          position: absolute;
+          z-index: 1;
+          bottom: 125%;
+          left: 50%;
+          margin-left: -60px;
+          opacity: 0;
+          transition: opacity 0.3s;
+          padding: 5px 15px;
+        }
+        .tooltip .tooltiptext::after {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -5px;
+          border-width: 5px;
+          border-style: solid;
+          border-color: #555 transparent transparent transparent;
+        }
+        .tooltip:hover .tooltiptext {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+    .warning_mesg {
+      display: flex;
+      align-items: ce;
+      justify-content: space-between;
+      margin: 10px 0 15px 0;
+      border-radius: 4px;
+      background: rgba(255, 50, 50, 0.07);
+      padding: 10px 18px;
+      color: #ff3232;
+      font-size: 14px;
+      font-weight: 300;
+      text-transform: capitalize;
+    }
+  }
+}

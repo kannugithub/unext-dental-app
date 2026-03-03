@@ -1,0 +1,22 @@
+import React from "react";
+
+const DownArrow = () => {
+  return (
+    <div>
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.4922 6.25L16.25 7.05859L10 13.75L3.75 7.05859L4.50391 6.25L10 12.1289L15.4922 6.25Z"
+          fill="#BEBEBE"
+        />
+      </svg>
+    </div>
+  );
+};
+
+export default DownArrow;

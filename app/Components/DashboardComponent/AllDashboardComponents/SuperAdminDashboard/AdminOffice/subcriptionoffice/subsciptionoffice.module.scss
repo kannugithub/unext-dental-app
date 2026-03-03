@@ -1,0 +1,1351 @@
+.lightHeader {
+  .subscription_plan {
+    background: #fbfbff;
+    padding: 30px 0px;
+    position: relative;
+    .popup_close_icon {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      img {
+        cursor: pointer;
+      }
+    }
+    .plan_box_container {
+      background-color: rgba(255, 255, 255, 0.13);
+      width: 90%;
+      margin: 15px auto 15px auto;
+      padding: 20px 20px 10px 20px;
+      border-radius: 10px;
+      transition: background-color 0.1s ease;
+      border: 1px solid #a3a3a32e;
+      @media (max-width: 1199px) {
+        width: 80%;
+      }
+      @media (max-width: 991px) {
+        width: 90%;
+      }
+      .planBox {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-bottom: 20px;
+        .radio_inp {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          input {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+          }
+          label {
+            color: #000;
+            font-size: 20px;
+            font-weight: 400;
+          }
+        }
+      }
+      .features_data {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
+        .features_contant {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          color: #000;
+          .benifits_text {
+            color: #000;
+            font-size: 14px;
+            font-weight: 300;
+            text-transform: capitalize;
+          }
+        }
+      }
+      .all_features {
+        text-align: end;
+        button {
+          color: #000;
+          font-size: 14px;
+          font-weight: 400;
+          text-transform: capitalize;
+          border-radius: 4px;
+          background: #409eee;
+          border: none;
+          padding: 5px 10px;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+  .subs_head {
+    color: #000;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 15px;
+    width: 90%;
+    margin: auto;
+  }
+  .payMonthly {
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 5px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+
+  .active_plan {
+    color: #fff;
+  }
+
+  .active_radio_inp label {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+
+  .arrow_icon {
+  }
+  .plan_month {
+    color: #443a3a;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: 10px;
+  }
+
+  .active_plan_month {
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: 10px;
+    display: flex;
+    align-items: baseline;
+    .active_img_div {
+      height: 30px;
+    }
+    .active_plan_dollor {
+      font-size: 24px;
+    }
+    .month_tag {
+      color: #000;
+      font-size: 24px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+    .per_extension {
+      margin-right: 10px;
+    }
+  }
+
+  .subs_form_box {
+    width: 75%;
+    margin: 25px auto 15px auto;
+    @media (max-width: 1199px) {
+      width: 80%;
+    }
+    @media (max-width: 991px) {
+      width: 90%;
+    }
+    .signup_extension {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 25px;
+      .input_cont_coupons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        @media (max-width: 767px) {
+          flex-direction: column;
+        }
+
+        .sub_inp_box_coupons {
+          width: 100%;
+          border-radius: 6px;
+          border: 1px solid #e8e8e8;
+          background: #fff;
+          padding: 7px 10px;
+          input {
+            width: 90%;
+            border: none;
+            outline: none;
+          }
+          select {
+            width: 100%;
+            border: none;
+            outline: none;
+          }
+        }
+        .coupon_apply_coupons {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          width: 100%;
+
+          button {
+            border-radius: 5px;
+            border: none;
+            border: 2px solid #0a22a8;
+            background: #fff;
+            color: #0a22a8;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 8px 30px;
+            @media (max-width: 767px) {
+              padding: 8px 30px;
+            }
+          }
+        }
+      }
+
+      .phy_extension {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+      .extension_inc_dec {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .minus {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        border: 2px solid #0a22a8;
+        border-radius: 50%;
+        padding: 0px 7px;
+        cursor: pointer;
+      }
+      .choose_phy {
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0px 4px 60px 0px rgba(188, 188, 188, 0.25);
+        padding: 5px 10px;
+        cursor: pointer;
+        width: 67px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      .activeExtensionType {
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0px 4px 60px 0px rgba(188, 188, 188, 0.25);
+        padding: 5px 10px;
+        border: 2px solid #0a22a8;
+        width: 67px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      .extension_count {
+        font-weight: 600;
+      }
+      .plus {
+        background: #0a22a8;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 50%;
+        padding: 0px 7px;
+        cursor: pointer;
+      }
+      .input_cont {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        @media (max-width: 568px) {
+          flex-direction: column;
+        }
+        .sub_inp_box {
+          display: flex;
+          width: 100%;
+          border-radius: 6px;
+          border: 1px solid #e8e8e8;
+          background: #fff;
+          padding: 7px 10px;
+
+          select {
+            width: 100%;
+            border: none;
+            outline: none;
+          }
+        }
+        .expiry_card_inp {
+          width: 40%;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          @media (max-width: 568px) {
+            width: 100%;
+            display: flex;
+            gap: 5px;
+          }
+          input {
+            border-radius: 6px;
+            border: 1px solid #e8e8e8;
+            background: #fff;
+            padding: 7px 10px;
+            width: 50%;
+            outline: none;
+          }
+        }
+        .subs_card {
+          width: 40%;
+          border-radius: 6px;
+          border: 1px solid #e8e8e8;
+          background: #fff;
+          padding: 7px 10px;
+          @media (max-width: 568px) {
+            width: 100%;
+          }
+          input {
+            width: 90%;
+            border: none;
+            outline: none;
+          }
+        }
+      }
+      .hoveredImage {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: -230px;
+        background: #fff;
+        padding: 25px;
+        height: 220px;
+        width: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .extension_instruction {
+      color: #5fd7a1;
+      font-style: italic;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .price_discount {
+      font-size: 12px;
+      color: green;
+      font-weight: 500;
+    }
+    .input_err_cont {
+      display: flex;
+      justify-content: space-between;
+      gap: 35px;
+      margin-top: 5px;
+      .input_cont_err_div {
+        width: 100%;
+      }
+      .error_div {
+        width: 100%;
+      }
+      .error_expiry_div {
+        width: 40%;
+      }
+    }
+    .enroll_subs {
+      width: 100%;
+      margin-top: 25px;
+      button {
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+        background: #0a22a8;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+    }
+    .terms_check {
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      .terms_check_label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        // justify-content: center;
+        input {
+          width: 16px;
+          height: 16px;
+        }
+        label {
+          color: #949494;
+          font-size: 14px;
+          font-weight: 400;
+        }
+        span {
+          color: #0a22a8;
+          text-decoration: underline;
+        }
+      }
+      .already_acc {
+        color: #949494;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 10px;
+        span {
+          color: #949494;
+          font-size: 16px;
+          font-weight: 500;
+          text-decoration-line: underline;
+        }
+      }
+    }
+    .payment_info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+      .payment_info_text {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        width: 100%;
+      }
+      .payment_info_txt {
+        width: 35%;
+        color: #353232;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: capitalize;
+        @media (max-width: 1399px) {
+          width: 40%;
+        }
+        @media (max-width: 767px) {
+          width: 60%;
+        }
+        @media (max-width: 535px) {
+          width: 70%;
+        }
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .inputs {
+    display: flex;
+    .senOtpNumber {
+      position: relative;
+      width: 100%;
+      .send_otp_btn {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        font-weight: 400;
+        cursor: pointer;
+        border-radius: 3px;
+        border: 2px solid #0a22a8;
+        background: #0a22a8;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 13px;
+      }
+      .close_applied_coupon {
+        position: absolute;
+        top: 6px;
+        right: 24%;
+        font-weight: 400;
+        cursor: pointer;
+        border-radius: 3px;
+        border: 2px solid #409eee;
+        background: #409eee;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 12px;
+      }
+      .send_otp_btn_disabled {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        font-weight: 400;
+        cursor: not-allowed;
+        border-radius: 3px;
+        border: 2px solid #87878a;
+        background: #9d9d9e;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 13px;
+      }
+      .coupon_inputs {
+        text-transform: uppercase;
+        &::placeholder {
+          text-transform: capitalize;
+        }
+      }
+    }
+    .input_with_icons {
+      display: flex;
+      align-items: center;
+      position: relative;
+      .card_icons {
+        position: absolute;
+        right: 10px;
+        background: #fff;
+        display: inherit;
+        padding: 1px;
+      }
+    }
+  }
+  .signup_icons {
+    color: transparent;
+    position: relative;
+    margin-left: -23px;
+    margin-top: 15px;
+  }
+  .signup_extension_form {
+    margin-top: 35px;
+  }
+  .signup_extension_coupons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .input_cont_coupons {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+
+      .sub_inp_box_coupons {
+        width: 100%;
+        border-radius: 6px;
+        border: 1px solid #e8e8e8;
+        background: #fff;
+        padding: 7px 10px;
+        input {
+          width: 90%;
+          border: none;
+          outline: none;
+        }
+        select {
+          width: 100%;
+          border: none;
+          outline: none;
+        }
+      }
+      .coupon_apply_coupons {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+
+        button {
+          border-radius: 5px;
+          border: none;
+          border: 2px solid #0a22a8;
+          background: #fff;
+          color: #0a22a8;
+          font-size: 14px;
+          font-weight: 500;
+          padding: 10px 30px;
+          @media (max-width: 767px) {
+            padding: 8px 30px;
+          }
+        }
+        .coupons_name_coupons {
+          border-radius: 5px;
+          background: #409eee;
+          color: #000;
+          font-size: 14px;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          justify-content: space-between;
+          padding: 10px 15px;
+          @media (max-width: 767px) {
+            justify-content: space-between;
+          }
+          .coupons_img {
+            display: flex;
+            gap: 10px;
+          }
+          .close_icon {
+            font-size: 20px;
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+  }
+  .signup_extension_button {
+    align-items: center;
+    justify-content: space-between;
+    .input_cont_button {
+      display: flex;
+      gap: 10px;
+      @media (max-width: 767px) {
+        gap: 0px;
+        flex-direction: column;
+      }
+      .plan_monthly {
+        width: 100%;
+        button {
+          width: 100%;
+          border-radius: 4px;
+          border: 2px solid #409eee;
+          background: #409eee;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          padding: 12px 5px;
+        }
+      }
+      .plan_yearly {
+        width: 100%;
+        button {
+          width: 100%;
+          border-radius: 4px;
+          border: 1px solid rgb(103 100 100 / 22%);
+          background: #fff;
+          color: #000;
+          font-size: 14px;
+          font-weight: 400;
+          padding: 12px 5px;
+        }
+      }
+    }
+  }
+  .inputs_text {
+    padding: 10px 12px;
+  }
+  .error_meassage {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
+.darkHeader {
+  .subscription_plan {
+    background: black;
+    padding: 30px 0px;
+    position: relative;
+    .popup_close_icon {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      img {
+        cursor: pointer;
+      }
+    }
+    .plan_box_container {
+      background-color: rgba(255, 255, 255, 0.13);
+      width: 90%;
+      margin: 15px auto 15px auto;
+      padding: 20px 20px 10px 20px;
+      border-radius: 10px;
+      transition: background-color 0.1s ease;
+      border: 1px solid #a3a3a32e;
+      @media (max-width: 1199px) {
+        width: 80%;
+      }
+      @media (max-width: 991px) {
+        width: 90%;
+      }
+      .planBox {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-bottom: 20px;
+        .radio_inp {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          input[type="radio"] {
+            border: 2px solid rgba(163, 163, 163, 0.1803921569);
+            box-shadow: 0 0 0 1px #409eee;
+            appearance: none;
+            border-radius: 50%;
+            background-color: transparent;
+            transition: all ease-in 0.2s;
+            cursor: pointer;
+          }
+          input[type="radio"]:checked {
+            background-color: #409eee;
+            border: 2px solid black;
+            cursor: pointer;
+          }
+          input {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+          }
+          label {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 400;
+          }
+        }
+      }
+      .features_data {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
+        .features_contant {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          color: #fff;
+          .benifits_text {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            text-transform: capitalize;
+          }
+        }
+      }
+      .all_features {
+        text-align: end;
+        button {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          text-transform: capitalize;
+          border-radius: 4px;
+          background: #409eee;
+          border: none;
+          padding: 5px 10px;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+  .subs_head {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 15px;
+    width: 90%;
+    margin: auto;
+  }
+  .payMonthly {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .active_plan {
+    color: #fff;
+  }
+
+  .active_radio_inp label {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+
+  .arrow_icon {
+  }
+  .plan_month {
+    color: #443a3a;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: 10px;
+  }
+
+  .active_plan_month {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: 10px;
+    display: flex;
+    align-items: baseline;
+    .active_img_div {
+      height: 30px;
+    }
+    .active_plan_dollor {
+      font-size: 24px;
+    }
+    .month_tag {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+    .per_extension {
+      margin-right: 10px;
+    }
+  }
+
+  .subs_form_box {
+    width: 75%;
+    margin: 25px auto 15px auto;
+    @media (max-width: 1199px) {
+      width: 80%;
+    }
+    @media (max-width: 991px) {
+      width: 90%;
+    }
+    .signup_extension {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 25px;
+      position: relative;
+      .input_cont_coupons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        @media (max-width: 767px) {
+          flex-direction: column;
+        }
+
+        .sub_inp_box_coupons {
+          width: 100%;
+          border-radius: 6px;
+          border: 1px solid #e8e8e8;
+          background: #fff;
+          padding: 7px 10px;
+          input {
+            width: 90%;
+            border: none;
+            outline: none;
+          }
+          select {
+            width: 100%;
+            border: none;
+            outline: none;
+          }
+        }
+        .coupon_apply_coupons {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          width: 100%;
+
+          button {
+            border-radius: 5px;
+            border: none;
+            border: 2px solid #0a22a8;
+            background: #fff;
+            color: #0a22a8;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 8px 30px;
+            @media (max-width: 767px) {
+              padding: 8px 30px;
+            }
+          }
+        }
+      }
+
+      .phy_extension {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+      .extension_inc_dec {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .minus {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
+        border: 2px solid #409eee;
+        border-radius: 50%;
+        padding: 0px 7px;
+        cursor: pointer;
+      }
+      .choose_phy {
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0px 4px 60px 0px rgba(188, 188, 188, 0.25);
+        padding: 5px 10px;
+        cursor: pointer;
+        width: 67px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      .activeExtensionType {
+        border-radius: 4px;
+        background: #fff;
+        color: #fff;
+        box-shadow: 0px 4px 60px 0px rgba(188, 188, 188, 0.25);
+        padding: 5px 10px;
+        border: 2px solid #409eee;
+        width: 67px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      .extension_count {
+        font-weight: 600;
+        color: #fff;
+      }
+      .plus {
+        background: #409eee;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 50%;
+        padding: 0px 7px;
+        cursor: pointer;
+      }
+      .input_cont {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        @media (max-width: 568px) {
+          flex-direction: column;
+        }
+        .sub_inp_box {
+          display: flex;
+          width: 100%;
+          border-radius: 6px;
+          border: 1px solid #e8e8e8;
+          background: #fff;
+          padding: 7px 10px;
+
+          select {
+            width: 100%;
+            border: none;
+            outline: none;
+          }
+        }
+        .expiry_card_inp {
+          width: 40%;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          @media (max-width: 568px) {
+            width: 100%;
+            display: flex;
+            gap: 5px;
+          }
+          input {
+            border-radius: 6px;
+            border: 1px solid #e8e8e8;
+            background: #fff;
+            padding: 7px 10px;
+            width: 50%;
+            outline: none;
+          }
+        }
+        .subs_card {
+          width: 40%;
+          border-radius: 6px;
+          border: 1px solid #e8e8e8;
+          background: #fff;
+          padding: 7px 10px;
+          @media (max-width: 568px) {
+            width: 100%;
+          }
+          input {
+            width: 90%;
+            border: none;
+            outline: none;
+          }
+        }
+      }
+      .hoveredImage {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: -230px;
+        background: #fff;
+        padding: 25px;
+        height: 220px;
+        width: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .extension_instruction {
+      color: #5fd7a1;
+      font-style: italic;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .price_discount {
+      font-size: 12px;
+      color: green;
+      font-weight: 500;
+    }
+    .input_err_cont {
+      display: flex;
+      justify-content: space-between;
+      gap: 35px;
+      margin-top: 5px;
+      .input_cont_err_div {
+        width: 100%;
+      }
+      .error_div {
+        width: 100%;
+      }
+      .error_expiry_div {
+        width: 40%;
+      }
+    }
+    .enroll_subs {
+      width: 100%;
+      margin-top: 25px;
+      button {
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+        background: #0a22a8;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+    }
+    .terms_check {
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      .terms_check_label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        // justify-content: center;
+        input {
+          width: 16px;
+          height: 16px;
+        }
+        label {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+        }
+        span {
+          color: #409eee;
+          text-decoration: underline;
+        }
+      }
+      .already_acc {
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 10px;
+        span {
+          color: #fff;
+          font-size: 16px;
+          font-weight: 500;
+          text-decoration-line: underline;
+        }
+      }
+    }
+    .payment_info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+      .payment_info_text {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        width: 100%;
+      }
+      .payment_info_txt {
+        width: 35%;
+        color: #fff;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: capitalize;
+        @media (max-width: 1399px) {
+          width: 40%;
+        }
+        @media (max-width: 767px) {
+          width: 60%;
+        }
+        @media (max-width: 535px) {
+          width: 70%;
+        }
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .inputs {
+    display: flex;
+    .senOtpNumber {
+      position: relative;
+      width: 100%;
+      .send_otp_btn {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        font-weight: 400;
+        cursor: pointer;
+        border-radius: 3px;
+        border: 2px solid #0a22a8;
+        background: #0a22a8;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 13px;
+      }
+      .close_applied_coupon {
+        position: absolute;
+        top: 6px;
+        right: 24%;
+        font-weight: 400;
+        cursor: pointer;
+        border-radius: 3px;
+        border: 2px solid #409eee;
+        background: #409eee;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 12px;
+      }
+      .send_otp_btn_disabled {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        font-weight: 400;
+        cursor: not-allowed;
+        border-radius: 3px;
+        border: 2px solid #87878a;
+        background: #9d9d9e;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 13px;
+      }
+      .coupon_inputs {
+        text-transform: uppercase;
+        &::placeholder {
+          text-transform: capitalize;
+        }
+      }
+    }
+    .input_with_icons {
+      display: flex;
+      align-items: center;
+      position: relative;
+      .card_icons {
+        position: absolute;
+        right: 10px;
+        background: #fff;
+        display: inherit;
+        padding: 1px;
+      }
+    }
+  }
+  .coupon_applied_message {
+    color: #5fd7a1;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .invalid_coupon_applied_message {
+    color: #f5170f;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .signup_icons {
+    color: transparent;
+    position: relative;
+    margin-left: -23px;
+    margin-top: 15px;
+  }
+  .signup_extension_form {
+    margin-top: 35px;
+  }
+  .signup_extension_coupons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .input_cont_coupons {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+
+      .sub_inp_box_coupons {
+        width: 100%;
+        border-radius: 6px;
+        border: 1px solid #e8e8e8;
+        background: #fff;
+        padding: 7px 10px;
+        input {
+          width: 90%;
+          border: none;
+          outline: none;
+        }
+        select {
+          width: 100%;
+          border: none;
+          outline: none;
+        }
+      }
+      .coupon_apply_coupons {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+
+        button {
+          border-radius: 5px;
+          border: none;
+          border: 2px solid #0a22a8;
+          background: #0a22a8;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          padding: 10px 30px;
+          @media (max-width: 767px) {
+            padding: 8px 30px;
+          }
+        }
+        .coupons_name_coupons {
+          border-radius: 5px;
+          background: #409eee;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          justify-content: space-between;
+          padding: 10px 15px;
+          @media (max-width: 767px) {
+            justify-content: space-between;
+          }
+          .coupons_img {
+            display: flex;
+            gap: 10px;
+          }
+          .close_icon {
+            font-size: 20px;
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+  }
+  .signup_extension_button {
+    align-items: center;
+    justify-content: space-between;
+    .input_cont_button {
+      display: flex;
+      gap: 10px;
+      @media (max-width: 767px) {
+        gap: 0px;
+        flex-direction: column;
+      }
+      .plan_monthly {
+        width: 100%;
+        button {
+          width: 100%;
+          border-radius: 4px;
+          border: 2px solid #409eee;
+          background: #409eee;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          padding: 12px 5px;
+        }
+      }
+      .plan_yearly {
+        width: 100%;
+        button {
+          width: 100%;
+          border-radius: 4px;
+          border: 1px solid #ffffff82;
+          background: black;
+          color: white;
+          font-size: 14px;
+          font-weight: 400;
+          padding: 12px 5px;
+        }
+      }
+    }
+  }
+  .inputs_text {
+    padding: 10px 12px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  .inputs_text::placeholder {
+    color: #ffffff;
+    opacity: 60%;
+    font-weight: 300;
+  }
+
+  .error_meassage {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}

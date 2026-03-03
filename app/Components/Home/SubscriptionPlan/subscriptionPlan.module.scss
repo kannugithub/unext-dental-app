@@ -1,0 +1,510 @@
+.lightHeader {
+  .subscription_plan {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px 0;
+    .table_wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      .main_header_wrapper {
+        .tableHeader_wrapper {
+          .subs_head {
+            color: #000;
+            font-size: 42px;
+            font-weight: 700;
+            text-transform: capitalize;
+            @media (max-width: 991px) {
+              font-size: 30px;
+              line-height: 36px;
+            }
+          }
+          .payMonthly {
+            color: #000;
+            font-size: 16px;
+            font-weight: 300;
+            text-transform: capitalize;
+            margin-top: 5px;
+          }
+        }
+        .beni_name_col:nth-child(even) {
+          background: #ccc;
+          p {
+            color: #000;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 10px;
+            letter-spacing: 0.32px;
+            text-transform: uppercase;
+            padding: 10px 0;
+          }
+        }
+      }
+      .head_row {
+        padding-bottom: 40px;
+      }
+
+      .plean_Wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+        @media (max-width: 991px) {
+          padding: 0px 10px;
+        }
+
+        span {
+          color: #409eee;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 10px;
+          letter-spacing: 0.32px;
+          padding: 25px 0;
+        }
+        p {
+          color: #0a22a8;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 600;
+          margin-top: -10px;
+          letter-spacing: 0.6px;
+        }
+        button {
+          color: #fff;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 10px;
+          letter-spacing: 0.32px;
+
+          border-radius: 4px;
+          background: #409eee;
+          width: 211px;
+          height: 42px;
+          border: none;
+        }
+      }
+      table {
+        width: 100%;
+      }
+      tr {
+        padding: 20px !important;
+      }
+      tr:nth-child(even) {
+        border-radius: 6px;
+        background: rgba(10, 34, 168, 0.05);
+        p {
+          color: #000;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 10px;
+          letter-spacing: 0.32px;
+          text-transform: uppercase;
+          padding: 10px 0;
+        }
+      }
+      .jadoo {
+        padding: 30px 20px;
+
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 10px;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;
+
+        @media (max-width: 1023px) {
+          line-height: 20px;
+        }
+      }
+
+      td {
+        text-align: center;
+      }
+    }
+
+    .viewmore {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      button {
+        border: 1px solid #409eee;
+        font-size: 16px;
+        background: transparent;
+        width: 211px;
+        height: 42px;
+        color: #409eee;
+        border-radius: 6px;
+      }
+    }
+
+    .plan_box_container {
+      width: 60%;
+      margin: 15px auto 15px auto;
+      padding: 20px;
+      border-radius: 10px;
+      transition: background-color 0.1s ease;
+      background: #fff;
+      @media (max-width: 1199px) {
+        width: 80%;
+      }
+      @media (max-width: 991px) {
+        width: 90%;
+      }
+    }
+
+    .planBox {
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    .radio_inp {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .active_plan {
+      color: #fff;
+    }
+
+    .radio_inp input {
+      width: 18px;
+      height: 18px;
+    }
+    .radio_inp label {
+      color: #000;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+    .active_radio_inp label {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+
+    .arrow_icon {
+    }
+    .plan_month {
+      color: #443a3a;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin-right: 10px;
+    }
+
+    .active_plan_month {
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin-right: 10px;
+    }
+
+    .features_contant {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .features_data {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      column-gap: 46px;
+      row-gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .features_btn {
+      display: flex;
+      align-items: flex-end;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+    }
+
+    .subs_btn {
+      border-radius: 4px;
+      background: #409eee;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 6px 8px;
+      border: none;
+    }
+  }
+  .modal-50w {
+    max-width: 50% !important;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.8);
+    @media (max-width: 676px) {
+      width: 100% !important;
+    }
+  }
+}
+.darkHeader {
+  .subscription_plan {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px 0;
+    .table_wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      .main_header_wrapper {
+        .tableHeader_wrapper {
+          .subs_head {
+            color: #ffffff;
+            font-size: 42px;
+            font-weight: 700;
+            text-transform: capitalize;
+            @media (max-width: 991px) {
+              font-size: 30px;
+              line-height: 36px;
+            }
+          }
+          .payMonthly {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 300;
+            text-transform: capitalize;
+            margin-top: 5px;
+          }
+        }
+        .beni_name_col:nth-child(even) {
+          background: #ccc;
+          p {
+            color: #ffffff;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 10px;
+            letter-spacing: 0.32px;
+            text-transform: uppercase;
+            padding: 10px 0;
+          }
+        }
+      }
+      .head_row {
+        padding-bottom: 40px;
+      }
+
+      .plean_Wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+        @media (max-width: 991px) {
+          padding: 0px 10px;
+        }
+
+        span {
+          color: #ffffff;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 10px;
+          letter-spacing: 0.32px;
+          padding: 25px 0;
+        }
+        p {
+          color: #ffffff;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 600;
+          margin-top: -10px;
+          letter-spacing: 0.6px;
+        }
+        button {
+          color: #fff;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 10px;
+          letter-spacing: 0.32px;
+
+          border-radius: 4px;
+          background: #409eee;
+          width: 211px;
+          height: 42px;
+          border: none;
+        }
+      }
+      table {
+        width: 100%;
+      }
+      tr {
+        padding: 20px !important;
+      }
+      tr:nth-child(even) {
+        border-radius: 6px;
+        background: rgba(25, 25, 27, 1);
+        p {
+          color: #000;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 10px;
+          letter-spacing: 0.32px;
+          text-transform: uppercase;
+          padding: 10px 0;
+        }
+      }
+      .jadoo {
+        padding: 30px 20px;
+
+        color: #ffffff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 10px;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;
+
+        @media (max-width: 1023px) {
+          line-height: 20px;
+        }
+      }
+
+      td {
+        text-align: center;
+      }
+    }
+
+    .viewmore {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      button {
+        border: 1px solid #409eee;
+        font-size: 16px;
+        background: transparent;
+        width: 211px;
+        height: 42px;
+        color: #409eee;
+        border-radius: 6px;
+      }
+    }
+
+    .plan_box_container {
+      width: 60%;
+      margin: 15px auto 15px auto;
+      padding: 20px;
+      border-radius: 10px;
+      transition: background-color 0.1s ease;
+      background: #fff;
+      @media (max-width: 1199px) {
+        width: 80%;
+      }
+      @media (max-width: 991px) {
+        width: 90%;
+      }
+    }
+
+    .planBox {
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    .radio_inp {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .active_plan {
+      color: #fff;
+    }
+
+    .radio_inp input {
+      width: 18px;
+      height: 18px;
+    }
+    .radio_inp label {
+      color: #000;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+    .active_radio_inp label {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+
+    .arrow_icon {
+    }
+    .plan_month {
+      color: #443a3a;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin-right: 10px;
+    }
+
+    .active_plan_month {
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin-right: 10px;
+    }
+
+    .features_contant {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .features_data {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      column-gap: 46px;
+      row-gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .features_btn {
+      display: flex;
+      align-items: flex-end;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+    }
+
+    .subs_btn {
+      border-radius: 4px;
+      background: #409eee;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 6px 8px;
+      border: none;
+    }
+  }
+  .modal-50w {
+    max-width: 50% !important;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.8);
+    @media (max-width: 676px) {
+      width: 100% !important;
+    }
+  }
+}

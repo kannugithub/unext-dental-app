@@ -1,0 +1,14 @@
+.OfficeHours_wrapper {
+  cursor: pointer;
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 25px;
+
+  .office_details_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

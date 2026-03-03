@@ -1,0 +1,254 @@
+.darkHeader {
+  background-color: #141414;
+  .addOffice_container {
+    padding: 25px;
+    background-color: #141414;
+
+    .add_new_dental_box {
+      border-radius: 8px;
+      // background: rgba(25, 25, 27, 1);
+      // box-shadow: 0px 4px 24px 0px rgba(235, 235, 235, 0.5);
+      padding: 10px 0px 35px 0px;
+      .add_new_btn {
+        display: flex;
+        gap: 20px;
+        .add_btn1 {
+          button {
+            color: #fff;
+            background: #409eee;
+            padding: 8px 20px;
+            border-radius: 2px;
+            text-transform: uppercase;
+          }
+        }
+        .add_btn2 {
+          button {
+            color: #409eee;
+            border: 1px solid #409eee;
+            padding: 8px 20px;
+            background: rgba(25, 25, 27, 1);
+            border-radius: 2px;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .add_form_box {
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(25, 25, 27, 1);
+        padding: 33px;
+        margin: 25px 0px;
+        width: 500px;
+        .office_box {
+          .office_title {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px 0px;
+          }
+          .office_text {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 300;
+            text-transform: capitalize;
+          }
+          .sendotp_text {
+            padding: 10px 0px;
+            color: #409eee;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 2px;
+          }
+          .otp_input {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0px 26px;
+            .otp_digit {
+              background: rgba(255, 255, 255, 0.14);
+              border: 1px solid rgba(81, 81, 81, 1);
+              width: 45px;
+              height: 45px;
+              font-size: 1.5em;
+              text-align: center;
+              // margin: 0 5px;
+
+              border-radius: 5px;
+            }
+          }
+          .otp_input_verify {
+            input {
+              padding: 10px 10px;
+              background: rgba(255, 255, 255, 0.14);
+              color: #fff;
+              border: 1px solid rgba(81, 81, 81, 1);
+              width: 100%;
+              font-size: 16px;
+              font-weight: 300;
+              border-radius: 4px;
+            }
+            input::placeholder {
+              color: #fff;
+            }
+          }
+          .verify_otp {
+            color: #409eee;
+            font-size: 16px;
+            font-weight: 500;
+            background: rgba(25, 25, 27, 1);
+            border-radius: 2px;
+            padding: 6px 20px;
+            border: 1px solid #409eee;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .office_details_title {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin: 0px 0px 30px 0px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .office_details_text {
+        display: flex;
+        gap: 30px;
+
+        align-items: center;
+        .office_details_img {
+          display: flex;
+          gap: 10px;
+          font-size: 16px;
+          font-weight: 300;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  background-color: #f8f9fe;
+  .addOffice_container {
+    padding: 25px;
+
+    .add_new_dental_box {
+      border-radius: 8px;
+      // background: rgba(25, 25, 27, 1);
+      // box-shadow: 0px 4px 24px 0px rgba(235, 235, 235, 0.5);
+      padding: 10px 0px 35px 0px;
+      .add_new_btn {
+        display: flex;
+        gap: 20px;
+        .add_btn1 {
+          button {
+            color: #fff;
+            background: #409eee;
+            padding: 8px 20px;
+            border-radius: 2px;
+            text-transform: uppercase;
+          }
+        }
+        .add_btn2 {
+          button {
+            color: #409eee;
+            border: 1px solid #409eee;
+            padding: 8px 20px;
+            background: #fff;
+            border-radius: 2px;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .add_form_box {
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: #fff;
+        padding: 33px;
+        margin: 25px 0px;
+        width: 500px;
+        .office_box {
+          .office_title {
+            color: #000;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px 0px;
+          }
+          .office_text {
+            color: #000;
+            font-size: 16px;
+            font-weight: 300;
+            text-transform: capitalize;
+          }
+          .sendotp_text {
+            padding: 10px 0px;
+            color: #409eee;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 2px;
+          }
+
+          .otp_input {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0px 26px;
+            .otp_digit {
+              width: 45px;
+              height: 45px;
+              font-size: 1.5em;
+              text-align: center;
+              // margin: 0 5px;
+              border: 2px solid #ccc;
+              border-radius: 5px;
+            }
+          }
+          .otp_input_verify {
+            input {
+              padding: 10px 10px;
+              background: #fff;
+              color: #1e3441;
+              width: 100%;
+              font-size: 16px;
+              font-weight: 300;
+              border-radius: 4px;
+              border: 1px solid #ccc;
+            }
+            input::placeholder {
+              color: #1e3441;
+            }
+          }
+          .verify_otp {
+            color: #409eee;
+            font-size: 16px;
+            font-weight: 500;
+            background: #fff;
+            border-radius: 2px;
+            padding: 6px 20px;
+            border: 1px solid #409eee;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .office_details_title {
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin: 0px 0px 30px 0px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .office_details_text {
+        display: flex;
+        gap: 30px;
+
+        align-items: center;
+        .office_details_img {
+          display: flex;
+          gap: 10px;
+          font-size: 16px;
+          font-weight: 300;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

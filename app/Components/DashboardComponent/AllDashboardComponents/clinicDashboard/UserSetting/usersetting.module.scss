@@ -1,0 +1,349 @@
+.darkHeader {
+  .addOffice_container {
+    padding: 25px;
+
+    .add_new {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+
+    .add_new_dental_box {
+      border-radius: 8px;
+      // background: rgba(25, 25, 27, 1);
+      padding: 10px 0px 35px 0px;
+      .compo_name {
+        display: flex;
+        gap: 30px;
+        span {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+      }
+
+      .add_form_box {
+        // display: flex;
+        // align-items: center;
+        // gap: 30px;
+        // justify-content: space-between;
+        // @media (max-width: 768px) {
+        //   flex-direction: column;
+        //   gap: 0px;
+        // }
+
+        .img_upload_box {
+          // padding: 30px 0 0 0;
+
+          background: rgba(255, 255, 255, 0.08);
+          height: 320px;
+          margin-top: 40px;
+          border: 1px solid rgba(255, 255, 255, 0.09);
+          .delete_icon {
+            display: flex;
+            position: relative;
+            justify-content: end;
+            padding-right: 30px;
+            top: 20px;
+
+            img {
+              cursor: pointer;
+            }
+          }
+
+          .img_boxes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+
+            .upload_circle {
+              width: 230px;
+              cursor: pointer;
+              height: 201px;
+
+              display: flex;
+              align-items: center;
+              padding-top: 29px;
+              justify-content: center;
+              overflow: hidden;
+
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+
+              .download_icon {
+                width: 40% !important;
+                height: auto;
+                // border-radius: 50%;
+                object-fit: unset;
+              }
+            }
+
+            .upload_logo {
+              color: #fff;
+              font-size: 14px;
+              font-weight: 300;
+            }
+          }
+        }
+
+        .office_box {
+          width: 100%;
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+
+          .office_name_label {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            margin-top: 15px;
+          }
+
+          input {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            background: rgba(39, 39, 39, 1);
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+          input::placeholder {
+            color: #fff;
+          }
+          select {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            background: rgba(39, 39, 39, 1);
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+        }
+      }
+
+      .add_new_dental_btn {
+        // text-align: center;
+
+        button {
+          border-radius: 2px;
+          background: #409eee;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 500;
+          padding: 10px 35px;
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  .addOffice_container {
+    padding: 25px;
+
+    .add_new {
+      color: #1e3441;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+
+    .add_new_dental_box {
+      border-radius: 8px;
+      // background: rgba(25, 25, 27, 1);
+      padding: 10px 0px 35px 0px;
+      .compo_name {
+        span {
+          color: #1e3441;
+          font-size: 20px;
+          font-weight: 500;
+        }
+      }
+
+      .add_form_box {
+        // display: flex;
+        // align-items: center;
+        // gap: 30px;
+        // justify-content: space-between;
+        // @media (max-width: 768px) {
+        //   flex-direction: column;
+        //   gap: 0px;
+        // }
+
+        .img_upload_box {
+          // padding: 30px 0 0 0;
+          background: #ffffff;
+          height: 320px;
+          margin-top: 40px;
+          border: 1px solid rgba(37, 45, 49, 0.22);
+          .delete_icon {
+            display: flex;
+            justify-content: end;
+            padding-right: 30px;
+            position: relative;
+            top: 20px;
+          }
+
+          .img_boxes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+
+            .upload_circle {
+              width: 230px;
+              height: 201px;
+              cursor: pointer;
+              display: flex;
+              align-items: center;
+              padding-top: 29px;
+              justify-content: center;
+              overflow: hidden;
+
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+
+              .download_icon {
+                width: 40% !important;
+                height: auto;
+                // border-radius: 50%;
+                object-fit: unset;
+              }
+            }
+
+            .upload_logo {
+              color: #1e3441;
+              font-size: 14px;
+              font-weight: 300;
+            }
+          }
+        }
+
+        .office_box {
+          width: 100%;
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+
+          .office_name_label {
+            color: #1e3441;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            margin-top: 15px;
+          }
+
+          input {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #ffffff;
+            color: #1e3441;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+          input::placeholder {
+            color: #1e3441;
+          }
+          select {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #ffffff;
+            color: #1e3441;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+        }
+      }
+
+      .add_new_dental_btn {
+        // text-align: center;
+
+        button {
+          border-radius: 2px;
+          background: #409eee;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 500;
+          padding: 10px 35px;
+        }
+      }
+    }
+  }
+}
+
+.toggle_wrapper {
+  line-height: 0;
+  input[type="checkbox"] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 40px;
+    height: 18px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+
+  label:after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 18px;
+    height: 16px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+
+  input:checked + label {
+    background: #409eee;
+  }
+
+  input:checked + label:after {
+    left: calc(100% - 1px);
+    transform: translateX(-100%);
+  }
+}
+
+.office_box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  .office_name_label {
+    color: #fff;
+  }
+}

@@ -1,0 +1,535 @@
+.darkHeader {
+  .darkHeader2 {
+    position: absolute;
+    top: 120px;
+    right: 25px;
+    background-color: rgb(39, 39, 39);
+    border: 1px solid;
+    padding: 20px;
+
+    .appointment_list_control {
+      color: #ffff;
+      font-size: 14px;
+      font-weight: 300;
+      cursor: pointer;
+    }
+  }
+  td,
+  th {
+    background: rgb(20, 20, 20);
+    border-bottom: 1px solid white;
+    border-width: 0;
+    color: #fff;
+    font-weight: 400;
+  }
+  tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+  .dashboard_sub_conatiner {
+    height: 30%;
+    //   position: relative;
+    .spinner_patient_loader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+    }
+    .dashSub_blue {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 25px 25px 15px 25px;
+      .header_inp_box {
+        background: rgba(25, 25, 27, 1);
+        width: 100%;
+        width: 350px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        padding-left: 10px;
+        border-radius: 4px;
+        input {
+          background-color: rgba(25, 25, 27, 1);
+          color: #fff;
+          font-weight: 300;
+          border: none;
+          outline: none;
+          width: 100%;
+          padding: 10px 10px 10px 5px;
+          border-radius: 4px;
+        }
+        input::placeholder {
+          color: #fff;
+        }
+      }
+      .compo_name {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        // width: 75%;
+        @media (max-width: 481px) {
+          flex-wrap: wrap;
+          font-size: 18px;
+          gap: 10px;
+        }
+        span {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500;
+        }
+      }
+      .subCompBtns {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        img {
+          cursor: pointer;
+        }
+        select {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          border: 1px solid #2e2e2e;
+          background: #19191b;
+          padding: 5px 8px;
+        }
+        button {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          border: none;
+          background: transparent;
+          padding: 5px 8px;
+          border-radius: 5px;
+        }
+      }
+    }
+    .card_container {
+      width: 100%;
+      overflow-y: scroll;
+      max-height: 90vh;
+      text-align: center;
+      padding: 25px 25px 0px 25px;
+      @media (max-width: 1400px) {
+        padding: 20px 60px 0px 60px;
+      }
+      @media (max-width: 1200px) {
+        padding: 20px 35px 0px 35px;
+      }
+      @media (max-width: 500px) {
+        padding: 20px 0px 0px 0px;
+      }
+      .card_one {
+        display: flex;
+        // text-align: center;
+        align-items: center;
+        gap: 20px;
+        @media (max-width: 500px) {
+          gap: 10px;
+        }
+        .card_one_sub {
+          text-align: left;
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #ffffff;
+            margin-bottom: 5px;
+          }
+          span {
+            font-size: 14px;
+            font-weight: 300;
+            color: #ffffff;
+          }
+        }
+      }
+      .log1 {
+        padding: 10px;
+
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+      }
+      .logs {
+        // margin-bottom: 30px;
+        padding: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+        display: flex;
+        justify-content: space-between;
+        .card_one {
+          display: flex;
+          // text-align: center;
+          align-items: center;
+          gap: 20px;
+          @media (max-width: 500px) {
+            gap: 10px;
+          }
+          .card_one_sub {
+            text-align: left;
+            p {
+              font-size: 16px;
+              font-weight: 400;
+              color: #ffffff;
+              margin-bottom: 5px;
+            }
+            span {
+              font-size: 14px;
+              font-weight: 300;
+              color: #ffffff;
+            }
+          }
+        }
+        .card_three {
+          p {
+            font-size: 12px;
+            font-weight: 300;
+            color: #ffffff;
+          }
+          span {
+            font-size: 12px;
+            font-weight: 275;
+            color: #ffffff;
+          }
+        }
+      }
+
+      .card_container_heading {
+        th {
+          color: #fff;
+          font-size: 13px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+      }
+      .card_container_data {
+        vertical-align: middle;
+        td {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          img {
+            cursor: pointer;
+          }
+        }
+      }
+      .pagination {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+
+        button {
+          height: 42px;
+          width: 37px;
+          color: #fff;
+          background: transparent;
+          // / background-color: #fff; /
+          border-radius: 6px;
+          border: none;
+          cursor: pointer;
+
+          &:hover {
+            background: transparent;
+            color: #fff;
+          }
+
+          &.active {
+            color: #fff;
+
+            background: transparent;
+          }
+        }
+        span {
+          display: flex;
+          gap: 10px;
+          button {
+            height: 42px;
+            width: 37px;
+            color: #fff;
+            background: transparent;
+            background-color: tansparent;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+              background: transparent;
+              color: #ffff;
+            }
+
+            &.active {
+              // / background-color: #0a22a8; /
+              color: #fff;
+              // / border: 1px solid #0a22a8; /
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+  .action_icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}
+.lightHeader {
+  .darkHeader2 {
+    position: absolute;
+    top: 120px;
+    right: 25px;
+    background: #f8f9fe;
+    border: 1px solid;
+    padding: 20px;
+
+    .appointment_list_control {
+      color: #1e3441;
+      font-size: 14px;
+      font-weight: 300;
+      cursor: pointer;
+    }
+  }
+  td,
+  th {
+    background: #f8f9fe;
+    border-bottom: 1px solid white;
+    border-width: 0;
+    color: #1e3441;
+    font-weight: 400;
+  }
+  tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  }
+  .dashboard_sub_conatiner {
+    height: 30%;
+    //   position: relative;
+    .spinner_patient_loader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+    }
+    .dashSub_blue {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 25px 25px 15px 25px;
+      @media (max-width: 676px) {
+        flex-wrap: wrap;
+      }
+      .header_inp_box {
+        background: #ffffff;
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(44, 74, 91, 0.22);
+        width: 350px;
+        padding-left: 10px;
+        border-radius: 4px;
+        input {
+          background-color: #ffffff;
+          color: #1e3441;
+          font-weight: 300;
+          border: none;
+          outline: none;
+          width: 100%;
+          padding: 10px 10px 10px 5px;
+          border-radius: 4px;
+        }
+        input::placeholder {
+          color: #1e3441;
+        }
+      }
+      .compo_name {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        @media (max-width: 481px) {
+          flex-wrap: wrap;
+          font-size: 18px;
+          gap: 10px;
+        }
+        span {
+          color: #1e3441;
+          font-size: 20px;
+          font-weight: 500;
+        }
+      }
+      .subCompBtns {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        img {
+          cursor: pointer;
+        }
+        select {
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 500;
+          border: 1px solid #2e2e2e;
+          background: #19191b;
+          padding: 5px 8px;
+        }
+        button {
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 500;
+          border: none;
+          background: transparent;
+          padding: 5px 8px;
+          border-radius: 5px;
+        }
+      }
+    }
+    .card_container {
+      width: 100%;
+      overflow-y: scroll;
+      max-height: 90vh;
+      text-align: center;
+      padding: 25px 25px 0px 25px;
+      @media (max-width: 1400px) {
+        padding: 20px 60px 0px 60px;
+      }
+      @media (max-width: 1200px) {
+        padding: 20px 35px 0px 35px;
+      }
+      @media (max-width: 500px) {
+        padding: 20px 0px 0px 0px;
+      }
+      .card_one {
+        display: flex;
+        // text-align: center;
+        align-items: center;
+        gap: 20px;
+        @media (max-width: 500px) {
+          gap: 10px;
+        }
+        .card_one_sub {
+          text-align: left;
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #1e3441;
+            margin-bottom: 5px;
+          }
+          span {
+            font-size: 14px;
+            font-weight: 300;
+            color: #1e3441;
+          }
+        }
+      }
+      .log1 {
+        padding: 10px;
+
+        display: flex;
+        font-size: 14px;
+        color: #1e3441;
+        font-weight: 500;
+        justify-content: space-between;
+      }
+      .logs {
+        // margin-bottom: 30px;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+        display: flex;
+        justify-content: space-between;
+
+        .card_three {
+          p {
+            font-size: 12px;
+            font-weight: 400;
+            color: #1e3441;
+          }
+          span {
+            font-size: 12px;
+            font-weight: 300;
+            color: #1e3441;
+          }
+        }
+      }
+
+      .card_container_heading {
+        th {
+          color: #1e3441;
+          font-size: 13px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+      }
+      .card_container_data {
+        vertical-align: middle;
+        td {
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 400;
+          img {
+            cursor: pointer;
+          }
+        }
+      }
+      .pagination {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+
+        button {
+          height: 42px;
+          width: 37px;
+          color: #1e3441;
+          background: transparent;
+          // / background-color: #fff; /
+          border-radius: 6px;
+          border: none;
+          cursor: pointer;
+
+          &:hover {
+            background: transparent;
+            color: #1e3441;
+          }
+
+          &.active {
+            color: #1e3441;
+
+            background: transparent;
+          }
+        }
+        span {
+          display: flex;
+          gap: 10px;
+          button {
+            height: 42px;
+            width: 37px;
+            color: #1e3441;
+            background: transparent;
+            background-color: tansparent;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+              background: transparent;
+              color: #1e3441;
+            }
+
+            &.active {
+              // / background-color: #0a22a8; /
+              color: #1e3441;
+
+              // / border: 1px solid #0a22a8; /
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+  .action_icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}

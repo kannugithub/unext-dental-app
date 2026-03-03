@@ -1,0 +1,126 @@
+.darkHeader {
+  background-color: rgba(33, 33, 33, 1);
+
+  .sidebar_menu_data {
+    .sidebar_menu_comp {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 0px 25px;
+      height: 48px;
+      cursor: pointer;
+      background-color: rgba(33, 33, 33, 1);
+      border-left: 3px solid #212121;
+
+      img {
+        filter: brightness(0) saturate(100%) invert(77%) sepia(0%) saturate(0%)
+          hue-rotate(196deg) brightness(100%) contrast(89%);
+      }
+
+      @media (max-width: 1280px) {
+        gap: 6px;
+      }
+    }
+    .activeSideMenu {
+      border: 1px solid rgba(10, 34, 168, 0.04);
+      // background: rgba(10, 34, 168, 0.03);
+      border-left: 3px solid #409eee;
+      background: rgb(64 158 238 / 28%);
+
+      .dash_title {
+        color: #ffffff !important;
+      }
+
+      img {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
+          hue-rotate(196deg) brightness(100%) contrast(100%);
+      }
+    }
+  }
+
+  .dash_title {
+    font-weight: 300;
+    color: #bebebe;
+  }
+
+  .sub_item {
+    font-weight: 200;
+    line-height: 1em;
+
+    &:first-child {
+      margin-top: 15px;
+    }
+
+    &:last-child {
+      margin-bottom: 15px;
+    }
+  }
+}
+.lightHeader {
+  .sidebar_menu_data {
+    .sidebar_menu_comp {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 0px 25px;
+      height: 48px;
+      cursor: pointer;
+
+      img {
+        filter: brightness(0) saturate(100%) invert(14%) sepia(16%)
+          saturate(1964%) hue-rotate(158deg) brightness(88%) contrast(83%);
+      }
+      @media (max-width: 1280px) {
+        gap: 6px;
+      }
+    }
+
+    .activeSideMenu {
+      border: 1px solid rgba(10, 34, 168, 0.04);
+      border-left: 3px solid #409eee;
+      background: rgb(64 158 238 / 28%);
+    }
+  }
+
+  .sub_item {
+    &:first-child {
+      margin-top: 15px;
+    }
+
+    &:last-child {
+      margin-bottom: 15px;
+    }
+  }
+}
+.sidebar_sub_menu_data {
+  margin-left: 34px;
+  margin-bottom: 8px;
+  border-left: 3px solid var(--sidebar-border-color);
+  cursor: pointer;
+
+  @media (max-width: 991px) {
+    color: #bebebe;
+  }
+}
+
+.expandCollapseArrow {
+  width: 88%;
+  position: absolute;
+  text-align: right;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  @media (max-width: 1280px) {
+    padding-right: 12px;
+  }
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.activeNestedItem {
+  border-left: 3px solid #409eee;
+}

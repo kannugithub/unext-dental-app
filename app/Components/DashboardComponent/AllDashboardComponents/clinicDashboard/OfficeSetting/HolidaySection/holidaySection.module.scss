@@ -1,0 +1,308 @@
+.darkHeader {
+  .select_holiday_section {
+    padding-top: 20px;
+    .select_date {
+      font-size: 14px;
+      font-weight: 400;
+      opacity: 80%;
+    }
+    input {
+      width: 100%;
+      border-radius: 4px;
+      background-color: rgba(255, 255, 255, 0.09);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 10px;
+      margin-top: 10px;
+      outline: none;
+    }
+  }
+  .holidays_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  /* Toggle Switch Styles */
+  .toggleSwitch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+
+  .toggleSwitch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+
+  input:checked + .slider {
+    background-color: #409eee;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(23px);
+  }
+
+  .select_holiday_time {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    .select_time_box {
+      width: 100%;
+      .select_date {
+        font-size: 14px;
+        font-weight: 400;
+        opacity: 80%;
+      }
+      input {
+        width: 100%;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.09);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px;
+        margin-top: 10px;
+        outline: none;
+      }
+    }
+  }
+  .save_buttons {
+    padding: 10px 0 0 0;
+    button {
+      color: white;
+      background-color: #409eee;
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 14px;
+      padding: 10px 35px;
+      border-radius: 6px;
+    }
+  }
+  .all_Holidays_box {
+    padding-top: 20px;
+    .select_holiday_tag {
+      font-size: 14px;
+      font-weight: 400;
+      opacity: 80%;
+      padding-bottom: 10px;
+    }
+    .all_holiday {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 15px;
+      flex-wrap: wrap;
+      .holidays_days {
+        width: 24%;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.09);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+      }
+    }
+    .save_holiday_buttons {
+      padding: 10px 0 0 0;
+      button {
+        color: white;
+        background-color: #409eee;
+        font-weight: 600;
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 10px 35px;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+.lightHeader {
+  .select_holiday_section {
+    padding-top: 20px;
+    .select_date {
+      font-size: 14px;
+      font-weight: 400;
+      opacity: 80%;
+    }
+    input {
+      width: 100%;
+      border-radius: 4px;
+      background-color: rgba(255, 255, 255, 0.09);
+      border: 1px solid rgba(44, 74, 91, 0.22);
+      color: #000;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 10px;
+      margin-top: 10px;
+      outline: none;
+    }
+  }
+  .holidays_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  /* Toggle Switch Styles */
+  .toggleSwitch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+
+  .toggleSwitch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 3px;
+    background-color: #fff;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+
+  input:checked + .slider {
+    background-color: #409eee;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(23px);
+  }
+
+  .select_holiday_time {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    .select_time_box {
+      width: 100%;
+      .select_date {
+        font-size: 14px;
+        font-weight: 400;
+        opacity: 80%;
+      }
+      input {
+        width: 100%;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.09);
+        border: 1px solid rgba(44, 74, 91, 0.22);
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px;
+        margin-top: 10px;
+        outline: none;
+      }
+    }
+  }
+  .save_buttons {
+    padding: 10px 0 0 0;
+    button {
+      color: #fff;
+      background-color: #409eee;
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 14px;
+      padding: 10px 35px;
+      border-radius: 6px;
+    }
+  }
+  .all_Holidays_box {
+    padding-top: 20px;
+    .select_holiday_tag {
+      font-size: 14px;
+      font-weight: 400;
+      opacity: 80%;
+      padding-bottom: 10px;
+    }
+    .all_holiday {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 15px;
+      flex-wrap: wrap;
+      .holidays_days {
+        width: 24%;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.09);
+        border: 1px solid rgba(44, 74, 91, 0.22);
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+      }
+    }
+    .save_holiday_buttons {
+      padding: 10px 0 0 0;
+      button {
+        color: #fff;
+        background-color: #409eee;
+        font-weight: 600;
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 10px 35px;
+        border-radius: 6px;
+      }
+    }
+  }
+}

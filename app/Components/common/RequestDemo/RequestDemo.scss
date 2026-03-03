@@ -1,0 +1,529 @@
+.lightHeader {
+  .request_demo_control {
+    width: 100%;
+    border: 1px solid #8080807d;
+
+    .contact-form-wrapper {
+      padding: 20px;
+      @media (max-width: 1299px) {
+        padding: 5px 10px 30px 30px;
+      }
+      height: 100%;
+      .contact-text {
+        color: #0a22a8;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 31px;
+      }
+      .Get-in-touch {
+        color: #1f2541;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31px;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+      }
+      .matchinwl-wrap {
+        position: relative;
+        svg {
+          position: absolute;
+          top: 15px;
+          right: 30px;
+        }
+        .datepicker_input {
+          height: 50px;
+          width: 100%;
+          margin-bottom: 20px;
+          padding: 8px 16px;
+          font-size: 14px;
+          border-radius: 4px;
+          border: 1px solid #e3e3e3;
+          background: #fff;
+          color: #767676;
+          outline: none;
+        }
+        // background-image: url("../../assets/images/datesvg.svg");
+        // background-repeat: no-repeat;
+        // background-color: #fff;
+      }
+
+      .request_demo_box {
+        display: flex;
+        justify-content: space-between;
+        overflow: auto;
+      }
+
+      .contecttextinpt {
+        height: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 8px 16px;
+        font-size: 14px;
+        border-radius: 4px;
+        border: 1px solid #e3e3e3;
+        background: #fff;
+        outline: none;
+      }
+
+      .mobnumcon::-webkit-outer-spin-button,
+      .mobnumcon::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      .contect-form-txtrea {
+        width: 100%;
+        outline: none;
+        padding: 20px;
+        font-size: 14px;
+        border-radius: 4px;
+        border: 1px solid #e3e3e3;
+        background: #fff;
+      }
+      .schedule_btn {
+        font-size: 18px;
+        outline: none;
+        color: #fff;
+        margin-top: 30px;
+        border-radius: 5px;
+        background: #409eee;
+        padding: 15px 55px;
+      }
+      .button_div {
+        text-align: center;
+        .send-btn {
+          font-size: 18px;
+          outline: none;
+          color: #fff;
+          margin-top: 30px;
+          margin-bottom: 20px;
+          border-radius: 5px;
+          background: #409eee;
+          padding: 15px 55px;
+        }
+      }
+    }
+  }
+  .livechat {
+    background-color: #0a22a8;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  .liveChatbtn {
+    background-image: url("../../../assets/images/livechat.png");
+    border: none;
+    padding: 37px 112px;
+    background-repeat: no-repeat;
+    border-radius: 64px;
+  }
+
+  .day_column {
+    width: 100%;
+    .request_day {
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+    .request_date {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  }
+
+  .time_slots {
+    cursor: pointer;
+    background: #e8e8e8;
+    border-radius: 15px;
+    font-size: 12px;
+  }
+
+  .active_time_slot {
+    background: #409eee;
+    color: #fff;
+  }
+
+  @media (max-width: 1400px) {
+    .request_demo_control {
+      .info-bg {
+        padding: 45px;
+      }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .request_demo_control {
+      .contact-form-wrapper {
+        .Get-in-touch {
+          margin-bottom: 20px;
+        }
+
+        .schedule_btn {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  @media (max-width: 1024px) {
+    .request_demo_control {
+      .info-bg {
+        padding: 30px;
+        .location-wrapper {
+          margin-bottom: 30px;
+        }
+      }
+
+      .contact-form-wrapper {
+        .schedule_btn {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    .request_demo_control {
+      padding-top: 20px;
+
+      #infoSec {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  @media (max-width: 568px) {
+    .request_demo_control {
+      padding-top: 20px;
+      padding-bottom: 100px;
+
+      .info-bg {
+        padding: 15px;
+        .location-wrapper {
+          margin-bottom: 30px;
+        }
+        .location-texts {
+          ul {
+            li {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+      .contact-form-wrapper {
+        padding: 15px;
+        .contact-text {
+          font-size: 13px;
+        }
+        .Get-in-touch {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+
+        .schedule_btn {
+          font-size: 11px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .Image_of_telephone {
+    width: 80%;
+    height: auto;
+  }
+
+  .pages-link {
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -14px;
+  }
+  .error-message2 {
+    color: red;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+}
+
+.darkHeader {
+  background-color: black;
+  .request_demo_control {
+    width: 100%;
+    background-color: black;
+    border: 1px solid #8080807d;
+    .contact-form-wrapper {
+      padding: 20px;
+      @media (max-width: 1299px) {
+        padding: 5px 10px 30px 30px;
+      }
+      height: 100%;
+      .request_div {
+        display: flex;
+        justify-content: space-between;
+        svg {
+          cursor: pointer;
+          z-index: 999;
+        }
+      }
+      .contact-text {
+        color: #0a22a8;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 31px;
+      }
+      .Get-in-touch {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31px;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+      }
+      .matchinwl-wrap {
+        position: relative;
+        svg {
+          position: absolute;
+          top: 15px;
+          right: 30px;
+        }
+        .datepicker_input {
+          height: 50px;
+          width: 100%;
+          margin-bottom: 20px;
+          padding: 8px 16px;
+          font-size: 14px;
+          border-radius: 4px;
+          border: 1px solid #e3e3e3;
+          background: #fff;
+          color: #767676;
+          outline: none;
+        }
+        // background-image: url("../../assets/images/datesvg.svg");
+        // background-repeat: no-repeat;
+        // background-color: #fff;
+      }
+
+      .request_demo_box {
+        display: flex;
+        justify-content: space-between;
+        overflow: auto;
+      }
+      label {
+        color: #fff;
+        font-weight: 400;
+        padding-bottom: 8px;
+      }
+      .contecttextinpt {
+        height: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 8px 16px;
+        font-size: 14px;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.13);
+        outline: none;
+        color: #fff;
+      }
+      .contecttextinpt::placeholder {
+        color: #fff;
+        font-weight: 257;
+      }
+
+      .mobnumcon::-webkit-outer-spin-button,
+      .mobnumcon::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      .contect-form-txtrea {
+        width: 100%;
+        outline: none;
+        padding: 20px;
+        font-size: 14px;
+        border-radius: 4px;
+        border: 1px solid #e3e3e3;
+        background: #fff;
+      }
+      .schedule_btn {
+        font-size: 18px;
+        outline: none;
+        color: #fff;
+        margin-top: 30px;
+        border-radius: 5px;
+        background: #409eee;
+        padding: 15px 55px;
+      }
+      .button_div {
+        text-align: center;
+        .send-btn {
+          font-size: 18px;
+          outline: none;
+          color: #fff;
+          margin-top: 30px;
+          margin-bottom: 20px;
+          border-radius: 5px;
+          background: #409eee;
+          padding: 15px 55px;
+        }
+      }
+    }
+  }
+  .livechat {
+    background-color: #0a22a8;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  .liveChatbtn {
+    background-image: url("../../../assets/images/livechat.png");
+    border: none;
+    padding: 37px 112px;
+    background-repeat: no-repeat;
+    border-radius: 64px;
+  }
+
+  .day_column {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.13);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+    border-left: 1px solid rgba(255, 255, 255, 0.13);
+    .request_day {
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+    .request_date {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  }
+
+  .time_slots {
+    cursor: pointer;
+    background: rgba(25, 25, 27, 1);
+    font-size: 12px;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+  }
+
+  .active_time_slot {
+    background: #409eee;
+    color: #fff;
+  }
+
+  @media (max-width: 1400px) {
+    .request_demo_control {
+      .info-bg {
+        padding: 45px;
+      }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .request_demo_control {
+      .contact-form-wrapper {
+        .Get-in-touch {
+          margin-bottom: 20px;
+        }
+
+        .schedule_btn {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  @media (max-width: 1024px) {
+    .request_demo_control {
+      .info-bg {
+        padding: 30px;
+        .location-wrapper {
+          margin-bottom: 30px;
+        }
+      }
+
+      .contact-form-wrapper {
+        .schedule_btn {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    .request_demo_control {
+      padding-top: 20px;
+
+      #infoSec {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  @media (max-width: 568px) {
+    .request_demo_control {
+      padding-top: 20px;
+      padding-bottom: 100px;
+
+      .info-bg {
+        padding: 15px;
+        .location-wrapper {
+          margin-bottom: 30px;
+        }
+        .location-texts {
+          ul {
+            li {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+      .contact-form-wrapper {
+        padding: 15px;
+        .contact-text {
+          font-size: 13px;
+        }
+        .Get-in-touch {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+
+        .schedule_btn {
+          font-size: 11px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .Image_of_telephone {
+    width: 80%;
+    height: auto;
+  }
+
+  .pages-link {
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -14px;
+  }
+  .error-message2 {
+    color: red;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+}
+
+.day_column {
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  border-left: 1px solid rgba(255, 255, 255, 0.13);
+  .request_day {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .request_date {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}

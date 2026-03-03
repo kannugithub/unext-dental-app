@@ -1,0 +1,119 @@
+.darkHeader {
+  // background-color: #272727;
+  height: 100vh;
+  border: none;
+  .confirm_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    .cross_img {
+      text-align: center;
+      padding-bottom: 10px;
+      svg {
+        fill: rgb(223, 88, 88);
+        width: 70px;
+      }
+    }
+    .title_text {
+      h1 {
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 57px;
+        text-align: center;
+        color: #fff;
+      }
+    }
+    .confirm_hTag {
+      text-align: center;
+      font-size: 22px;
+      font-weight: 300;
+      color: #fff;
+    }
+    .confirm_btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+      :first-child {
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #fff;
+        background: #409eee;
+        border-radius: 3px;
+        // border: 1px solid gray;
+        padding: 5px 15px;
+      }
+      :last-child {
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #fff;
+        background: #dc1d00;
+        border-radius: 3px;
+        border: 1px solid #dc1d00;
+        padding: 5px 15px;
+      }
+    }
+  }
+}
+.lightHeader {
+  background: #f8f9fe;
+  height: 100vh;
+  .confirm_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    .cross_img {
+      text-align: center;
+      padding-bottom: 10px;
+      svg {
+        fill: rgb(223, 88, 88);
+        width: 70px;
+      }
+    }
+    .title_text {
+      h1 {
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 57px;
+        text-align: center;
+        color: #1e3441;
+      }
+    }
+    .confirm_hTag {
+      text-align: center;
+      font-size: 22px;
+      font-weight: 500;
+      color: #1e3441;
+    }
+    .confirm_btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+      :first-child {
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #fff;
+        background: #409eee;
+        border-radius: 3px;
+        border: 1px solid #409eee;
+        padding: 5px 15px;
+      }
+      :last-child {
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #fff;
+        background: #dc1d00;
+        border-radius: 3px;
+        border: 1px solid #dc1d00;
+        padding: 5px 15px;
+      }
+    }
+  }
+}

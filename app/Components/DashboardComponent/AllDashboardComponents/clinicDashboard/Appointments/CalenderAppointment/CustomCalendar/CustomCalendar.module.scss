@@ -1,0 +1,98 @@
+/* CustomCalendar.scss */
+
+$background-color: #1e1e1e;
+$border-color: #333;
+$text-color: white;
+$primary-color: #007bff;
+$primary-color-dark: #0056b3;
+$weekday-color: #888;
+
+.calendar_container {
+  width: 100%;
+  background-color: $background-color;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  padding: 10px;
+  color: $text-color;
+  font-family: Arial, sans-serif;
+}
+
+.calendar_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  button {
+    background: none;
+    border: none;
+    color: $text-color;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  .calendar_header_label {
+    font-weight: bold;
+  }
+}
+
+.calendar_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar_weekdays,
+.calendar_days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar_weekday,
+.calendar_day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.calendar-weekday {
+  font-weight: bold;
+  color: $weekday-color;
+}
+
+.calendar_day {
+  cursor: pointer;
+
+  &.selected {
+    background-color: $primary-color;
+    border-radius: 20%;
+  }
+
+  &.empty {
+    background-color: transparent;
+    cursor: default;
+  }
+
+  &:hover {
+    background-color: lighten($primary-color, 10%);
+    border-radius: 20%;
+  }
+}
+
+.inactive {
+  color: #5a5a5a;
+}
+
+.arrow {
+  background: #141414;
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 0px 4px;
+  border: 1px solid #333;
+}

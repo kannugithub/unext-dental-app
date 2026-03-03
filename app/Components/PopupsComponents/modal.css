@@ -1,0 +1,90 @@
+/* .modal-content {
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.modal-100w {
+  max-width: 100% !important;
+  margin: 20px auto;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
+}
+.modal-90w {
+  max-width: 90% !important;
+  margin: 20px auto;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
+}
+
+.modal-80w {
+  max-width: 80% !important;
+  margin: auto;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
+}
+
+.modal-70w {
+  max-width: 70% !important;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+}
+
+.modal-50w {
+  max-width: 50% !important;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+}
+
+.modal-40w {
+  max-width: 40% !important;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+}
+
+@media (min-width: 992px) {
+  .modal-90w {
+    max-width: 90% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .modal-90w {
+    max-width: 80% !important;
+  }
+  .modal-70w {
+    max-width: 60% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-90w {
+    max-width: 95% !important;
+  }
+  .modal-70w {
+    max-width: 95% !important;
+  }
+}
+@media (max-width: 767px) {
+  .modal-70w {
+    max-width: 100% !important;
+    margin: 0 15px;
+  }
+  .modal-50w {
+    max-width: 100% !important;
+    margin: 0px 20px;
+  }
+  .modal-40w {
+    max-width: 100% !important;
+    margin: 0px 20px;
+  }
+}
+
+.modal-content-dark {
+  background: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+} */

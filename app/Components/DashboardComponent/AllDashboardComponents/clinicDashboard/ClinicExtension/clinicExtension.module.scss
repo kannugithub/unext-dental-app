@@ -1,0 +1,173 @@
+.darkHeader {
+  .clinic_extension_container {
+    background: rgb(20, 20, 20);
+    height: 20%;
+
+    .extensions_txt {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 25px 25px 0px 25px;
+    }
+    .extension_card {
+      // margin-top: 15px;
+      .button {
+        font-size: 16px;
+        font-weight: 500;
+        background: #409eee;
+        padding: 10px;
+        margin: 0px 25px;
+        color: #fff;
+      }
+      .card2 {
+        background: rgb(20, 20, 20);
+      }
+      .extension_body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 25px;
+
+        gap: 20px;
+
+        // border: 1px solid rgba(25, 25, 27, 1);
+        background: rgb(20, 20, 20);
+        @media (max-width: 1234px) {
+          flex-direction: column;
+        }
+        .phy_body_box {
+          width: 100%;
+          h1 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+          }
+          .physical_extension {
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            margin-top: 10px;
+            .phy_under {
+              display: flex;
+              justify-content: space-between;
+              padding: 20px;
+              // background-color: rgba(0, 0, 1, 1);
+              color: #fff;
+              @media (max-width: 767px) {
+                gap: 30px;
+                flex-direction: column;
+              }
+
+              .physical_name {
+                width: 100%;
+                .exten_title {
+                  color: #fff;
+                  font-size: 16px;
+                  font-weight: 400;
+                }
+                .exten_value {
+                  color: #fff;
+                  font-size: 16px;
+                  font-weight: 300;
+                }
+              }
+              .phy_images {
+                display: flex;
+                gap: 7px;
+                justify-content: center;
+                padding-right: 10px;
+                img {
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  background: #f8f9fe;
+  .clinic_extension_container {
+    background: #f8f9fe;
+    height: 20%;
+
+    .extensions_txt {
+      color: #1e3441;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 25px 25px 0px 25px;
+    }
+    .extension_card {
+      // margin-top: 15px;
+      .button {
+        font-size: 16px;
+        font-weight: 500;
+        background: #409eee;
+        padding: 10px;
+        margin: 0px 25px;
+        color: #fff;
+      }
+
+      .extension_body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 25px;
+
+        gap: 20px;
+
+        border: none;
+        background: #f8f9fe;
+        @media (max-width: 1234px) {
+          flex-direction: column;
+        }
+        .phy_body_box {
+          width: 100%;
+          h1 {
+            color: #1e3441;
+            font-size: 20px;
+            font-weight: 600;
+          }
+          .physical_extension {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+            .phy_under {
+              display: flex;
+              justify-content: space-between;
+              padding: 20px;
+              background-color: #f8f9fe;
+              color: #1e3441;
+              @media (max-width: 767px) {
+                gap: 30px;
+                flex-direction: column;
+              }
+
+              .physical_name {
+                width: 100%;
+                .exten_title {
+                  color: #1e3441;
+                  font-size: 16px;
+                  font-weight: 400;
+                }
+                .exten_value {
+                  color: #1e3441;
+                  font-size: 16px;
+                  font-weight: 300;
+                }
+              }
+              .phy_images {
+                display: flex;
+                gap: 7px;
+                justify-content: center;
+                padding-right: 10px;
+                img {
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

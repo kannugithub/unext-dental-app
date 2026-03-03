@@ -1,0 +1,394 @@
+.darkHeader {
+  background: rgba(20, 20, 20, 1);
+  .addOffice_container {
+    padding: 35px 25px;
+
+    .add_new {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 15px;
+
+      svg {
+        margin-right: 15px;
+        cursor: pointer;
+      }
+    }
+
+    .add_new_dental_box {
+      border-radius: 8px;
+      // background: rgba(25, 25, 27, 1);
+      padding: 10px 0px 35px 0px;
+
+      .add_form_box {
+        display: flex;
+        gap: 30px;
+        @media (max-width: 768px) {
+          flex-direction: column;
+          gap: 0px;
+        }
+
+        .img_upload_box {
+          padding: 35px;
+
+          margin-top: 40px;
+          background: rgba(255, 255, 255, 0.13);
+          border: 1px mixed rgba(255, 255, 255, 0.6);
+          border-style: dashed;
+
+          .img_boxes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .upload_circle {
+              // width: 126px;
+              // height: 85px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              overflow: hidden;
+              cursor: pointer;
+
+              img {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+              }
+              .download_icon {
+                width: 80% !important;
+                height: auto;
+                object-fit: unset;
+              }
+            }
+            .selected_files_list {
+              .files_list {
+                font-weight: 500;
+                color: #fff;
+              }
+            }
+
+            .upload_logo {
+              color: #ffff;
+              font-size: 14px;
+              font-weight: 300;
+              cursor: pointer;
+            }
+          }
+        }
+
+        // Update CSS to display the image in full when selected
+        .img_upload_box.selected {
+          padding: 0;
+          border: none;
+
+          .img_boxes {
+            .upload_circle {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+
+        .office_box {
+          width: 100%;
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+          .family_lists {
+            overflow: auto;
+            max-height: 350px;
+            overflow-x: hidden;
+            .family_info {
+              display: flex;
+              gap: 20px;
+              align-items: center;
+
+              @media (max-width: 1280px) {
+                gap: 0px;
+              }
+              .close_icon {
+                // background: rgba(255, 255, 255, 0.08);
+                // border: 1px solid rgba(255, 255, 255, 0.09);
+                /* align-items: center; */
+                text-align: center;
+                /* display: flex; */
+                padding: 10px 0px;
+                margin-top: 40px;
+                width: 55px;
+                cursor: pointer;
+              }
+            }
+          }
+          .family_member {
+            display: flex;
+            justify-content: space-between;
+            padding: 35px 0px 0px;
+            p {
+              color: #fff;
+              display: flex;
+              font-size: 18px;
+              font-weight: 600;
+              text-transform: capitalize;
+            }
+            .add_member {
+              cursor: pointer;
+              .family_button {
+                color: #fff;
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: capitalize;
+              }
+            }
+          }
+
+          .office_name_label {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            margin-top: 15px;
+          }
+
+          input {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            background: rgba(39, 39, 39, 1);
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+          input::placeholder {
+            color: #fff;
+          }
+          select {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            background: rgba(39, 39, 39, 1);
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+        }
+      }
+
+      .add_new_dental_btn {
+        margin-top: 25px;
+
+        button {
+          border-radius: 6px;
+          background: #409eee;
+          text-transform: uppercase;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 500;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  background: #f8f9fe;
+  .addOffice_container {
+    padding: 35px 25px;
+
+    .add_new {
+      color: #1e3441;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 15px;
+
+      svg {
+        margin-right: 15px;
+        cursor: pointer;
+      }
+    }
+
+    .add_new_dental_box {
+      border-radius: 8px;
+      // background: rgba(25, 25, 27, 1);
+      padding: 10px 0px 35px 0px;
+
+      .add_form_box {
+        display: flex;
+        gap: 30px;
+        @media (max-width: 768px) {
+          flex-direction: column;
+          gap: 0px;
+        }
+
+        .img_upload_box {
+          padding: 35px;
+          margin-top: 40px;
+          background: #ffffff;
+          border: 1px solid rgba(44, 74, 91, 0.22);
+
+          .img_boxes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .upload_circle {
+              // width: 126px;
+              // height: 85px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              overflow: hidden;
+              cursor: pointer;
+
+              img {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+              }
+              .download_icon {
+                width: 80% !important;
+                height: auto;
+                object-fit: unset;
+              }
+            }
+            .selected_files_list {
+              .files_list {
+                font-weight: 500;
+                color: #1e3441;
+              }
+            }
+
+            .upload_logo {
+              color: #1e3441;
+              font-size: 14px;
+              font-weight: 300;
+              cursor: pointer;
+            }
+          }
+        }
+
+        // Update CSS to display the image in full when selected
+        .img_upload_box.selected {
+          padding: 0;
+          border: none;
+
+          .img_boxes {
+            .upload_circle {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+
+        .office_box {
+          width: 100%;
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+          .family_lists {
+            overflow: auto;
+            max-height: 350px;
+            overflow-x: hidden;
+            .family_info {
+              display: flex;
+              gap: 20px;
+              align-items: center;
+
+              @media (max-width: 1280px) {
+                gap: 0px;
+              }
+              .close_icon {
+                // background: #ffffff;
+                // border: 1px solid rgba(255, 255, 255, 0.09);
+                /* align-items: center; */
+                text-align: center;
+                /* display: flex; */
+                padding: 10px 0px;
+                margin-top: 40px;
+                width: 55px;
+                cursor: pointer;
+              }
+            }
+          }
+          .family_member {
+            display: flex;
+            justify-content: space-between;
+            padding: 35px 0px 0px;
+            p {
+              color: #1e3441;
+              display: flex;
+              font-size: 18px;
+              font-weight: 600;
+              text-transform: capitalize;
+            }
+            .add_member {
+              cursor: pointer;
+              .family_button {
+                color: #1e3441;
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: capitalize;
+              }
+            }
+          }
+
+          .office_name_label {
+            color: #1e3441;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            margin-top: 15px;
+          }
+
+          input {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #ffffff;
+            color: #1e3441;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+          input::placeholder {
+            color: #1e3441;
+          }
+          select {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid rgba(44, 74, 91, 0.22);
+            background: #ffffff;
+            color: #1e3441;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 10px;
+            margin-bottom: 0px;
+            outline: none;
+          }
+        }
+      }
+
+      .add_new_dental_btn {
+        margin-top: 25px;
+
+        button {
+          border-radius: 6px;
+          background: #409eee;
+          text-transform: uppercase;
+          color: #ffff;
+          font-size: 16px;
+          font-weight: 500;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+}

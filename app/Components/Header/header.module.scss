@@ -1,0 +1,430 @@
+.lightHeader {
+  
+  .navbars {
+    .header_wrapper {
+      display: flex;
+      align-items: center;
+
+      .img_div {
+        img {
+          width: 230px;
+          height: 57px;
+          margin-left: -10px;
+        }
+      }
+    }
+    .navs {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      gap: 20px;
+      @media (max-width: 1399px) {
+        gap: 10px;
+      }
+      @media (max-width: 1199px) {
+        gap: 3px;
+      }
+
+      a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 18px;
+        @media (max-width: 991px) {
+          width: 100% !important;
+        }
+        .login_head_btn {
+          display: flex;
+          gap: 5px;
+          padding: 12px 20px;
+          background-color: #0a22a8;
+          border: none;
+          color: #fff;
+        }
+      }
+      .btn_head {
+        border-radius: 4px;
+        display: flex;
+        gap: 15px;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: #0a22a8;
+        font-weight: 500;
+        border: 2px solid #0a22a8;
+        @media (max-width: 1199px) {
+          display: none;
+        }
+        @media (max-width: 991px) {
+          width: 100% !important;
+          border-radius: 4px;
+          display: flex;
+          gap: 5px;
+          padding: 7px 8px;
+          background-color: transparent;
+          color: #0a22a8;
+          font-weight: 500;
+          border: 2px solid #0a22a8;
+        }
+        @media (max-width: 991px) {
+          margin-bottom: 15px;
+        }
+      }
+    }
+    .active_home {
+      color: #0a22a8;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 20px;
+    }
+  }
+  .modal_wrapper {
+    border-radius: 10px;
+    background: #fff;
+  }
+  .modal_wrapper2 {
+    h4 {
+      color: #000;
+      font-size: 22px;
+      text-align: center;
+      font-weight: 600;
+      line-height: 20px;
+      margin: 10px 0px;
+      @media (max-width: 320px) {
+        font-size: 20px;
+      }
+    }
+    .lab_name_div {
+      display: flex;
+      @media (max-width: 481px) {
+        flex-direction: column;
+      }
+      .lab_name {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+        label {
+          color: #000;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 10px;
+          letter-spacing: 0.28px;
+          text-transform: capitalize;
+          margin: 15px 0px;
+          @media (max-width: 320px) {
+            font-size: 13px;
+          }
+        }
+        input {
+          border-radius: 4px;
+          border: 1px solid #e8e8e8;
+          background: #f5f5f5;
+          padding: 10px;
+          width: 90%;
+          outline: none;
+          @media (max-width: 481px) {
+            width: 100%;
+          }
+        }
+        .datepicker_input {
+          border-radius: 4px;
+          border: 1px solid #e8e8e8;
+          background: #f5f5f5;
+          padding: 10px;
+          width: 90%;
+          color: #767676;
+
+          outline: none;
+          @media (max-width: 481px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .lab_name_add {
+      .lab_names {
+        display: flex;
+        flex-direction: column;
+
+        label {
+          color: #000;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 10px;
+          letter-spacing: 0.28px;
+          text-transform: capitalize;
+          margin: 15px 0px;
+        }
+        .text_area {
+          border-radius: 4px;
+          border: 1px solid #e8e8e8;
+          background: #f5f5f5;
+          outline: none;
+        }
+      }
+    }
+    .btn_div_modal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0px;
+      button {
+        border-radius: 4px;
+        background: #0a22a8;
+        border: none;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.darkHeader {
+  .navbars {
+    .header_wrapper {
+      display: flex;
+      align-items: center;
+
+      .img_div {
+        img {
+          width: 230px;
+          height: 57px;
+          margin-left: -10px;
+        }
+      }
+    }
+    :global {
+      .navbar-toggler {
+        border: 1px solid rgb(155, 152, 152);
+        span {
+          background-image: url("../../assets/icons/menu_icon_resp.svg");
+        }
+      }
+    }
+    .navs {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      gap: 20px;
+
+      @media (max-width: 1399px) {
+        gap: 10px;
+      }
+
+      @media (max-width: 1199px) {
+        gap: 3px;
+      }
+      a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 300;
+        font-size: 18px;
+
+        @media (max-width: 991px) {
+          width: 100% !important;
+        }
+        .login_head_btn {
+          display: flex;
+          gap: 5px;
+          padding: 12px 20px;
+          background-color: #ffffff;
+          border: none;
+          color: #fff;
+        }
+      }
+      .btn_head {
+        border-radius: 4px;
+        display: flex;
+        gap: 15px;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: #ffffff;
+        font-weight: 500;
+        border: 2px solid #ffffff;
+        @media (max-width: 1199px) {
+          display: none;
+        }
+        @media (max-width: 991px) {
+          width: 100% !important;
+          border-radius: 4px;
+          display: flex;
+          gap: 5px;
+          padding: 7px 8px;
+          background-color: transparent;
+          color: #ffffff;
+          font-weight: 500;
+          border: 2px solid #ffffff;
+        }
+        @media (max-width: 991px) {
+          margin-bottom: 15px;
+        }
+      }
+    }
+    .active_home {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 20px;
+    }
+  }
+  .modal_wrapper {
+    border-radius: 10px;
+    background: black;
+  }
+  .modal_wrapper2 {
+    h4 {
+      color: #000;
+      font-size: 22px;
+      text-align: center;
+      font-weight: 600;
+      line-height: 20px;
+      margin: 10px 0px;
+      @media (max-width: 320px) {
+        font-size: 20px;
+      }
+    }
+    .lab_name_div {
+      display: flex;
+      @media (max-width: 481px) {
+        flex-direction: column;
+      }
+      .lab_name {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+        label {
+          color: #000;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 10px;
+          letter-spacing: 0.28px;
+          text-transform: capitalize;
+          margin: 15px 0px;
+          @media (max-width: 320px) {
+            font-size: 13px;
+          }
+        }
+        input {
+          border-radius: 4px;
+          border: 1px solid #e8e8e8;
+          background: black;
+          padding: 10px;
+          width: 90%;
+          outline: none;
+          @media (max-width: 481px) {
+            width: 100%;
+          }
+        }
+        .datepicker_input {
+          border-radius: 4px;
+          border: 1px solid #e8e8e8;
+          background: black;
+          padding: 10px;
+          width: 90%;
+          color: #767676;
+
+          outline: none;
+          @media (max-width: 481px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .lab_name_add {
+      .lab_names {
+        display: flex;
+        flex-direction: column;
+
+        label {
+          color: #000;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 10px;
+          letter-spacing: 0.28px;
+          text-transform: capitalize;
+          margin: 15px 0px;
+        }
+        .text_area {
+          border-radius: 4px;
+          border: 1px solid #e8e8e8;
+          background: #f5f5f5;
+          outline: none;
+        }
+      }
+    }
+    .btn_div_modal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0px;
+      button {
+        border-radius: 4px;
+        background: #0a22a8;
+        border: none;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.darkMenu {
+  background: #000;
+  border: 1px solid #8080807a !important;
+  color: #fff;
+  :global {
+    .btn-close {
+      --bs-btn-close-bg: url("../../assets/icons/cross_svg.svg");
+    }
+  }
+  @media (max-width: 991px) {
+    .btn_head {
+      margin-bottom: 15px;
+      margin-top: 5px;
+      border-radius: 4px;
+      display: flex;
+      gap: 15px;
+      padding: 10px 20px;
+      background-color: transparent;
+      color: #ffffff;
+      font-weight: 500;
+      border: 2px solid #ffffff;
+      width: fit-content;
+    }
+  }
+}
+
+.lightMenu {
+  border: 1px solid #8080807a !important;
+  @media (max-width: 1199px) {
+    .btn_head {
+      margin-bottom: 15px;
+      border-radius: 4px;
+      display: flex;
+      gap: 15px;
+      padding: 10px 20px;
+      background-color: transparent;
+      color: #0a22a8;
+      font-weight: 500;
+      border: 2px solid #0a22a8;
+      width: fit-content;
+    }
+  }
+}
+.login_btn_link {
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+.light_login_btn {
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}

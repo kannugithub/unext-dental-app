@@ -1,0 +1,318 @@
+.darkHeader {
+  .darkHeader2 {
+    position: absolute;
+    top: 143px;
+    right: 36px;
+    background-color: rgb(39, 39, 39);
+    border: 1px solid;
+    padding: 20px;
+
+    .appointment_list_control {
+      color: #fff;
+      background-color: rgb(39, 39, 39);
+      font-size: 16px;
+      font-weight: 300;
+      cursor: pointer;
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: transparent;
+      }
+    }
+    .top_border {
+      border-top: 2px solid #ffffff1a;
+      border-top: 2px solid rgba(255, 255, 255, 0.1019607843);
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  }
+  .dashboard_container {
+    // background: #409eee;
+    height: 50%;
+
+    .notice_board {
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.13);
+      color: #fff;
+      font-size: 16px;
+      font-weight: 300;
+      margin: 0 20px 0 20px;
+      width: fit-content;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      span {
+        font-size: 20px;
+      }
+    }
+    .dashboard_name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      .dashboard_text {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .dash_btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        .date_range_month {
+          .selected_montth {
+            display: flex;
+            align-items: center;
+            .selected_montth_item {
+              text-align: center;
+              width: 125px;
+              // background: #313131;
+              color: #fff;
+              border: 0px solid #313131;
+              padding: 20px 0;
+            }
+            :hover {
+              background: #313131;
+            }
+          }
+        }
+        p {
+          color: white;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 16px;
+          text-align: left;
+        }
+      }
+    }
+    .dash_card_list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 20px;
+      row-gap: 15px;
+    }
+    .left_graph {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      margin: 30px 25px 10px 25px;
+      gap: 20px;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+      .graph_one {
+        width: 60%;
+        height: 300px;
+        @media (max-width: 767px) {
+          width: 100%;
+          height: unset;
+        }
+      }
+      .graph_two {
+        width: 40%;
+        height: 300px;
+        @media (max-width: 767px) {
+          width: 100%;
+          height: unset;
+        }
+      }
+    }
+  }
+}
+.lightHeader {
+  .lightHeader2 {
+    position: absolute;
+    top: 133px;
+    right: 220px;
+    background-color: #f8f9fe;
+    border: 1px solid;
+
+    .top_border {
+      border-top: 2px solid #00000029;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+    .single_patient_details {
+      padding: 20px;
+      .close_icons {
+        text-align: end;
+        position: relative;
+      }
+
+      .triangle_icon {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        position: absolute;
+        top: -46px;
+        right: 0;
+      }
+
+      .appointment_list {
+        color: #1e3441;
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+      .appointment_list_control {
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #d9d9d9;
+        padding: 20px 0px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        color: black;
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          font-size: 16px;
+        }
+        .appointment {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          span {
+            font-size: 16px;
+            font-weight: 300;
+            color: #1e3441;
+          }
+        }
+
+        .appointment_time {
+          font-size: 12px;
+          font-weight: 400;
+          color: #1e3441;
+        }
+      }
+    }
+  }
+  .lightHeader2 {
+    position: absolute;
+    top: 133px;
+    right: 25px;
+    background-color: #f8f9fe;
+    border: 1px solid #f8f9fe;
+    padding: 20px;
+    z-index: 2000;
+    box-shadow: 0 4px 8px 0 #e8e9ecc8, 0 6px 20px 0 #e8e9ecc8;
+
+    .appointment_list_control {
+      color: #1e3441;
+      font-size: 16px;
+      font-weight: 300;
+      cursor: pointer;
+    }
+  }
+  .dashboard_container {
+    background-color: #f8f9fe !important;
+    height: 50%;
+    .notice_board {
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.13);
+      color: #fff;
+      font-size: 16px;
+      font-weight: 300;
+      margin: 0 20px 0 20px;
+      width: fit-content;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      span {
+        font-size: 20px;
+      }
+    }
+    .dashboard_name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      .dashboard_text {
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .dash_btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .date_range_month {
+          .selected_montth {
+            display: flex;
+            align-items: center;
+            .selected_montth_item {
+              text-align: center;
+              width: 125px;
+              color: #1e3441;
+              border: 0px solid #daeeff;
+              padding: 20px 0;
+            }
+            :hover {
+              background: #daeeff;
+            }
+          }
+        }
+        button {
+          font-size: 14px;
+          font-weight: 300;
+          border-radius: 4px;
+          background: transparent;
+          padding: 10px 15px;
+          display: flex;
+          align-items: center;
+          gap: 22px;
+        }
+        p {
+          color: #1e3441;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 16px;
+          text-align: left;
+        }
+      }
+    }
+    .dash_card_list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 20px;
+      row-gap: 15px;
+    }
+    .left_graph {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      margin: 30px 25px 10px 25px;
+      gap: 20px;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+      .graph_one {
+        width: 60%;
+        height: 300px;
+        background-color: #fff;
+        @media (max-width: 767px) {
+          width: 100%;
+          height: unset;
+        }
+      }
+      .graph_two {
+        width: 38%;
+        height: 300px;
+        @media (max-width: 767px) {
+          width: 100%;
+          height: unset;
+        }
+      }
+    }
+  }
+}
